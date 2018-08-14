@@ -167,8 +167,8 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-       "en": ""
-       "en": Middle Africa"
+       "en": "",
+       "en": "Middle Africa"
     },
     "codigo_region": "002",
     "codigo_sub_region": "202",
@@ -193,7 +193,7 @@
     },
     "intermediate_region": {
       "es": "",
-      "en": Caribbean"
+      "en": "Caribbean"
     },
     "codigo_region": "019",
     "codigo_sub_region": "419",
@@ -242,7 +242,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Caribe",
+      "es": "Caribe",
       "en": "Caribbean"
     },
     "codigo_region": "019",
@@ -267,7 +267,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Sudamérica",
+      "es": "Sudamérica",
       "en": "South America"
     },
     "codigo_region": "019",
@@ -417,7 +417,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Caribe",
+      "es": "Caribe",
       "en": "Caribbean"
     },
     "codigo_region": "019",
@@ -492,7 +492,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Caribe",
+      "es": "Caribe",
       "en": "Caribbean"
     },
     "codigo_region": "019",
@@ -567,7 +567,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Centroamérica",
+      "es": "Centroamérica",
       "en": "Central America"
     },
     "codigo_region": "019",
@@ -592,7 +592,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Occidental",
+      "es": "África Occidental",
       "en": "Western Africa"
     },
     "codigo_region": "002",
@@ -667,7 +667,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Sudamérica",
+      "es": "Sudamérica",
       "en": "South America"
     },
     "codigo_region": "019",
@@ -692,7 +692,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Caribe",
+      "es": "Caribe",
       "en": "Caribbean"
     },
     "codigo_region": "019",
@@ -742,7 +742,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África del Sur",
+      "es": "África del Sur",
       "en": "Southern Africa"
     },
     "codigo_region": "002",
@@ -767,7 +767,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Sudamérica",
+      "es": "Sudamérica",
       "en": "South America"
     },
     "codigo_region": "019",
@@ -792,7 +792,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Sudamérica",
+      "es": "Sudamérica",
       "en": "South America"
     },
     "codigo_region": "019",
@@ -817,7 +817,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Oriental",
+      "es": "África Oriental",
       "en": "Eastern Africa"
     },
     "codigo_region": "002",
@@ -892,7 +892,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Occidental",
+      "es": "África Occidental",
       "en": "Western Africa"
     },
     "codigo_region": "002",
@@ -917,7 +917,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Oriental",
+      "es": "África Oriental",
       "en": "Eastern Africa"
     },
     "codigo_region": "002",
@@ -942,7 +942,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Occidental",
+      "es": "África Occidental",
       "en": "Western Africa"
     },
     "codigo_region": "002",
@@ -992,7 +992,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Central",
+      "es": "África Central",
       "en": "Middle Africa"
     },
     "codigo_region": "002",
@@ -1042,7 +1042,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Caribe",
+      "es": "Caribe",
       "en": "Caribbean"
     },
     "codigo_region": "019",
@@ -1067,7 +1067,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Central",
+      "es": "África Central",
       "en": "Middle Africa"
     },
     "codigo_region": "002",
@@ -1092,7 +1092,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Central",
+      "es": "África Central",
       "en": "Middle Africa"
     },
     "codigo_region": "002",
@@ -1117,7 +1117,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Sudamérica",
+      "es": "Sudamérica",
       "en": "South America"
     },
     "codigo_region": "019",
@@ -1217,7 +1217,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Sudamérica",
+      "es": "Sudamérica",
       "en": "South America"
     },
     "codigo_region": "019",
@@ -1242,7 +1242,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Oriental",
+      "es": "África Oriental",
       "en": "Eastern Africa"
     },
     "codigo_region": "002",
@@ -1267,7 +1267,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Central",
+      "es": "África Central",
       "en": "Middle Africa"
     },
     "codigo_region": "002",
@@ -1292,7 +1292,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Central",
+      "es": "África Central",
       "en": "Middle Africa"
     },
     "codigo_region": "002",
@@ -1342,7 +1342,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Centroamérica",
+      "es": "Centroamérica",
       "en": "Central America"
     },
     "codigo_region": "019",
@@ -1367,7 +1367,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Occidental",
+      "es": "África Occidental",
       "en": "Western Africa"
     },
     "codigo_region": "002",
@@ -1417,7 +1417,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Caribe",
+      "es": "Caribe",
       "en": "Caribbean"
     },
     "codigo_region": "019",
@@ -1442,7 +1442,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Caribe",
+      "es": "Caribe",
       "en": "Caribbean"
     },
     "codigo_region": "019",
@@ -1542,7 +1542,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Oriental",
+      "es": "África Oriental",
       "en": "Eastern Africa"
     },
     "codigo_region": "002",
@@ -1567,7 +1567,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Caribe",
+      "es": "Caribe",
       "en": "Caribbean"
     },
     "codigo_region": "019",
@@ -1592,7 +1592,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Caribe",
+      "es": "Caribe",
       "en": "Caribbean"
     },
     "codigo_region": "019",
@@ -1617,7 +1617,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Sudamérica",
+      "es": "Sudamérica",
       "en": "South America"
     },
     "codigo_region": "019",
@@ -1667,7 +1667,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Centroamérica",
+      "es": "Centroamérica",
       "en": "Central America"
     },
     "codigo_region": "019",
@@ -1692,7 +1692,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Central",
+      "es": "África Central",
       "en": "Middle Africa"
     },
     "codigo_region": "002",
@@ -1717,7 +1717,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Oriental",
+      "es": "África Oriental",
       "en": "Eastern Africa"
     },
     "codigo_region": "002",
@@ -1767,7 +1767,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África del Sur",
+      "es": "África del Sur",
       "en": "Southern Africa"
     },
     "codigo_region": "002",
@@ -1792,7 +1792,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Oriental",
+      "es": "África Oriental",
       "en": "Eastern Africa"
     },
     "codigo_region": "002",
@@ -1817,7 +1817,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Sudamérica",
+      "es": "Sudamérica",
       "en": "South America"
     },
     "codigo_region": "019",
@@ -1942,7 +1942,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Sudamérica",
+      "es": "Sudamérica",
       "en": "South America"
     },
     "codigo_region": "019",
@@ -1992,7 +1992,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Oriental",
+      "es": "África Oriental",
       "en": "Eastern Africa"
     },
     "codigo_region": "002",
@@ -2017,7 +2017,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Central",
+      "es": "África Central",
       "en": "Middle Africa"
     },
     "codigo_region": "002",
@@ -2042,7 +2042,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Occidental",
+      "es": "África Occidental",
       "en": "Western Africa"
     },
     "codigo_region": "002",
@@ -2117,7 +2117,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Occidental",
+      "es": "África Occidental",
       "en": "Western Africa"
     },
     "codigo_region": "002",
@@ -2217,7 +2217,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Caribe",
+      "es": "Caribe",
       "en": "Caribbean"
     },
     "codigo_region": "019",
@@ -2242,7 +2242,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Caribe",
+      "es": "Caribe",
       "en": "Caribbean"
     },
     "codigo_region": "019",
@@ -2292,7 +2292,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Centroamérica",
+      "es": "Centroamérica",
       "en": "Central America"
     },
     "codigo_region": "019",
@@ -2317,7 +2317,7 @@
       "en": "Northern Europe"
     },
     "intermediate_region": {
-      "es:" "Islas del Canal",
+      "es": "Islas del Canal",
       "en": "Channel Islands"
     },
     "codigo_region": "150",
@@ -2342,7 +2342,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Occidental",
+      "es": "África Occidental",
       "en": "Western Africa"
     },
     "codigo_region": "002",
@@ -2367,7 +2367,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Occidental",
+      "es": "África Occidental",
       "en": "Western Africa"
     },
     "codigo_region": "002",
@@ -2392,7 +2392,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Sudamérica",
+      "es": "Sudamérica",
       "en": "South America"
     },
     "codigo_region": "019",
@@ -2417,7 +2417,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Caribe",
+      "es": "Caribe",
       "en": "Caribbean"
     },
     "codigo_region": "019",
@@ -2492,7 +2492,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Centroamérica",
+      "es": "Centroamérica",
       "en": "Central America"
     },
     "codigo_region": "019",
@@ -2792,7 +2792,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Caribe",
+      "es": "Caribe",
       "en": "Caribbean"
     },
     "codigo_region": "019",
@@ -2842,7 +2842,7 @@
       "en": "Northern Europe"
     },
     "intermediate_region": {
-      "es:" "Islas del Canal",
+      "es": "Islas del Canal",
       "en": "Channel Islands"
     },
     "codigo_region": "150",
@@ -2917,7 +2917,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Oriental",
+      "es": "África Oriental",
       "en": "Eastern Africa"
     },
     "codigo_region": "002",
@@ -3142,7 +3142,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África del Sur",
+      "es": "África del Sur",
       "en": "Southern Africa"
     },
     "codigo_region": "002",
@@ -3167,7 +3167,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Occidental",
+      "es": "África Occidental",
       "en": "Western Africa"
     },
     "codigo_region": "002",
@@ -3342,7 +3342,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Oriental",
+      "es": "África Oriental",
       "en": "Eastern Africa"
     },
     "codigo_region": "002",
@@ -3367,7 +3367,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Oriental",
+      "es": "África Oriental",
       "en": "Eastern Africa"
     },
     "codigo_region": "002",
@@ -3442,7 +3442,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Occidental",
+      "es": "África Occidental",
       "en": "Western Africa"
     },
     "codigo_region": "002",
@@ -3517,7 +3517,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Caribe",
+      "es": "Caribe",
       "en": "Caribbean"
     },
     "codigo_region": "019",
@@ -3542,7 +3542,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Occidental",
+      "es": "África Occidental",
       "en": "Western Africa"
     },
     "codigo_region": "002",
@@ -3567,7 +3567,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Oriental",
+      "es": "África Oriental",
       "en": "Eastern Africa"
     },
     "codigo_region": "002",
@@ -3592,7 +3592,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Oriental",
+      "es": "África Oriental",
       "en": "Eastern Africa"
     },
     "codigo_region": "002",
@@ -3617,7 +3617,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Centroamérica",
+      "es": "Centroamérica",
       "en": "Central America"
     },
     "codigo_region": "019",
@@ -3767,7 +3767,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Caribe",
+      "es": "Caribe",
       "en": "Caribbean"
     },
     "codigo_region": "019",
@@ -3817,7 +3817,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Oriental",
+      "es": "África Oriental",
       "en": "Eastern Africa"
     },
     "codigo_region": "002",
@@ -3867,7 +3867,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África del Sur",
+      "es": "África del Sur",
       "en": "Southern Africa"
     },
     "codigo_region": "002",
@@ -4017,7 +4017,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Centroamérica",
+      "es": "Centroamérica",
       "en": "Central America"
     },
     "codigo_region": "019",
@@ -4042,7 +4042,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Occidental",
+      "es": "África Occidental",
       "en": "Western Africa"
     },
     "codigo_region": "002",
@@ -4067,7 +4067,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Occidental",
+      "es": "África Occidental",
       "en": "Western Africa"
     },
     "codigo_region": "002",
@@ -4292,7 +4292,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Centroamérica",
+      "es": "Centroamérica",
       "en": "Central America"
     },
     "codigo_region": "019",
@@ -4342,7 +4342,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Sudamérica",
+      "es": "Sudamérica",
       "en": "South America"
     },
     "codigo_region": "019",
@@ -4367,7 +4367,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Sudamérica",
+      "es": "Sudamérica",
       "en": "South America"
     },
     "codigo_region": "019",
@@ -4492,7 +4492,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Caribe",
+      "es": "Caribe",
       "en": "Caribbean"
     },
     "codigo_region": "019",
@@ -4542,7 +4542,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Oriental",
+      "es": "África Oriental",
       "en": "Eastern Africa"
     },
     "codigo_region": "002",
@@ -4617,7 +4617,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Oriental",
+      "es": "África Oriental",
       "en": "Eastern Africa"
     },
     "codigo_region": "002",
@@ -4642,7 +4642,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Caribe",
+      "es": "Caribe",
       "en": "Caribbean"
     },
     "codigo_region": "019",
@@ -4667,7 +4667,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Occidental",
+      "es": "África Occidental",
       "en": "Western Africa"
     },
     "codigo_region": "002",
@@ -4692,7 +4692,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Caribe",
+      "es": "Caribe",
       "en": "Caribbean"
     },
     "codigo_region": "019",
@@ -4717,7 +4717,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Caribe",
+      "es": "Caribe",
       "en": "Caribbean"
     },
     "codigo_region": "019",
@@ -4742,7 +4742,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Caribe",
+      "es": "Caribe",
       "en": "Caribbean"
     },
     "codigo_region": "019",
@@ -4792,7 +4792,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Caribe",
+      "es": "Caribe",
       "en": "Caribbean"
     },
     "codigo_region": "019",
@@ -4867,7 +4867,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Central",
+      "es": "África Central",
       "en": "Middle Africa"
     },
     "codigo_region": "002",
@@ -4917,7 +4917,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Occidental",
+      "es": "África Occidental",
       "en": "Western Africa"
     },
     "codigo_region": "002",
@@ -4967,7 +4967,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Oriental",
+      "es": "África Oriental",
       "en": "Eastern Africa"
     },
     "codigo_region": "002",
@@ -4992,7 +4992,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Occidental",
+      "es": "África Occidental",
       "en": "Western Africa"
     },
     "codigo_region": "002",
@@ -5042,7 +5042,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Caribe",
+      "es": "Caribe",
       "en": "Caribbean"
     },
     "codigo_region": "019",
@@ -5142,7 +5142,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Oriental",
+      "es": "África Oriental",
       "en": "Eastern Africa"
     },
     "codigo_region": "002",
@@ -5167,7 +5167,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África del Sur",
+      "es": "África del Sur",
       "en": "Southern Africa"
     },
     "codigo_region": "002",
@@ -5192,7 +5192,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Sudamérica",
+      "es": "Sudamérica",
       "en": "South America"
     },
     "codigo_region": "019",
@@ -5217,7 +5217,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Oriental",
+      "es": "África Oriental",
       "en": "Eastern Africa"
     },
     "codigo_region": "002",
@@ -5317,7 +5317,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Sudamérica",
+      "es": "Sudamérica",
       "en": "South America"
     },
     "codigo_region": "019",
@@ -5492,7 +5492,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Oriental",
+      "es": "África Oriental",
       "en": "Eastern Africa"
     },
     "codigo_region": "002",
@@ -5567,7 +5567,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Occidental",
+      "es": "África Occidental",
       "en": "Western Africa"
     },
     "codigo_region": "002",
@@ -5642,7 +5642,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Caribe",
+      "es": "Caribe",
       "en": "Caribbean"
     },
     "codigo_region": "019",
@@ -5742,7 +5742,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Caribe",
+      "es": "Caribe",
       "en": "Caribbean"
     },
     "codigo_region": "019",
@@ -5792,7 +5792,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Oriental",
+      "es": "África Oriental",
       "en": "Eastern Africa"
     },
     "codigo_region": "002",
@@ -5942,7 +5942,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Sudamérica",
+      "es": "Sudamérica",
       "en": "South America"
     },
     "codigo_region": "019",
@@ -6017,7 +6017,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Sudamérica",
+      "es": "Sudamérica",
       "en": "South America"
     },
     "codigo_region": "019",
@@ -6067,7 +6067,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Caribe",
+      "es": "Caribe",
       "en": "Caribbean"
     },
     "codigo_region": "019",
@@ -6092,7 +6092,7 @@
       "en": "Latin America and the Caribbean"
     },
     "intermediate_region": {
-      "es:" "Caribe",
+      "es": "Caribe",
       "en": "Caribbean"
     },
     "codigo_region": "019",
@@ -6192,7 +6192,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Oriental",
+      "es": "África Oriental",
       "en": "Eastern Africa"
     },
     "codigo_region": "002",
@@ -6217,7 +6217,7 @@
       "en": "Sub-Saharan Africa"
     },
     "intermediate_region": {
-      "es:" "África Oriental",
+      "es": "África Oriental",
       "en": "Eastern Africa"
     },
     "codigo_region": "002",
