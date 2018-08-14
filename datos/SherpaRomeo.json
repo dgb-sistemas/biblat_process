@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "",
+    "color": {
+       "es": "Verde",
+       "en": "Green"
+    },
+    "politica": {
+       "es": "Puede archivar pre-print y el post-print o la versión de editor/PDF",
+       "en": "Can archive pre-print and post-print or publisher's version/PDF"
+    },
+    "codigo": "#D6FCAA"
+  },
+ {
+    "_id": "",
+    "color": {
+       "es": "Azul",
+       "en": "Blue"
+    },
+    "politica": {
+       "es": "Puede archivar el post-print (ie la versión final posterior a la revisión por pares) o versión de editor/PDF",
+       "en": "Can archive post-print (ie final draft post-refereeing) or publisher's version/PDF"
+    },
+    "codigo": "#AAE6FC"
+  },
+  {
+    "_id": "",
+    "color": {
+       "es": "Amarillo",
+       "en": "Yellow"
+    },
+    "politica": {
+       "es": "Puede archivar el pre-print (ie la versión previa a la revisión por pares) ",
+       "en": "Can archive pre-print (ie pre-refereeing)"
+    },
+    "codigo": "#FBFCAA"
+  },
+  {
+    "_id": "",
+    "color": {
+       "es": "Blanco",
+       "en": "White"
+    },
+    "politica": {
+       "es": "El archivo no está formalmente admitido",
+       "en": "Archiving not formally supported"
+    },
+    "codigo": "FBFCFC"
+  }  
+]

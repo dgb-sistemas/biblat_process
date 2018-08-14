@@ -1,0 +1,37 @@
+[
+  {
+    "_id": "",
+    "tipo": "BY",
+    "url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+  },
+  {
+    "_id": "",
+    "tipo": "BY-SA",
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
+  },
+  {
+    "_id": "",
+    "tipo": "BY-ND",
+    "url": "https://creativecommons.org/licenses/by-nd/4.0/legalcode"
+  },
+  {
+    "_id": "",
+    "tipo": "BY-NC",
+    "url": "https://creativecommons.org/licenses/by-nc/4.0/legalcode"
+  },
+  {
+    "_id": "",
+    "tipo": "BY-NC-SA",
+    "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"
+  },  
+  {
+    "_id": "",
+    "tipo": "BY-NC-ND",
+    "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode"
+  },   
+  {
+    "_id": "",
+    "tipo": "BY",
+    "url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+  }
+]
