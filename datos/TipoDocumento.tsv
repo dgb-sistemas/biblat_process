@@ -1,27 +1,27 @@
-﻿id	nombre_es	nombre_en	descripcion_es	descripcion_en
-	Artículo	Article	"Texto original que en general tiene la siguiente estructura: resumen, introducción, antecedentes, desarrollo de uno o varios subtemas, conclusiones o resultados y bibliografía. Usualmente está firmado por uno o más autores y tiene una extensión mínima de tres o cuatro páginas."	
-	Biografía	Biography	Texto que reseña la vida y obra de algún personaje. Puede utilizarse también para obituarios u homenajes que incluyan datos biográficos.	
-	Catálogo	Catalogue	"Lista ordenada descriptiva de datos, productos o fabricantes, especies o servicios, con información mínima para su localización o referencia."	
-	Conferencia o discurso	Conference or speech	"Reproducción íntegra o parcial de algún texto presentado previamente en un evento o tribuna pública, mesas redondas, declaraciones, discusiones, etcétera."	
-	Correspondencia	Correspondence	Texto que reproduce una carta que refleja la opinión de los lectores o la discusión sobre un tema específico.	
-	Cronología	Chronology	"Lista de sucesos en orden cronológico, acerca de un tema o acontecimiento, de cuyos eventos principales se hace seguimiento durante un cierto periodo."	
-	"Directorio, glosario, manual"	"Directory, glossary, manual"	Lista ordenada de personas o instituciones en un campo o actividad específica. Lista ordenada y/o descriptiva de términos especializados en un campo específico. Instructivos o manuales presentados en forma monográfica o como parte principal de un documento.	
-	Documento histórico	Historical document	"Escrito procedente de archivos históricos, reproducido total o parcialmente. Comprende facsímiles, expedientes, correspondencia, diarios, etc. Convenio, tratado, acuerdo, etcétera, suscritos oficialmente a nivel local, nacional o internacional, aun actuales."	
-	Editorial	Editorial	Texto que refleja la opinión institucional de la organización editora de la revista. Generalmente no está firmado.	
-	Ensayo	Test	"Escrito en el que se expone, analiza, comenta, interpreta o critica un tema desde un punto de vista muy personal, sin los constreñimientos del rigor académico."	
-	Entrevista	Interview	"Texto que reproduce las opiniones y conceptos vertidos por alguna personalidad, resultado de las preguntas del entrevistador."	
-	Estadística o encuesta	Statistics or survey	"Texto que en su parte fundamental está constituido por series de datos numéricos ordenados, resultado de muestras o encuestas."	
-	Estado del arte	State of the art	Trabajo que actualiza y reporta el avance del conocimiento en un tema determinado.	
-	Ficción	Fiction	"Texto original cuyas características principales son la imaginación, inventiva y expresividad del autor, en géneros como poesía, cuento, relato, capítulos de novela, teatro, etcétera. Incluye también libretos y guiones, así como partituras."	
-	Ilustraciones y láminas	Illustrations and prints	"Documento que en su parte fundamental o total esta constituido por reproducción de pinturas, grabados, dibujos, fotografías, mapas y cualquier tipo de láminas. Incluye todo lo relativo a cartografía e iconografía."	
-	Leyes o reglamentos	Laws or regulations	Texto que en su parte fundamental reproduce parcial o íntegramente una serie de normas legislativas.	
-	Monografía	Monograph	Texto original de amplitud extensa que desarrolla un tema como una unidad. Generalmente se presenta en forma de números especiales de revistas o como documentos seriados.	
-	Nota breve o noticia	Short note or news	"Texto breve de carácter informativo, aclaratorio o que presenta alguna novedad o suceso, de más de una página de extensión."	
-	"Plan, proyecto, programa"	"Plan, project, program"	Documento que describe un conjunto de objetivos y metas a realizar en una secuencia y en un tiempo determinado.	
-	Proyecto técnico	Technical project	"Trabajo que describe la secuencia de construcción y características de algún proyecto u obra, principalmente de arquitectura o ingeniería."	
-	Reporte de actividades	Activities report	Texto que describe los eventos y logros sobresalientes de alguna institución en un periodo determinado.	
-	Reporte técnico	Technical report	"Texto que describe detalladamente el funcionamiento o la productividad de algún instrumento, proceso, técnica o experimento, para su posterior aplicación o reproducción."	
-	Reseña de libro	Book review	Texto que resume y/o critica una obra publicada como libro.	
-	Reseña de obras	Review of works	"Examen somero de actividades artísticas que comprenden danza, música, cine, teatro, pintura, escultura, discos, televisión, radio y video."	
-	Resúmenes	Summaries	"Resumen extendido de algún asunto, el cual incluye bibliografía. Debe tener una extensión mínima equivalente a una página completa."	
-	Revisión bibliográfica	Bibliographic review	"Texto basado en la revisión de la literatura publicada acerca de un tema determinado. Lista ordenada de referencias bibliográficas, con o sin anotaciones."	
+﻿nombre_es	nombre_en	descripcion_es	descripcion_en
+Artículo	Article	Texto original que en general tiene la siguiente estructura: resumen, introducción, antecedentes, desarrollo de uno o varios subtemas, conclusiones o resultados y bibliografía. Usualmente está firmado por uno o más autores y tiene una extensión mínima de tres o cuatro páginas.	
+Biografía	Biography	Texto que reseña la vida y obra de algún personaje. Puede utilizarse también para obituarios u homenajes que incluyan datos biográficos.	
+Catálogo	Catalogue	Lista ordenada descriptiva de datos, productos o fabricantes, especies o servicios, con información mínima para su localización o referencia.	
+Conferencia o discurso	Conference or speech	Reproducción íntegra o parcial de algún texto presentado previamente en un evento o tribuna pública, mesas redondas, declaraciones, discusiones, etcétera.	
+Correspondencia	Correspondence	Texto que reproduce una carta que refleja la opinión de los lectores o la discusión sobre un tema específico.	
+Cronología	Chronology	Lista de sucesos en orden cronológico, acerca de un tema o acontecimiento, de cuyos eventos principales se hace seguimiento durante un cierto periodo.	
+Directorio, glosario, manual	Directory, glossary, manual	Lista ordenada de personas o instituciones en un campo o actividad específica. Lista ordenada y/o descriptiva de términos especializados en un campo específico. Instructivos o manuales presentados en forma monográfica o como parte principal de un documento.	
+Documento histórico	Historical document	Escrito procedente de archivos históricos, reproducido total o parcialmente. Comprende facsímiles, expedientes, correspondencia, diarios, etc. Convenio, tratado, acuerdo, etcétera, suscritos oficialmente a nivel local, nacional o internacional, aun actuales.	
+Editorial	Editorial	Texto que refleja la opinión institucional de la organización editora de la revista. Generalmente no está firmado.	
+Ensayo	Test	Escrito en el que se expone, analiza, comenta, interpreta o critica un tema desde un punto de vista muy personal, sin los constreñimientos del rigor académico.	
+Entrevista	Interview	Texto que reproduce las opiniones y conceptos vertidos por alguna personalidad, resultado de las preguntas del entrevistador.	
+Estadística o encuesta	Statistics or survey	Texto que en su parte fundamental está constituido por series de datos numéricos ordenados, resultado de muestras o encuestas.	
+Estado del arte	State of the art	Trabajo que actualiza y reporta el avance del conocimiento en un tema determinado.	
+Ficción	Fiction	Texto original cuyas características principales son la imaginación, inventiva y expresividad del autor, en géneros como poesía, cuento, relato, capítulos de novela, teatro, etcétera. Incluye también libretos y guiones, así como partituras.
+Ilustraciones y láminas	Illustrations and prints	Documento que en su parte fundamental o total esta constituido por reproducción de pinturas, grabados, dibujos, fotografías, mapas y cualquier tipo de láminas. Incluye todo lo relativo a cartografía e iconografía.	
+Leyes o reglamentos	Laws or regulations	Texto que en su parte fundamental reproduce parcial o íntegramente una serie de normas legislativas.	
+Monografía	Monograph	Texto original de amplitud extensa que desarrolla un tema como una unidad. Generalmente se presenta en forma de números especiales de revistas o como documentos seriados.	
+Nota breve o noticia	Short note or news	Texto breve de carácter informativo, aclaratorio o que presenta alguna novedad o suceso, de más de una página de extensión.
+Plan, proyecto, programa	Plan, project, program	Documento que describe un conjunto de objetivos y metas a realizar en una secuencia y en un tiempo determinado.	
+Proyecto técnico	Technical project	Trabajo que describe la secuencia de construcción y características de algún proyecto u obra, principalmente de arquitectura o ingeniería.	
+Reporte de actividades	Activities report	Texto que describe los eventos y logros sobresalientes de alguna institución en un periodo determinado.	
+Reporte técnico	Technical report	Texto que describe detalladamente el funcionamiento o la productividad de algún instrumento, proceso, técnica o experimento, para su posterior aplicación o reproducción.	
+Reseña de libro	Book review	Texto que resume y/o critica una obra publicada como libro.	
+Reseña de obras	Review of works	Examen somero de actividades artísticas que comprenden danza, música, cine, teatro, pintura, escultura, discos, televisión, radio y video.	
+Resúmenes	Summaries	Resumen extendido de algún asunto, el cual incluye bibliografía. Debe tener una extensión mínima equivalente a una página completa.	
+Revisión bibliográfica	Bibliographic review	Texto basado en la revisión de la literatura publicada acerca de un tema determinado. Lista ordenada de referencias bibliográficas, con o sin anotaciones.	

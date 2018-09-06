@@ -1,14 +1,14 @@
-﻿id	nombre_es	nombre_en	descripcion_es	descripcion_en
-	Analítico	Analytical	"Exposición que presenta la característica de desagregar en sus partes componentes un todo, y en la cual existe un examen o identificación de las relaciones que se establecen entre ellas y de éstas con el todo."	
-	Aplicado	Applied	Exposición o demostración práctica de alguna técnica o metodología. Resultados de observaciones científicas o técnicas. Presentación de resultados estadísticos.	
-	Caso clínico	Clinical case	"Exposición sobre los efectos de algún medicamento, intervención quirúrgica, tratamiento o terapia, de algún fenómeno, enfermedad física o mental incluyendo malformaciones, en los campos de la biomedicina o ciencias del comportamiento. Se aplica también a estudios clínicos y reportes de casos."	
-	Crítico	Critical	"Exposición fundamentada en la cual se señala lo correcto y/o incorrecto, los aciertos y/o fallas de un planteamiento hecho sobre una teoría, fenómeno, evento, proceso u objeto determinado."	
-	Descriptivo	Descriptive	"Exposición general sobre las propiedades y características de algún fenómeno, objeto, proceso o sujeto."	
-	Divulgación	Divulgation	"Exposición que puede no ser especializada y que persigue difundir en términos generales algún objeto, fenómeno o teoría."	
-	Experimental	Experimental	Corroboración o demostración práctica de alguna teoría o hipótesis valiéndose del método experimental o métodos estadísticos. Resultados de observaciones científicas o técnicas.	
-	Histórico	Historical	"Exposición retrospectiva de los orígenes y evolución de cualquier evento, fenómeno, objeto, proceso, sujeto o teoría."	
-	Literario	Literary	"Exposición de tipo literario, producto de la imaginación."	
-	Prospectivo	Prospective	"Exposición que plantea las perspectivas, tendencias, proyecciones o desarrollo futuro de algún evento, fenómeno, tecnología, teoría u objeto determinado."	
-	Socioeconómico	Socioeconomic	Exposición que plantea situaciones derivadas básicamente de aspectos económicos y sociales.	
-	Taxonómico	Taxonomy	"Exposición descriptiva sobre las características anatómicas, fisiológicas o ecológicas de algún vegetal, animal o ambiente y de acuerdo con la clasificación o esquema biológico de las especies y medios naturales. Se usa exclusivamente en biología."	
-	Teórico	Theoretical	"Exposición de alguna teoría, hipótesis, planteamiento o concepto sin pretender su demostración práctica o experimental."	
+﻿nombre_es	nombre_en	descripcion_es	descripcion_en
+Analítico	Analytical	Exposición que presenta la característica de desagregar en sus partes componentes un todo, y en la cual existe un examen o identificación de las relaciones que se establecen entre ellas y de éstas con el todo.	
+Aplicado	Applied	Exposición o demostración práctica de alguna técnica o metodología. Resultados de observaciones científicas o técnicas. Presentación de resultados estadísticos.	
+Caso clínico	Clinical case	Exposición sobre los efectos de algún medicamento, intervención quirúrgica, tratamiento o terapia, de algún fenómeno, enfermedad física o mental incluyendo malformaciones, en los campos de la biomedicina o ciencias del comportamiento. Se aplica también a estudios clínicos y reportes de casos.	
+Crítico	Critical	Exposición fundamentada en la cual se señala lo correcto y/o incorrecto, los aciertos y/o fallas de un planteamiento hecho sobre una teoría, fenómeno, evento, proceso u objeto determinado.	
+Descriptivo	Descriptive	Exposición general sobre las propiedades y características de algún fenómeno, objeto, proceso o sujeto.	
+Divulgación	Divulgation	Exposición que puede no ser especializada y que persigue difundir en términos generales algún objeto, fenómeno o teoría.	
+Experimental	Experimental	Corroboración o demostración práctica de alguna teoría o hipótesis valiéndose del método experimental o métodos estadísticos. Resultados de observaciones científicas o técnicas.	
+Histórico	Historical	Exposición retrospectiva de los orígenes y evolución de cualquier evento, fenómeno, objeto, proceso, sujeto o teoría.	
+Literario	Literary	Exposición de tipo literario, producto de la imaginación.	
+Prospectivo	Prospective	Exposición que plantea las perspectivas, tendencias, proyecciones o desarrollo futuro de algún evento, fenómeno, tecnología, teoría u objeto determinado.
+Socioeconómico	Socioeconomic	Exposición que plantea situaciones derivadas básicamente de aspectos económicos y sociales.	
+Taxonómico	Taxonomy	Exposición descriptiva sobre las características anatómicas, fisiológicas o ecológicas de algún vegetal, animal o ambiente y de acuerdo con la clasificación o esquema biológico de las especies y medios naturales. Se usa exclusivamente en biología.	
+Teórico	Theoretical	Exposición de alguna teoría, hipótesis, planteamiento o concepto sin pretender su demostración práctica o experimental.	

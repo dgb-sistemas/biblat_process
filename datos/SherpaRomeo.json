@@ -1,6 +1,5 @@
 [
   {
-    "_id": "",
     "color": {
        "es": "Verde",
        "en": "Green"
@@ -12,7 +11,6 @@
     "codigo": "#D6FCAA"
   },
  {
-    "_id": "",
     "color": {
        "es": "Azul",
        "en": "Blue"
@@ -24,7 +22,6 @@
     "codigo": "#AAE6FC"
   },
   {
-    "_id": "",
     "color": {
        "es": "Amarillo",
        "en": "Yellow"
@@ -36,7 +33,6 @@
     "codigo": "#FBFCAA"
   },
   {
-    "_id": "",
     "color": {
        "es": "Blanco",
        "en": "White"
