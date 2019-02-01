@@ -1,95 +1,7 @@
 import inspect
-import uuid
 from datetime import datetime
 
-from mongoengine import connect
-from biblat_schema.models import Documento
-
 from biblat_process import tesauro
-from biblat_process.marc2dict import Marc2Dict
-
-class JournalDict:
-    """"""
-    def __init__(self, marc_dict):
-        self.marc_dict = marc_dict
-
-    def to_dict(self):
-        properties = {}
-        for name, value in \
-                inspect.getmembers(self.__class__,
-                                   lambda o: isinstance(o, property)):
-            value = getattr(self, name)
-            if not name.startswith('__') and not inspect.ismethod(value):
-                properties[name] = value
-        return properties
-
-    @property
-    def base_datos(self):
-        return self.marc_dict['035'][0]['a'][:5]
-
-    @property
-    def titulo(self):
-        return self.marc_dict['222'][0]['a']
-
-    @property
-    def issn(self):
-        return self.marc_dict.get('022', [{'a': None}])[0].get('a', None)
-
-    @property
-    def pais(self):
-        return self.marc_dict['008'][0]['e']
-
-    @property
-    def disciplina(self):
-        return self.marc_dict['698'][0]['a']
-
-    @property
-    def idioma(self):
-        return self.marc_dict.get('041', [{'a': None}])[0].get('a', None)
-
-    @property
-    def fecha_creacion(self):
-        return datetime.strptime(
-            self.marc_dict['CAT'][0]['c'] + self.marc_dict['CAT'][0]['h'],
-            '%Y%m%d%H%M'
-        )
-
-    @property
-    def fecha_actualizacion(self):
-        return datetime.strptime(
-            self.marc_dict['CAT'][-1]['c'] + self.marc_dict['CAT'][-1]['h'],
-            '%Y%m%d%H%M'
-        )
-
-
-class IssueDict:
-    """"""
-    def __init__(self, marc_dict):
-        self.marc_dict = marc_dict
-
-    def to_dict(self):
-        properties = {}
-        for name, value in \
-                inspect.getmembers(self.__class__,
-                                   lambda o: isinstance(o, property)):
-            value = getattr(self, name)
-            if not name.startswith('__') and not inspect.ismethod(value):
-                properties[name] = value
-        return properties
-
-    @property
-    def fecha_creacion(self):
-        return datetime.strptime(
-            self.marc_dict['CAT'][0]['c'] + self.marc_dict['CAT'][0]['h'],
-            '%Y%m%d%H%M'
-        )
-
-    @property
-    def fecha_actualizacion(self):
-        return datetime.strptime(
-            self.marc_dict['CAT'][0]['c'] + self.marc_dict['CAT'][-1]['h'],
-            '%Y%m%d%H%M'
-        )
 
 
 class DocumentoDict:
@@ -228,20 +140,3 @@ class DocumentoDict:
             self.marc_dict['CAT'][-1]['c'] + self.marc_dict['CAT'][-1]['h'],
             '%Y%m%d%H%M'
         )
-
-
-connection = connect(
-    db='biblat',
-    host='mongodb://localhost'
-)
-
-marc2dict = Marc2Dict()
-
-for dict in marc2dict.get_dict():
-    print(dict)
-    documento_dict = DocumentoDict(dict)
-    documento_dict = documento_dict.to_dict()
-    documento_doc = Documento(**documento_dict)
-    documento_doc['_id'] = str(uuid.uuid4().hex)
-    documento_doc.save(validate=False)
-    print(documento_dict)
