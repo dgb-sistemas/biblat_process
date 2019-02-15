@@ -1,8 +1,6 @@
-# coding: utf-8
 import os
 import gzip
 import unittest
-import json
 from biblat_process.marc2dict import Marc2Dict
 from biblat_process.biblatdocument import DocumentoDict
 

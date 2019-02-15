@@ -19,30 +19,23 @@ class DocumentoDict:
                 properties[name] = value
         return properties
 
-    # @property
-    # def numero_sistema(self):
-    #     return self.marc_dict['035'][0]['a']
-
     @property
     def titulo_documento(self):
-        return self.marc_dict.get('245', [{'a': None}])[0].get('a', None)
+        return self.marc_dict.get('245', [{'a': None}])[0].get('a')
 
     @property
     def doi(self):
-        if '024' in self.marc_dict and 'a' in self.marc_dict['024'][0]:
-                return str(self.marc_dict['024'][0]['a'])
-        return None
+        return self.marc_dict.get('024', [{'a': None}])[0].get('a')
 
     @property
     def idioma(self):
-        if '041' in self.marc_dict and 'a' in self.marc_dict['041'][0]:
-            return str(self.marc_dict['041'][0]['a'])
-        return None
+        idioma_marc = self.marc_dict.get('041', [{'a': None}])[0].get('a')
+        return tesauro.idioma.get(idioma_marc)
 
     @property
     def paginacion(self):
         if '300' in self.marc_dict and 'e' in self.marc_dict['300'][0]:
-                return str(self.marc_dict['300'][0]['e']).replace('P', '')\
+            return str(self.marc_dict['300'][0]['e']).replace('P', '')\
                     .replace('p', '').replace('pp.', '')
         return None
 
