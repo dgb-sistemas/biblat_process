@@ -62,7 +62,7 @@ class DocumentoDict:
         if '110' in self.marc_dict:
             for auth_corporative in self.marc_dict['110']:
                 auth_corporative_dict = {
-                    'nombre': auth_corporative.get('a', None),
+                    'institucion': auth_corporative.get('a', None),
                     'dependencia': auth_corporative.get('b', None),
                     'pais': auth_corporative.get('c', None)
                 }
@@ -133,3 +133,66 @@ class DocumentoDict:
             self.marc_dict['CAT'][-1]['c'] + self.marc_dict['CAT'][-1]['h'],
             '%Y%m%d%H%M'
         )
+
+    @property
+    def disciplina(self):
+        result = []
+        if '650' in self.marc_dict:
+            for disciplinadoc in self.marc_dict['650']:
+                disciplinadoc_dict = {
+                    'idioma': disciplinadoc.get('', None),
+                    'palabra_clave': disciplinadoc.get('a', None)
+                }
+
+                result.append(disciplinadoc_dict)
+        return result or None
+
+    @property
+    def palabras_clave(self):
+        result = []
+        if '653' in self.marc_dict:
+            for palabraclave in self.marc_dict['653']:
+                palabraclave_dict = {
+                    'idioma': palabraclave.get('', None),
+                    'palabra_clave': palabraclave.get('a', None)
+                }
+
+                result.append(palabraclave_dict)
+        return result or None
+
+    @property
+    def keyword(self):
+        result = []
+        if '654' in self.marc_dict:
+            for keywords in self.marc_dict['654']:
+                keywords_dict = {
+                    'idioma': keywords.get('', None),
+                    'palabra_clave': keywords.get('a', None)
+                }
+
+                result.append(keywords_dict)
+        return result or None
+
+    @property
+    def tipo_documento(self):
+        result = []
+        if '590' in self.marc_dict:
+            for tipodocumento in self.marc_dict['590']:
+                tipodocumento_dict = {
+                    'tipo_documento': tipodocumento.get('a', None)
+                }
+
+                result.append(tipodocumento_dict)
+        return result or None
+
+    @property
+    def enfoque_documento(self):
+        result = []
+        if '590' in self.marc_dict:
+            for enfoquedocumento in self.marc_dict['590']:
+                enfoquedocumento_dict = {
+                    'enfoque_documento': enfoquedocumento.get('b', None)
+                }
+
+                result.append(enfoquedocumento_dict)
+        return result or None

@@ -1,0 +1,25 @@
+000467510 FMT   L BK
+000467510 LDR   L 00000nab^a2200000zi^4500
+000467510 008   L $$eMéxico
+000467510 022   L $$a0185-2728
+000467510 035   L $$aCLA01000467510
+000467510 036   L $$a1809
+000467510 041   L $$aEspañol
+000467510 110   L $$aGrupo Expansión,$$cMéxico
+000467510 222   L $$aExpansión
+000467510 245   L $$aAl desnudo <Las 500 empresas más importantes de México, 2018>
+000467510 260   L $$c2018
+000467510 300   L $$aV49$$bN1236$$cjun$$eP114-115
+000467510 546   L $$aEspañol
+000467510 520   L $$aLas características más relevantes del ranking de un vistazo.
+000467510 590   L $$aNota breve o noticia.$$bDescriptivo, divulgación
+000467510 698   L $$aEconomía
+000467510 650   L $$aEconomía
+000467510 653   L $$aEmpresas
+000467510 653   L $$aMéxico
+000467510 653   L $$aSectores productivos
+000467510 653   L $$aCrecimiento empresarial
+000467510 653   L $$aExito empresarial
+000467510 653   L $$aRankings
+000467510 CAT   L $$aRAFAEL$$b10$$c20180921$$lCLA01$$h1733
+EOF

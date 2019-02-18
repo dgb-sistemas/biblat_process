@@ -26,6 +26,14 @@
 000300023 653   L $$aRiesgo ambiental
 000300023 653   L $$aOaxaca
 000300023 653   L $$aMéxico
+000339138 654   L $$aBirds
+000339138 654   L $$aTaxonomy and systematics
+000339138 654   L $$aGruiformes
+000339138 654   L $$aPsophiidae
+000339138 654   L $$aPsophia viridis
+000339138 654   L $$aMorphology
+000339138 654   L $$aMuseums
+000339138 654   L $$aBrazil
 000300023 852   L $$uhttp://biblat.unam.mx/es/bibliometria/indicadores-por-revista/r#revista-geografica$$yIndicadores Revista geográfica
 000300023 CAT   L $$aOCTAVIO$$b10$$c20100119$$lCLA01$$h1820
 000300023 CAT   L $$aOCTAVIO$$b10$$c20100119$$lCLA01$$h1821
