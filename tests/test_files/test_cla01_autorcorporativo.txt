@@ -5,7 +5,7 @@
 000467510 035   L $$aCLA01000467510
 000467510 036   L $$a1809
 000467510 041   L $$aEspañol
-000467510 110   L $$aGrupo Expansión,$$cMéxico
+000467510 110   L $$aGrupo The Expansión,$$cMéxico
 000467510 222   L $$aExpansión
 000467510 245   L $$aAl desnudo <Las 500 empresas más importantes de México, 2018>
 000467510 260   L $$c2018

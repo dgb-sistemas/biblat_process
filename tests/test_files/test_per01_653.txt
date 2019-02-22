@@ -37,6 +37,7 @@
 000339138 654   L $$aMuseums
 000339138 654   L $$aBrazil
 000339138 654   L $$aBotany
+000339138 654   L $$aMexico
 000339138 852   L $$uhttp://biblat.unam.mx/es/bibliometria/indicadores-por-revista/p#papeis-avulsos-de-zoologia$$yIndicadores Papeis avulsos de zoologia
 000339138 856   L $$uhttp://www.scielo.br/scielo.php?script=sci_arttext&pid=S0031-10492009004100001&lng=pt&nrm=iso&tlng=en$$yTexto completo (Ver HTML)
 000339138 CAT   L $$aROSA$$b10$$c20111209$$lPER01$$h1913

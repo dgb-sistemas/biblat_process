@@ -1,13 +1,26 @@
 import inspect
 from datetime import datetime
 
-from biblat_process import tesauro
+from mongoengine import connect
+from biblat_schema.catalogs import SubDisciplina
+from biblat_schema.catalogs import NombreGeografico
 
+from biblat_process import tesauro
+from biblat_process.settings import config
+
+connect(
+            db=config.MONGODB_NAME,
+            host=config.MONGODB_HOST
+        )
 
 class DocumentoDict:
 
     def __init__(self, marc_dict):
         self.marc_dict = marc_dict
+        self.subdisciplinas_list = [i.nombre.es for i in SubDisciplina.objects()]
+        self.subdisciplinas_list += [i.nombre.en for i in SubDisciplina.objects()]
+        self.nombresgeograficos_list = [i.nombre.es for i in NombreGeografico.objects()]
+        self.nombresgeograficos_list += [i.nombre.en for i in NombreGeografico.objects()]
 
     def to_dict(self):
         properties = {}
@@ -18,6 +31,30 @@ class DocumentoDict:
             if not name.startswith('__') and not inspect.ismethod(value):
                 properties[name] = value
         return properties
+
+    @property
+    def revista(self):
+        return self.marc_dict.get('222', [{'a': None}])[0].get('a')
+
+    @property
+    def fasciculo(self):
+        result = []
+        if '300' in self.marc_dict:
+                for fasciculo in self.marc_dict['300']:
+                    fasciculo_dict = {
+                        'volumen': fasciculo.get('a', None),
+                        'numero': fasciculo.get('b', None)
+                    }
+                    if fasciculo_dict['volumen']:
+                        fasciculo_dict['volumen'] = int(str(fasciculo_dict['volumen']).replace('V', ''))
+                    if fasciculo_dict['numero']:
+                        fasciculo_dict['numero'] = int(str(fasciculo_dict['numero']).replace('N', ''))
+                        result.append(fasciculo_dict)
+        return result or None
+
+    @property
+    def numero_sistema(self):
+        return self.marc_dict.get('035', [{'a': None}])[0].get('a')
 
     @property
     def titulo_documento(self):
@@ -31,13 +68,6 @@ class DocumentoDict:
     def idioma(self):
         idioma_marc = self.marc_dict.get('041', [{'a': None}])[0].get('a')
         return tesauro.idioma.get(idioma_marc)
-
-    @property
-    def paginacion(self):
-        if '300' in self.marc_dict and 'e' in self.marc_dict['300'][0]:
-            return str(self.marc_dict['300'][0]['e']).replace('P', '')\
-                    .replace('p', '').replace('pp.', '')
-        return None
 
     @property
     def autor(self):
@@ -66,6 +96,9 @@ class DocumentoDict:
                     'dependencia': auth_corporative.get('b', None),
                     'pais': auth_corporative.get('c', None)
                 }
+
+                if auth_corporative_dict['pais']:
+                    auth_corporative_dict['pais'] = tesauro.paises[auth_corporative_dict['pais']]
                 result.append(auth_corporative_dict)
         return result or None
 
@@ -82,7 +115,7 @@ class DocumentoDict:
                     'referencia': institution.get('z', None)
                 }
 
-                if institution_dict["pais"]:
+                if institution_dict['pais']:
                     institution_dict['pais'] = tesauro.paises[institution_dict['pais']]
                 if institution_dict['referencia']:
                     institution_dict['referencia'] = int(str(institution_dict['referencia']).
@@ -116,7 +149,6 @@ class DocumentoDict:
                         'idioma': 'zxx',
                         'resumen': resumen.get('o', None)
                     }
-
                 result.append(resumen_dict)
         return result or None
 
@@ -140,10 +172,9 @@ class DocumentoDict:
         if '650' in self.marc_dict:
             for disciplinadoc in self.marc_dict['650']:
                 disciplinadoc_dict = {
-                    'idioma': disciplinadoc.get('', None),
+                    'idioma': disciplinadoc.get('spa', None),
                     'palabra_clave': disciplinadoc.get('a', None)
                 }
-
                 result.append(disciplinadoc_dict)
         return result or None
 
@@ -151,26 +182,59 @@ class DocumentoDict:
     def palabras_clave(self):
         result = []
         if '653' in self.marc_dict:
-            for palabraclave in self.marc_dict['653']:
-                palabraclave_dict = {
-                    'idioma': palabraclave.get('', None),
-                    'palabra_clave': palabraclave.get('a', None)
-                }
+            for palabraclave in self.marc_dict.get('653', []):
+                palabraclave = palabraclave.get('a', None)
+                if palabraclave not in self.subdisciplinas_list and palabraclave not in self.nombresgeograficos_list:
+                    palabraclave_dict = {
+                        'idioma': 'spa',
+                        'palabra_clave': palabraclave
+                    }
+                    result.append(palabraclave_dict)
 
-                result.append(palabraclave_dict)
+            for keywords in self.marc_dict.get('654', []):
+                if keywords not in self.subdisciplinas_list and keywords not in self.nombresgeograficos_list:
+                    keywords_dict = {
+                        'idioma': 'eng',
+                        'palabra_clave': keywords.get('a', None)
+                }
+                result.append(keywords_dict)
+
         return result or None
 
     @property
-    def keyword(self):
+    def subdisciplinas(self):
         result = []
-        if '654' in self.marc_dict:
-            for keywords in self.marc_dict['654']:
-                keywords_dict = {
-                    'idioma': keywords.get('', None),
-                    'palabra_clave': keywords.get('a', None)
-                }
+        if '653' in self.marc_dict:
+            for palabraclave in self.marc_dict.get('653', []):
+                palabraclave = palabraclave.get('a', None)
+                if palabraclave in self.subdisciplinas_list:
+                    subdisciplina = SubDisciplina.objects(__raw__={'nombre.es': palabraclave}).first()
+                    result.append(subdisciplina.id)
 
-                result.append(keywords_dict)
+            for keyword in self.marc_dict.get('654', []):
+                keyword = keyword.get('a', None)
+                if keyword in self.subdisciplinas_list:
+                    subdisciplina = SubDisciplina.objects(__raw__={'nombre.en': keyword}).first()
+                    if subdisciplina and subdisciplina.id not in result:
+                        result.append(subdisciplina.id)
+        return result or None
+
+    @property
+    def nombresgeograficos(self):
+        result = []
+        if '653' in self.marc_dict:
+            for palabraclave in self.marc_dict.get('653', []):
+                palabraclave = palabraclave.get('a', None)
+                if palabraclave in self.nombresgeograficos_list:
+                    nombregeografico = NombreGeografico.objects(__raw__={'nombre.es': palabraclave}).first()
+                    result.append(nombregeografico.id)
+
+            for keyword in self.marc_dict.get('654', []):
+                keyword = keyword.get('a', None)
+                if keyword in self.nombresgeograficos_list:
+                    nombregeografico = NombreGeografico.objects(__raw__={'nombre.en': keyword}).first()
+                    if nombregeografico and nombregeografico.id not in result:
+                        result.append(nombregeografico.id)
         return result or None
 
     @property
@@ -181,7 +245,6 @@ class DocumentoDict:
                 tipodocumento_dict = {
                     'tipo_documento': tipodocumento.get('a', None)
                 }
-
                 result.append(tipodocumento_dict)
         return result or None
 
@@ -193,6 +256,23 @@ class DocumentoDict:
                 enfoquedocumento_dict = {
                     'enfoque_documento': enfoquedocumento.get('b', None)
                 }
-
                 result.append(enfoquedocumento_dict)
+        return result or None
+
+    @property
+    def referencias_documento(self):
+        if self.marc_dict.get('504', [{'a': None}])[0].get('a'):
+            return True
+        return False
+
+    @property
+    def texto_completo(self):
+        result = []
+        if '856' in self.marc_dict:
+            for textocompleto in self.marc_dict['856']:
+                textocompleto_dict = {
+                    'url': textocompleto.get('u', None),
+                    'descripcion': textocompleto.get('y', None)
+                }
+                result.append(textocompleto_dict)
         return result or None

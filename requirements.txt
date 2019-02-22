@@ -1,3 +1,4 @@
-mongoengine==0.15.0
+mongoengine==0.15.3
+mongomock==3.11.1
 coverage==4.5.1
 -e git+https://github.com/dgb-sistemas/biblat-schema#egg=biblatschema

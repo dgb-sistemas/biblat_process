@@ -5,6 +5,7 @@ import unittest
 import json
 from biblat_process.marc2dict import Marc2Dict
 from biblat_process.settings import config
+from .base import BaseTestCase
 
 
 class TestMarc2Dict(unittest.TestCase):

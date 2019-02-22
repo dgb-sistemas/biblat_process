@@ -10,13 +10,12 @@
 000467920 222   L $$aGlobal media journal México
 000467920 245   L $$aThe Understanding of Romance in Audiences of 50 Shades of Grey
 000467920 260   L $$c2015
-000467920 300   L $$aV23$$bN115$$cjul-dic$$eP78-83
+000467920 300   L $$bN115$$cjul-dic
 000467920 546   L $$aEspañol, inglés
 000467920 504   L $$aRefs.
 000467920 520   L $$aEl éxito en taquillade la primera película de la saga de 50 Sombras de Grey, fue un tema controversial en México.
 000467920 520   L $$iThe success of 50 Shades of Grey was a controversial issue within Mexican audiences.
 000467920 520   L $$pThe success of 50 Shades of Grey was a controversial issue within Mexican audiences.
-000467920 520   L $$oEl éxito en taquillade la primera película de la saga de 50 Sombras de Grey, fue un tema controversial en México.
 000467920 590   L $$aArtículo.$$bDescriptivo
 000467920 650   L $$aCiencias de la comunicación
 000467920 698   L $$aCiencias de la comunicación
