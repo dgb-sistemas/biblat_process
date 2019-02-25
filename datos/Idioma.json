@@ -3921,6 +3921,7 @@
     "iso_639_2t": "arn",
     "iso_639_3": "arn",
     "nombre": {
+      "es": "Mapuche",
       "en": "Mapudungun"
     },
     "scope": "I",
@@ -15757,6 +15758,7 @@
     "iso_639_2t": null,
     "iso_639_3": "ctu",
     "nombre": {
+      "es": "Ch'ol",
       "en": "Chol"
     },
     "scope": "I",
@@ -16934,6 +16936,7 @@
     "iso_639_2t": "deu",
     "iso_639_3": "deu",
     "nombre": {
+      "es": "Alemán",
       "en": "German"
     },
     "scope": "I",
@@ -19816,6 +19819,7 @@
     "iso_639_2t": "ell",
     "iso_639_3": "ell",
     "nombre": {
+      "es": "Griego moderno (1453-)",
       "en": "Modern Greek (1453-)"
     },
     "scope": "I",
@@ -20080,6 +20084,7 @@
     "iso_639_2t": "eng",
     "iso_639_3": "eng",
     "nombre": {
+      "es": "Inglés",
       "en": "English"
     },
     "scope": "I",
@@ -21389,6 +21394,7 @@
     "iso_639_2t": "fra",
     "iso_639_3": "fra",
     "nombre": {
+      "es": "Francés",
       "en": "French"
     },
     "scope": "I",
@@ -23479,6 +23485,7 @@
     "iso_639_2t": "glg",
     "iso_639_3": "glg",
     "nombre": {
+      "es": "Gallego",
       "en": "Galician"
     },
     "scope": "I",
@@ -24359,6 +24366,7 @@
     "iso_639_2t": "grc",
     "iso_639_3": "grc",
     "nombre": {
+      "es": "Griego antiguo (hasta 1453)",
       "en": "Ancient Greek (to 1453)"
     },
     "scope": "I",
@@ -29111,6 +29119,7 @@
     "iso_639_2t": "ita",
     "iso_639_3": "ita",
     "nombre": {
+      "es": "Italiano",
       "en": "Italian"
     },
     "scope": "I",
@@ -36866,6 +36875,7 @@
     "iso_639_2t": null,
     "iso_639_3": "kvn",
     "nombre": {
+      "es": "Kuna",
       "en": "Border Kuna"
     },
     "scope": "I",
@@ -38285,6 +38295,7 @@
     "iso_639_2t": "lat",
     "iso_639_3": "lat",
     "nombre": {
+      "es": "Latín",
       "en": "Latin"
     },
     "scope": "I",
@@ -58668,6 +58679,7 @@
     "iso_639_2t": "por",
     "iso_639_3": "por",
     "nombre": {
+      "es": "Portugués",
       "en": "Portuguese"
     },
     "scope": "I",
@@ -65796,6 +65808,7 @@
     "iso_639_2t": "spa",
     "iso_639_3": "spa",
     "nombre": {
+      "es": "Español",
       "en": "Spanish"
     },
     "scope": "I",
@@ -86513,5 +86526,29 @@
     },
     "scope": "I",
     "type": "L"
+  },
+  {
+    "iso_639_1": null,
+    "iso_639_2b": null,
+    "iso_639_2t": null,
+    "iso_639_3": "myn",
+    "nombre": {
+      "es": "Maya",
+      "en": "Mayan languages"
+    },
+    "scope": "C",
+    "type": "G"
+  },
+  {
+    "iso_639_1": null,
+    "iso_639_2b": null,
+    "iso_639_2t": null,
+    "iso_639_3": "nah",
+    "nombre": {
+      "es": "Náhuatl",
+      "en": "Nahuatl languages"
+    },
+    "scope": "C",
+    "type": "G"
   }
 ]
