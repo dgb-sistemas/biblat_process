@@ -24,7 +24,8 @@ setup(
     test_suite='tests.discover_suite',
     entry_points={
         'console_scripts': [
-        'claper_dump=biblat_process.marc_dump:main',
+            'claper_dump=biblat_process.marc_dump:main',
+            'populate_catalogs=biblat_process.populate_catalogs:main',
         ],
     },
 )
