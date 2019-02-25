@@ -1,1 +1,262 @@
-[{"nombre": {"es": "Art\u00edculo", "en": "Article"}, "descripcion": {"es": "Texto original que en general tiene la siguiente estructura: resumen, introducci\u00f3n, antecedentes, desarrollo de uno o varios subtemas, conclusiones o resultados y bibliograf\u00eda. Usualmente est\u00e1 firmado por uno o m\u00e1s autores y tiene una extensi\u00f3n m\u00ednima de tres o cuatro p\u00e1ginas.", "en": null}}, {"nombre": {"es": "Biograf\u00eda", "en": "Biography"}, "descripcion": {"es": "Texto que rese\u00f1a la vida y obra de alg\u00fan personaje. Puede utilizarse tambi\u00e9n para obituarios u homenajes que incluyan datos biogr\u00e1ficos.", "en": null}}, {"nombre": {"es": "Cat\u00e1logo", "en": "Catalogue"}, "descripcion": {"es": "Lista ordenada descriptiva de datos, productos o fabricantes, especies o servicios, con informaci\u00f3n m\u00ednima para su localizaci\u00f3n o referencia.", "en": null}}, {"nombre": {"es": "Conferencia o discurso", "en": "Conference or speech"}, "descripcion": {"es": "Reproducci\u00f3n \u00edntegra o parcial de alg\u00fan texto presentado previamente en un evento o tribuna p\u00fablica, mesas redondas, declaraciones, discusiones, etc\u00e9tera.", "en": null}}, {"nombre": {"es": "Correspondencia", "en": "Correspondence"}, "descripcion": {"es": "Texto que reproduce una carta que refleja la opini\u00f3n de los lectores o la discusi\u00f3n sobre un tema espec\u00edfico.", "en": null}}, {"nombre": {"es": "Cronolog\u00eda", "en": "Chronology"}, "descripcion": {"es": "Lista de sucesos en orden cronol\u00f3gico, acerca de un tema o acontecimiento, de cuyos eventos principales se hace seguimiento durante un cierto periodo.", "en": null}}, {"nombre": {"es": "Directorio, glosario, manual", "en": "Directory, glossary, manual"}, "descripcion": {"es": "Lista ordenada de personas o instituciones en un campo o actividad espec\u00edfica. Lista ordenada y/o descriptiva de t\u00e9rminos especializados en un campo espec\u00edfico. Instructivos o manuales presentados en forma monogr\u00e1fica o como parte principal de un documento.", "en": null}}, {"nombre": {"es": "Documento hist\u00f3rico", "en": "Historical document"}, "descripcion": {"es": "Escrito procedente de archivos hist\u00f3ricos, reproducido total o parcialmente. Comprende facs\u00edmiles, expedientes, correspondencia, diarios, etc. Convenio, tratado, acuerdo, etc\u00e9tera, suscritos oficialmente a nivel local, nacional o internacional, aun actuales.", "en": null}}, {"nombre": {"es": "Editorial", "en": "Editorial"}, "descripcion": {"es": "Texto que refleja la opini\u00f3n institucional de la organizaci\u00f3n editora de la revista. Generalmente no est\u00e1 firmado.", "en": null}}, {"nombre": {"es": "Ensayo", "en": "Test"}, "descripcion": {"es": "Escrito en el que se expone, analiza, comenta, interpreta o critica un tema desde un punto de vista muy personal, sin los constre\u00f1imientos del rigor acad\u00e9mico.", "en": null}}, {"nombre": {"es": "Entrevista", "en": "Interview"}, "descripcion": {"es": "Texto que reproduce las opiniones y conceptos vertidos por alguna personalidad, resultado de las preguntas del entrevistador.", "en": null}}, {"nombre": {"es": "Estad\u00edstica o encuesta", "en": "Statistics or survey"}, "descripcion": {"es": "Texto que en su parte fundamental est\u00e1 constituido por series de datos num\u00e9ricos ordenados, resultado de muestras o encuestas.", "en": null}}, {"nombre": {"es": "Estado del arte", "en": "State of the art"}, "descripcion": {"es": "Trabajo que actualiza y reporta el avance del conocimiento en un tema determinado.", "en": null}}, {"nombre": {"es": "Ficci\u00f3n", "en": "Fiction"}, "descripcion": {"es": "Texto original cuyas caracter\u00edsticas principales son la imaginaci\u00f3n, inventiva y expresividad del autor, en g\u00e9neros como poes\u00eda, cuento, relato, cap\u00edtulos de novela, teatro, etc\u00e9tera. Incluye tambi\u00e9n libretos y guiones, as\u00ed como partituras.", "en": null}}, {"nombre": {"es": "Ilustraciones y l\u00e1minas", "en": "Illustrations and prints"}, "descripcion": {"es": "Documento que en su parte fundamental o total esta constituido por reproducci\u00f3n de pinturas, grabados, dibujos, fotograf\u00edas, mapas y cualquier tipo de l\u00e1minas. Incluye todo lo relativo a cartograf\u00eda e iconograf\u00eda.", "en": null}}, {"nombre": {"es": "Leyes o reglamentos", "en": "Laws or regulations"}, "descripcion": {"es": "Texto que en su parte fundamental reproduce parcial o \u00edntegramente una serie de normas legislativas.", "en": null}}, {"nombre": {"es": "Monograf\u00eda", "en": "Monograph"}, "descripcion": {"es": "Texto original de amplitud extensa que desarrolla un tema como una unidad. Generalmente se presenta en forma de n\u00fameros especiales de revistas o como documentos seriados.", "en": null}}, {"nombre": {"es": "Nota breve o noticia", "en": "Short note or news"}, "descripcion": {"es": "Texto breve de car\u00e1cter informativo, aclaratorio o que presenta alguna novedad o suceso, de m\u00e1s de una p\u00e1gina de extensi\u00f3n.", "en": null}}, {"nombre": {"es": "Plan, proyecto, programa", "en": "Plan, project, program"}, "descripcion": {"es": "Documento que describe un conjunto de objetivos y metas a realizar en una secuencia y en un tiempo determinado.", "en": null}}, {"nombre": {"es": "Proyecto t\u00e9cnico", "en": "Technical project"}, "descripcion": {"es": "Trabajo que describe la secuencia de construcci\u00f3n y caracter\u00edsticas de alg\u00fan proyecto u obra, principalmente de arquitectura o ingenier\u00eda.", "en": null}}, {"nombre": {"es": "Reporte de actividades", "en": "Activities report"}, "descripcion": {"es": "Texto que describe los eventos y logros sobresalientes de alguna instituci\u00f3n en un periodo determinado.", "en": null}}, {"nombre": {"es": "Reporte t\u00e9cnico", "en": "Technical report"}, "descripcion": {"es": "Texto que describe detalladamente el funcionamiento o la productividad de alg\u00fan instrumento, proceso, t\u00e9cnica o experimento, para su posterior aplicaci\u00f3n o reproducci\u00f3n.", "en": null}}, {"nombre": {"es": "Rese\u00f1a de libro", "en": "Book review"}, "descripcion": {"es": "Texto que resume y/o critica una obra publicada como libro.", "en": null}}, {"nombre": {"es": "Rese\u00f1a de obras", "en": "Review of works"}, "descripcion": {"es": "Examen somero de actividades art\u00edsticas que comprenden danza, m\u00fasica, cine, teatro, pintura, escultura, discos, televisi\u00f3n, radio y video.", "en": null}}, {"nombre": {"es": "Res\u00famenes", "en": "Summaries"}, "descripcion": {"es": "Resumen extendido de alg\u00fan asunto, el cual incluye bibliograf\u00eda. Debe tener una extensi\u00f3n m\u00ednima equivalente a una p\u00e1gina completa.", "en": null}}, {"nombre": {"es": "Revisi\u00f3n bibliogr\u00e1fica", "en": "Bibliographic review"}, "descripcion": {"es": "Texto basado en la revisi\u00f3n de la literatura publicada acerca de un tema determinado. Lista ordenada de referencias bibliogr\u00e1ficas, con o sin anotaciones.", "en": null}}]
+[
+  {
+    "descripcion": {
+      "en": null,
+      "es": "Texto original que en general tiene la siguiente estructura: resumen, introducción, antecedentes, desarrollo de uno o varios subtemas, conclusiones o resultados y bibliografía. Usualmente está firmado por uno o más autores y tiene una extensión mínima de tres o cuatro páginas."
+    },
+    "nombre": {
+      "en": "Article",
+      "es": "Artículo"
+    }
+  },
+  {
+    "descripcion": {
+      "en": null,
+      "es": "Texto que reseña la vida y obra de algún personaje. Puede utilizarse también para obituarios u homenajes que incluyan datos biográficos."
+    },
+    "nombre": {
+      "en": "Biography",
+      "es": "Biografía"
+    }
+  },
+  {
+    "descripcion": {
+      "en": null,
+      "es": "Lista ordenada descriptiva de datos, productos o fabricantes, especies o servicios, con información mínima para su localización o referencia."
+    },
+    "nombre": {
+      "en": "Catalog",
+      "es": "Catálogo"
+    }
+  },
+  {
+    "descripcion": {
+      "en": null,
+      "es": "Reproducción íntegra o parcial de algún texto presentado previamente en un evento o tribuna pública, mesas redondas, declaraciones, discusiones, etcétera."
+    },
+    "nombre": {
+      "en": "Conference or speech",
+      "es": "Conferencia o discurso"
+    }
+  },
+  {
+    "descripcion": {
+      "en": null,
+      "es": "Texto que reproduce una carta que refleja la opinión de los lectores o la discusión sobre un tema específico."
+    },
+    "nombre": {
+      "en": "Correspondence",
+      "es": "Correspondencia"
+    }
+  },
+  {
+    "descripcion": {
+      "en": null,
+      "es": "Lista de sucesos en orden cronológico, acerca de un tema o acontecimiento, de cuyos eventos principales se hace seguimiento durante un cierto periodo."
+    },
+    "nombre": {
+      "en": "Chronology",
+      "es": "Cronología"
+    }
+  },
+  {
+    "descripcion": {
+      "en": null,
+      "es": "Lista ordenada de personas o instituciones en un campo o actividad específica. Lista ordenada y/o descriptiva de términos especializados en un campo específico. Instructivos o manuales presentados en forma monográfica o como parte principal de un documento."
+    },
+    "nombre": {
+      "en": "Directory, glossary, manual",
+      "es": "Directorio, glosario, manual"
+    }
+  },
+  {
+    "descripcion": {
+      "en": null,
+      "es": "Escrito procedente de archivos históricos, reproducido total o parcialmente. Comprende facsímiles, expedientes, correspondencia, diarios, etc. Convenio, tratado, acuerdo, etcétera, suscritos oficialmente a nivel local, nacional o internacional, aun actuales."
+    },
+    "nombre": {
+      "en": "Historical document",
+      "es": "Documento histórico"
+    }
+  },
+  {
+    "descripcion": {
+      "en": null,
+      "es": "Texto que refleja la opinión institucional de la organización editora de la revista. Generalmente no está firmado."
+    },
+    "nombre": {
+      "en": "Editorial",
+      "es": "Editorial"
+    }
+  },
+  {
+    "descripcion": {
+      "en": null,
+      "es": "Escrito en el que se expone, analiza, comenta, interpreta o critica un tema desde un punto de vista muy personal, sin los constreñimientos del rigor académico."
+    },
+    "nombre": {
+      "en": "Trial",
+      "es": "Ensayo"
+    }
+  },
+  {
+    "descripcion": {
+      "en": null,
+      "es": "Texto que reproduce las opiniones y conceptos vertidos por alguna personalidad, resultado de las preguntas del entrevistador."
+    },
+    "nombre": {
+      "en": "Interview",
+      "es": "Entrevista"
+    }
+  },
+  {
+    "descripcion": {
+      "en": null,
+      "es": "Texto que en su parte fundamental está constituido por series de datos numéricos ordenados, resultado de muestras o encuestas."
+    },
+    "nombre": {
+      "en": "Statistics or survey",
+      "es": "Estadística o encuesta"
+    }
+  },
+  {
+    "descripcion": {
+      "en": null,
+      "es": "Trabajo que actualiza y reporta el avance del conocimiento en un tema determinado."
+    },
+    "nombre": {
+      "en": "State of the art",
+      "es": "Estado del arte"
+    }
+  },
+  {
+    "descripcion": {
+      "en": null,
+      "es": "Texto original cuyas características principales son la imaginación, inventiva y expresividad del autor, en géneros como poesía, cuento, relato, capítulos de novela, teatro, etcétera. Incluye también libretos y guiones, así como partituras."
+    },
+    "nombre": {
+      "en": "Fiction",
+      "es": "Ficción"
+    }
+  },
+  {
+    "descripcion": {
+      "en": null,
+      "es": "Documento que en su parte fundamental o total esta constituido por reproducción de pinturas, grabados, dibujos, fotografías, mapas y cualquier tipo de láminas. Incluye todo lo relativo a cartografía e iconografía."
+    },
+    "nombre": {
+      "en": "Illustrations and prints",
+      "es": "Ilustraciones y láminas"
+    }
+  },
+  {
+    "descripcion": {
+      "en": null,
+      "es": "Texto que en su parte fundamental reproduce parcial o íntegramente una serie de normas legislativas."
+    },
+    "nombre": {
+      "en": "Laws or regulations",
+      "es": "Leyes o reglamentos"
+    }
+  },
+  {
+    "descripcion": {
+      "en": null,
+      "es": "Texto original de amplitud extensa que desarrolla un tema como una unidad. Generalmente se presenta en forma de números especiales de revistas o como documentos seriados."
+    },
+    "nombre": {
+      "en": "Monograph",
+      "es": "Monografía"
+    }
+  },
+  {
+    "descripcion": {
+      "en": null,
+      "es": "Texto breve de carácter informativo, aclaratorio o que presenta alguna novedad o suceso, de más de una página de extensión."
+    },
+    "nombre": {
+      "en": "Short note or news",
+      "es": "Nota breve o noticia"
+    }
+  },
+  {
+    "descripcion": {
+      "en": null,
+      "es": "Documento que describe un conjunto de objetivos y metas a realizar en una secuencia y en un tiempo determinado."
+    },
+    "nombre": {
+      "en": "Plan, project, program",
+      "es": "Plan, proyecto, programa"
+    }
+  },
+  {
+    "descripcion": {
+      "en": null,
+      "es": "Trabajo que describe la secuencia de construcción y características de algún proyecto u obra, principalmente de arquitectura o ingeniería."
+    },
+    "nombre": {
+      "en": "Technical project",
+      "es": "Proyecto técnico"
+    }
+  },
+  {
+    "descripcion": {
+      "en": null,
+      "es": "Texto que describe los eventos y logros sobresalientes de alguna institución en un periodo determinado."
+    },
+    "nombre": {
+      "en": "Activities report",
+      "es": "Reporte de actividades"
+    }
+  },
+  {
+    "descripcion": {
+      "en": null,
+      "es": "Texto que describe detalladamente el funcionamiento o la productividad de algún instrumento, proceso, técnica o experimento, para su posterior aplicación o reproducción."
+    },
+    "nombre": {
+      "en": "Technical report",
+      "es": "Reporte técnico"
+    }
+  },
+  {
+    "descripcion": {
+      "en": null,
+      "es": "Texto que resume y/o critica una obra publicada como libro."
+    },
+    "nombre": {
+      "en": "Book review",
+      "es": "Reseña de libro"
+    }
+  },
+  {
+    "descripcion": {
+      "en": null,
+      "es": "Examen somero de actividades artísticas que comprenden danza, música, cine, teatro, pintura, escultura, discos, televisión, radio y video."
+    },
+    "nombre": {
+      "en": "Review of works",
+      "es": "Reseña de obras"
+    }
+  },
+  {
+    "descripcion": {
+      "en": null,
+      "es": "Resumen extendido de algún asunto, el cual incluye bibliografía. Debe tener una extensión mínima equivalente a una página completa."
+    },
+    "nombre": {
+      "en": "Abstracts",
+      "es": "Resúmenes"
+    }
+  },
+  {
+    "descripcion": {
+      "en": null,
+      "es": "Texto basado en la revisión de la literatura publicada acerca de un tema determinado. Lista ordenada de referencias bibliográficas, con o sin anotaciones."
+    },
+    "nombre": {
+      "en": "Bibliographic review",
+      "es": "Revisión bibliográfica"
+    }
+  }
+]
