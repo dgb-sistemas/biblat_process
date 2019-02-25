@@ -5,7 +5,7 @@ import os
 import json
 import logging
 
-from biblat_schema.catalogs import Pais, Idioma
+from biblat_schema.catalogs import Pais, Idioma, TipoDocumento
 from mongoengine import connect
 
 from biblat_process.settings import config
@@ -24,7 +24,7 @@ class PopulateCatalog:
         self.files = {
             'Pais': 'Pais.json',
             'Idioma': 'Idioma.json',
-            'TipoDocumento': 'TipoDocumento.tsv',
+            'TipoDocumento': 'TipoDocumento.json',
             'EnfoqueDocumento': 'EnfoqueDocumento.tsv',
             'Disciplina': 'Disciplina.json',
             'SubDisciplina': 'Subdisciplina.tsv',
@@ -57,6 +57,23 @@ class PopulateCatalog:
                     logging.error('Error al procesar %s' % str(idioma_data))
                     logging.error('%s' % str(e))
 
+    def tipo_documento(self):
+        with open(os.path.join(self.data_dir, self.files['TipoDocumento']),
+                  encoding="utf-8") as jsonf:
+            tipos_documento = json.load(jsonf)
+            for tipo_documento_data in tipos_documento:
+                try:
+                    tipo_documento = TipoDocumento.objects(
+                        nombre__es=tipo_documento_data['nombre']['es']
+                    ).first()
+                    if tipo_documento:
+                        tipo_documento_data['_id'] = tipo_documento.id
+                    tipo_documento = TipoDocumento(**tipo_documento_data)
+                    tipo_documento.save()
+                except Exception as e:
+                    logging.error('Error al procesar %s' % str(tipo_documento_data))
+                    logging.error('%s' % str(e))
+
 
 def main():
     parser = argparse.ArgumentParser(
@@ -73,9 +90,9 @@ def main():
 
     parser.add_argument(
         '--catalog',
-        '-a',
+        '-c',
         default='all',
-        choices=['pais', 'idioma', 'all'],
+        choices=['pais', 'idioma', 'tipo_documento', 'all'],
         help='Seleccione proceso a ejecutar'
     )
 
@@ -92,6 +109,9 @@ def main():
 
     if args.catalog in ('idioma', 'all'):
             populate_catalog.idioma()
+
+    if args.catalog in ('tipo_documento', 'all'):
+            populate_catalog.tipo_documento()
 
 
 if __name__ == "__main__":
