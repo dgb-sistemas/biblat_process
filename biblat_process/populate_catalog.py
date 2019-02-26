@@ -12,7 +12,8 @@ from biblat_schema.catalogs import (
     EnfoqueDocumento,
     Disciplina,
     SubDisciplina,
-    NombreGeografico
+    NombreGeografico,
+    LicenciaCC
 )
 from mongoengine import connect
 
@@ -157,6 +158,23 @@ class PopulateCatalog:
                     logging.error('Error al procesar %s' % str(nombre_geografico_data))
                     logging.error('%s' % str(e))
 
+    def licencia_cc(self):
+        with open(os.path.join(self.data_dir, self.files['LicenciaCC']),
+                  encoding="utf-8") as jsonf:
+            licencias_cc = json.load(jsonf)
+            for licencia_cc_data in licencias_cc:
+                try:
+                    licencia_cc = LicenciaCC.objects(
+                        tipo=licencia_cc_data['tipo']
+                    ).first()
+                    if licencia_cc:
+                        licencia_cc_data['_id'] = licencia_cc.id
+                    licencia_cc = LicenciaCC(**licencia_cc_data)
+                    licencia_cc.save()
+                except Exception as e:
+                    logging.error('Error al procesar %s' % str(licencia_cc_data))
+                    logging.error('%s' % str(e))
+
 
 def main():
     parser = argparse.ArgumentParser(
@@ -182,6 +200,7 @@ def main():
                  'disciplina',
                  'subdisciplina',
                  'nombre_geografico',
+                 'licencia_cc',
                  'all'],
         help='Seleccione proceso a ejecutar'
     )
@@ -216,6 +235,9 @@ def main():
 
     if args.catalog in ('nombre_geografico', 'all'):
         populate_catalog.nombre_geografico()
+
+    if args.catalog in ('licencia_cc', 'all'):
+        populate_catalog.licencia_cc()
 
 
 if __name__ == "__main__":
