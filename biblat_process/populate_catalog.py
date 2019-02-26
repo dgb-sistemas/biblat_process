@@ -11,7 +11,8 @@ from biblat_schema.catalogs import (
     TipoDocumento,
     EnfoqueDocumento,
     Disciplina,
-    SubDisciplina
+    SubDisciplina,
+    NombreGeografico
 )
 from mongoengine import connect
 
@@ -35,7 +36,7 @@ class PopulateCatalog:
             'EnfoqueDocumento': 'EnfoqueDocumento.json',
             'Disciplina': 'Disciplina.json',
             'SubDisciplina': 'SubDisciplina.json',
-            'NombreGeografico': 'NombreGeografico.tsv',
+            'NombreGeografico': 'NombreGeografico.json',
             'LicenciaCC': 'LicenciaCC.json',
             'SherpaRomeo': 'SherpaRomeo.json'
         }
@@ -137,6 +138,25 @@ class PopulateCatalog:
                     logging.error('Error al procesar %s' % str(subdisciplina_data))
                     logging.error('%s' % str(e))
 
+    def nombre_geografico(self):
+        with open(os.path.join(self.data_dir, self.files['NombreGeografico']),
+                  encoding="utf-8") as jsonf:
+            nombres_geograficos = json.load(jsonf)
+            for nombre_geografico_data in nombres_geograficos:
+                try:
+                    nombre_geografico = NombreGeografico.objects(
+                        nombre__es=nombre_geografico_data['nombre']['es']
+                    ).first()
+                    if nombre_geografico:
+                        nombre_geografico_data['_id'] = nombre_geografico.id
+                    if not nombre_geografico_data['nota']['es']:
+                        nombre_geografico_data['nota'] = None
+                    nombre_geografico = NombreGeografico(**nombre_geografico_data)
+                    nombre_geografico.save()
+                except Exception as e:
+                    logging.error('Error al procesar %s' % str(nombre_geografico_data))
+                    logging.error('%s' % str(e))
+
 
 def main():
     parser = argparse.ArgumentParser(
@@ -161,6 +181,7 @@ def main():
                  'enfoque_documento',
                  'disciplina',
                  'subdisciplina',
+                 'nombre_geografico',
                  'all'],
         help='Seleccione proceso a ejecutar'
     )
@@ -192,6 +213,9 @@ def main():
         if not Disciplina.objects.count():
             populate_catalog.disciplina()
         populate_catalog.subdisciplina()
+
+    if args.catalog in ('nombre_geografico', 'all'):
+        populate_catalog.nombre_geografico()
 
 
 if __name__ == "__main__":
