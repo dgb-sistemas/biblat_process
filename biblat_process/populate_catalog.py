@@ -5,7 +5,7 @@ import os
 import json
 import logging
 
-from biblat_schema.catalogs import Pais, Idioma, TipoDocumento, EnfoqueDocumento
+from biblat_schema.catalogs import Pais, Idioma, TipoDocumento, EnfoqueDocumento, Disciplina
 from mongoengine import connect
 
 from biblat_process.settings import config
@@ -91,6 +91,23 @@ class PopulateCatalog:
                     logging.error('Error al procesar %s' % str(enfoque_tipo_documento_data))
                     logging.error('%s' % str(e))
 
+    def disciplina(self):
+        with open(os.path.join(self.data_dir, self.files['Disciplina']),
+                  encoding="utf-8") as jsonf:
+            disciplinas = json.load(jsonf)
+            for disciplina_data in disciplinas:
+                try:
+                    disciplina = Disciplina.objects(
+                        nombre__es=disciplina_data['nombre']['es']
+                    ).first()
+                    if disciplina:
+                        disciplina_data['_id'] = disciplina.id
+                    disciplina = Disciplina(**disciplina_data)
+                    disciplina.save()
+                except Exception as e:
+                    logging.error('Error al procesar %s' % str(disciplina_data))
+                    logging.error('%s' % str(e))
+
 
 def main():
     parser = argparse.ArgumentParser(
@@ -109,7 +126,7 @@ def main():
         '--catalog',
         '-c',
         default='all',
-        choices=['pais', 'idioma', 'tipo_documento', 'enfoque_documento', 'all'],
+        choices=['pais', 'idioma', 'tipo_documento', 'enfoque_documento', 'disciplina', 'all'],
         help='Seleccione proceso a ejecutar'
     )
 
@@ -132,6 +149,9 @@ def main():
 
     if args.catalog in ('enfoque_documento', 'all'):
             populate_catalog.enfoque_documento()
+
+    if args.catalog in ('disciplina', 'all'):
+            populate_catalog.disciplina()
 
 
 if __name__ == "__main__":
