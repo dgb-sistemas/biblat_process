@@ -8,7 +8,7 @@
        "es": "Puede archivar pre-print y el post-print o la versión de editor/PDF",
        "en": "Can archive pre-print and post-print or publisher's version/PDF"
     },
-    "codigo": "#D6FCAA"
+    "codigo": "#D0F9D2"
   },
  {
     "color": {
@@ -19,7 +19,7 @@
        "es": "Puede archivar el post-print (ie la versión final posterior a la revisión por pares) o versión de editor/PDF",
        "en": "Can archive post-print (ie final draft post-refereeing) or publisher's version/PDF"
     },
-    "codigo": "#AAE6FC"
+    "codigo": "#D3ECFA"
   },
   {
     "color": {
@@ -30,7 +30,7 @@
        "es": "Puede archivar el pre-print (ie la versión previa a la revisión por pares) ",
        "en": "Can archive pre-print (ie pre-refereeing)"
     },
-    "codigo": "#FBFCAA"
+    "codigo": "#FFFF99"
   },
   {
     "color": {
@@ -41,6 +41,6 @@
        "es": "El archivo no está formalmente admitido",
        "en": "Archiving not formally supported"
     },
-    "codigo": "FBFCFC"
+    "codigo": "#FFFFFF"
   }  
 ]

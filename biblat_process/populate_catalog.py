@@ -13,7 +13,8 @@ from biblat_schema.catalogs import (
     Disciplina,
     SubDisciplina,
     NombreGeografico,
-    LicenciaCC
+    LicenciaCC,
+    SherpaRomeo
 )
 from mongoengine import connect
 
@@ -175,6 +176,23 @@ class PopulateCatalog:
                     logging.error('Error al procesar %s' % str(licencia_cc_data))
                     logging.error('%s' % str(e))
 
+    def sherpa_romeo(self):
+        with open(os.path.join(self.data_dir, self.files['SherpaRomeo']),
+                  encoding="utf-8") as jsonf:
+            licencias_sp = json.load(jsonf)
+            for licencia_sp_data in licencias_sp:
+                try:
+                    licencia_sp = SherpaRomeo.objects(
+                        color__es=licencia_sp_data['color']['es']
+                    ).first()
+                    if licencia_sp:
+                        licencia_sp_data['_id'] = licencia_sp.id
+                    licencia_sp = SherpaRomeo(**licencia_sp_data)
+                    licencia_sp.save()
+                except Exception as e:
+                    logging.error('Error al procesar %s' % str(licencia_sp_data))
+                    logging.error('%s' % str(e))
+
 
 def main():
     parser = argparse.ArgumentParser(
@@ -201,6 +219,7 @@ def main():
                  'subdisciplina',
                  'nombre_geografico',
                  'licencia_cc',
+                 'sherpa_romeo',
                  'all'],
         help='Seleccione proceso a ejecutar'
     )
@@ -239,6 +258,8 @@ def main():
     if args.catalog in ('licencia_cc', 'all'):
         populate_catalog.licencia_cc()
 
+    if args.catalog in ('sherpa_romeo', 'all'):
+        populate_catalog.sherpa_romeo()
 
 if __name__ == "__main__":
     main()
