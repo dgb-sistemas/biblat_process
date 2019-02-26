@@ -5,7 +5,14 @@ import os
 import json
 import logging
 
-from biblat_schema.catalogs import Pais, Idioma, TipoDocumento, EnfoqueDocumento, Disciplina
+from biblat_schema.catalogs import (
+    Pais,
+    Idioma,
+    TipoDocumento,
+    EnfoqueDocumento,
+    Disciplina,
+    SubDisciplina
+)
 from mongoengine import connect
 
 from biblat_process.settings import config
@@ -27,7 +34,7 @@ class PopulateCatalog:
             'TipoDocumento': 'TipoDocumento.json',
             'EnfoqueDocumento': 'EnfoqueDocumento.json',
             'Disciplina': 'Disciplina.json',
-            'SubDisciplina': 'Subdisciplina.tsv',
+            'SubDisciplina': 'SubDisciplina.json',
             'NombreGeografico': 'NombreGeografico.tsv',
             'LicenciaCC': 'LicenciaCC.json',
             'SherpaRomeo': 'SherpaRomeo.json'
@@ -108,6 +115,28 @@ class PopulateCatalog:
                     logging.error('Error al procesar %s' % str(disciplina_data))
                     logging.error('%s' % str(e))
 
+    def subdisciplina(self):
+        with open(os.path.join(self.data_dir, self.files['SubDisciplina']),
+                  encoding="utf-8") as jsonf:
+            subdisciplinas = json.load(jsonf)
+            for subdisciplina_data in subdisciplinas:
+                try:
+                    subdisciplina = SubDisciplina.objects(
+                        nombre__es=subdisciplina_data['nombre']['es']
+                    ).first()
+                    if subdisciplina:
+                        subdisciplina_data['_id'] = subdisciplina.id
+
+                    disciplina = Disciplina.objects(
+                        nombre__es=subdisciplina_data['disciplina']
+                    ).first()
+                    subdisciplina_data['disciplina'] = disciplina
+                    subdisciplina = SubDisciplina(**subdisciplina_data)
+                    subdisciplina.save()
+                except Exception as e:
+                    logging.error('Error al procesar %s' % str(subdisciplina_data))
+                    logging.error('%s' % str(e))
+
 
 def main():
     parser = argparse.ArgumentParser(
@@ -126,7 +155,13 @@ def main():
         '--catalog',
         '-c',
         default='all',
-        choices=['pais', 'idioma', 'tipo_documento', 'enfoque_documento', 'disciplina', 'all'],
+        choices=['pais',
+                 'idioma',
+                 'tipo_documento',
+                 'enfoque_documento',
+                 'disciplina',
+                 'subdisciplina',
+                 'all'],
         help='Seleccione proceso a ejecutar'
     )
 
@@ -139,19 +174,24 @@ def main():
     populate_catalog = PopulateCatalog()
 
     if args.catalog in ('pais', 'all'):
-            populate_catalog.pais()
+        populate_catalog.pais()
 
     if args.catalog in ('idioma', 'all'):
-            populate_catalog.idioma()
+        populate_catalog.idioma()
 
     if args.catalog in ('tipo_documento', 'all'):
-            populate_catalog.tipo_documento()
+        populate_catalog.tipo_documento()
 
     if args.catalog in ('enfoque_documento', 'all'):
-            populate_catalog.enfoque_documento()
+        populate_catalog.enfoque_documento()
 
     if args.catalog in ('disciplina', 'all'):
+        populate_catalog.disciplina()
+
+    if args.catalog in ('subdisciplina', 'all'):
+        if not Disciplina.objects.count():
             populate_catalog.disciplina()
+        populate_catalog.subdisciplina()
 
 
 if __name__ == "__main__":
