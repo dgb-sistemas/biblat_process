@@ -5,7 +5,7 @@ import os
 import json
 import logging
 
-from biblat_schema.catalogs import Pais, Idioma, TipoDocumento
+from biblat_schema.catalogs import Pais, Idioma, TipoDocumento, EnfoqueDocumento
 from mongoengine import connect
 
 from biblat_process.settings import config
@@ -25,7 +25,7 @@ class PopulateCatalog:
             'Pais': 'Pais.json',
             'Idioma': 'Idioma.json',
             'TipoDocumento': 'TipoDocumento.json',
-            'EnfoqueDocumento': 'EnfoqueDocumento.tsv',
+            'EnfoqueDocumento': 'EnfoqueDocumento.json',
             'Disciplina': 'Disciplina.json',
             'SubDisciplina': 'Subdisciplina.tsv',
             'NombreGeografico': 'NombreGeografico.tsv',
@@ -74,6 +74,23 @@ class PopulateCatalog:
                     logging.error('Error al procesar %s' % str(tipo_documento_data))
                     logging.error('%s' % str(e))
 
+    def enfoque_documento(self):
+        with open(os.path.join(self.data_dir, self.files['EnfoqueDocumento']),
+                  encoding="utf-8") as jsonf:
+            enfoques_documento = json.load(jsonf)
+            for enfoque_tipo_documento_data in enfoques_documento:
+                try:
+                    enfoque_documento = EnfoqueDocumento.objects(
+                        nombre__es=enfoque_tipo_documento_data['nombre']['es']
+                    ).first()
+                    if enfoque_documento:
+                        enfoque_tipo_documento_data['_id'] = tipo_documento.id
+                    enfoque_documento = EnfoqueDocumento(**enfoque_tipo_documento_data)
+                    enfoque_documento.save()
+                except Exception as e:
+                    logging.error('Error al procesar %s' % str(enfoque_tipo_documento_data))
+                    logging.error('%s' % str(e))
+
 
 def main():
     parser = argparse.ArgumentParser(
@@ -92,7 +109,7 @@ def main():
         '--catalog',
         '-c',
         default='all',
-        choices=['pais', 'idioma', 'tipo_documento', 'all'],
+        choices=['pais', 'idioma', 'tipo_documento', 'enfoque_documento', 'all'],
         help='Seleccione proceso a ejecutar'
     )
 
@@ -112,6 +129,9 @@ def main():
 
     if args.catalog in ('tipo_documento', 'all'):
             populate_catalog.tipo_documento()
+
+    if args.catalog in ('enfoque_documento', 'all'):
+            populate_catalog.enfoque_documento()
 
 
 if __name__ == "__main__":
