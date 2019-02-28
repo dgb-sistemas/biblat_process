@@ -1,0 +1,24 @@
+[
+  {
+    "alpha2": "MEX",
+    "alpha3": "MEX",
+    "codigo_pais": "484",
+    "region_intermedia": {
+      "en": "Central America"
+    },
+    "codigo_region_intermedia": "013",
+    "iso_3166_2": "ISO 3166-2:MX",
+    "nombre": {
+      "es": "México",
+      "en": "Mexico"
+    },
+    "region": {
+      "en": "Americas"
+    },
+    "codigo_region": "019",
+    "sub_region": {
+      "en": "Latin America and the Caribbean"
+    },
+    "codigo_sub_region": "419"
+  }
+]

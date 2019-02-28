@@ -4,6 +4,7 @@ import argparse
 import os
 import json
 import logging
+import sys
 
 from biblat_schema.catalogs import (
     Pais,
@@ -29,19 +30,18 @@ connect(db=config.MONGODB_NAME, host=config.MONGODB_HOST)
 
 
 class PopulateCatalog:
-    def __init__(self):
-        self.data_dir = os.path.join(SCRIPT_PATH, '../datos')
-        self.files = {
-            'Pais': 'Pais.json',
-            'Idioma': 'Idioma.json',
-            'TipoDocumento': 'TipoDocumento.json',
-            'EnfoqueDocumento': 'EnfoqueDocumento.json',
-            'Disciplina': 'Disciplina.json',
-            'SubDisciplina': 'SubDisciplina.json',
-            'NombreGeografico': 'NombreGeografico.json',
-            'LicenciaCC': 'LicenciaCC.json',
-            'SherpaRomeo': 'SherpaRomeo.json'
-        }
+    data_dir = os.path.join(SCRIPT_PATH, '../datos')
+    files = {
+        'Pais': 'Pais.json',
+        'Idioma': 'Idioma.json',
+        'TipoDocumento': 'TipoDocumento.json',
+        'EnfoqueDocumento': 'EnfoqueDocumento.json',
+        'Disciplina': 'Disciplina.json',
+        'SubDisciplina': 'SubDisciplina.json',
+        'NombreGeografico': 'NombreGeografico.json',
+        'LicenciaCC': 'LicenciaCC.json',
+        'SherpaRomeo': 'SherpaRomeo.json'
+    }
 
     def pais(self):
         with open(os.path.join(self.data_dir, self.files['Pais']),
@@ -194,7 +194,7 @@ class PopulateCatalog:
                     logging.error('%s' % str(e))
 
 
-def main():
+def main(args):
     parser = argparse.ArgumentParser(
         description="Llenado de catálogos de biblat_schema"
     )
@@ -224,7 +224,7 @@ def main():
         help='Seleccione proceso a ejecutar'
     )
 
-    args = parser.parse_args()
+    args = parser.parse_args(args)
 
     logging.basicConfig(
         level=getattr(logging, args.logging_level.upper(), 'INFO'),
@@ -261,5 +261,6 @@ def main():
     if args.catalog in ('sherpa_romeo', 'all'):
         populate_catalog.sherpa_romeo()
 
+
 if __name__ == "__main__":
-    main()
+    main(sys.argv[1:])
