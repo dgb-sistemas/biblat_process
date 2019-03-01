@@ -1,0 +1,12 @@
+[
+  {
+    "_id": 1,
+    "nombre": {
+      "es": "Analítico",
+      "en": "Analytical"
+    },
+    "descripcion": {
+      "es": "Exposición que presenta la característica de desagregar en sus partes componentes un todo, y en la cual existe un examen o identificación de las relaciones que se establecen entre ellas y de éstas con el todo."
+    }
+  }
+]

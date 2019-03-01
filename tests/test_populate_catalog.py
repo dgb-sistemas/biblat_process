@@ -5,7 +5,12 @@ import unittest
 
 from mock import patch
 from mongoengine import connect
-from biblat_schema.catalogs import Pais, Idioma, TipoDocumento
+from biblat_schema.catalogs import (
+    Pais,
+    Idioma,
+    TipoDocumento,
+    EnfoqueDocumento
+)
 
 from biblat_process.settings import config
 from biblat_process import populate_catalog
@@ -68,14 +73,14 @@ class TestPopulateCatalog(unittest.TestCase):
         with open(os.path.join(os.path.join(DATA_DIR, 'TipoDocumento.json')),
                   encoding="utf-8") as jsonf:
             expected_tipos_documento = json.load(jsonf)
-            for expected_tipos_documento in expected_tipos_documento:
+            for expected_tipo_documento in expected_tipos_documento:
                 tipo_documento = TipoDocumento.objects(
-                    nombre__es=expected_tipos_documento['nombre']['es']
+                    nombre__es=expected_tipo_documento['nombre']['es']
                 )
                 self.assertEqual(tipo_documento.count(), 1)
                 tipo_documento = tipo_documento[0].to_mongo()
-                for k in expected_tipos_documento:
-                    self.assertDictEqual(expected_tipos_documento[k],
+                for k in expected_tipo_documento:
+                    self.assertDictEqual(expected_tipo_documento[k],
                                      tipo_documento[k])
         # Verificar que no ingresen registros repetidos
         populate_catalog.main(['-c', 'tipo_documento'])
@@ -86,3 +91,28 @@ class TestPopulateCatalog(unittest.TestCase):
     def test_tipo_documento_invalid_id(self):
         populate_catalog.main(['-c', 'tipo_documento'])
         self.assertEqual(TipoDocumento.objects.count(), 0)
+
+    def test_enfoque_documento(self):
+        populate_catalog.main(['-c', 'enfoque_documento'])
+        self.assertEqual(EnfoqueDocumento.objects.count(), 3)
+        with open(os.path.join(os.path.join(DATA_DIR, 'EnfoqueDocumento.json')),
+                  encoding="utf-8") as jsonf:
+            expected_enfoques_documento = json.load(jsonf)
+            for expected_enfoque_documento in expected_enfoques_documento:
+                enfoque_documento = EnfoqueDocumento.objects(
+                    nombre__es=expected_enfoque_documento['nombre']['es']
+                )
+                self.assertEqual(enfoque_documento.count(), 1)
+                enfoque_documento = enfoque_documento[0].to_mongo()
+                for k in expected_enfoque_documento:
+                    self.assertDictEqual(expected_enfoque_documento[k],
+                                         enfoque_documento[k])
+        # Verificar que no ingresen registros repetidos
+        populate_catalog.main(['-c', 'enfoque_documento'])
+        self.assertEqual(EnfoqueDocumento.objects.count(), 3)
+
+    @patch.object(PopulateCatalog, 'files',
+                  new={'EnfoqueDocumento': 'EnfoqueDocumento_invalid_id.json'})
+    def test_enfoque_documento_invalid_id(self):
+        populate_catalog.main(['-c', 'enfoque_documento'])
+        self.assertEqual(EnfoqueDocumento.objects.count(), 0)
