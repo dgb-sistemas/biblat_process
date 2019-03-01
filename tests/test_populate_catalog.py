@@ -5,7 +5,7 @@ import unittest
 
 from mock import patch
 from mongoengine import connect
-from biblat_schema.catalogs import Pais, Idioma
+from biblat_schema.catalogs import Pais, Idioma, TipoDocumento
 
 from biblat_process.settings import config
 from biblat_process import populate_catalog
@@ -61,3 +61,28 @@ class TestPopulateCatalog(unittest.TestCase):
     def test_idioma_long_value(self):
         populate_catalog.main(['-c', 'idioma'])
         self.assertEqual(Idioma.objects.count(), 0)
+
+    def test_tipo_documento(self):
+        populate_catalog.main(['-c', 'tipo_documento'])
+        self.assertEqual(TipoDocumento.objects.count(), 3)
+        with open(os.path.join(os.path.join(DATA_DIR, 'TipoDocumento.json')),
+                  encoding="utf-8") as jsonf:
+            expected_tipos_documento = json.load(jsonf)
+            for expected_tipos_documento in expected_tipos_documento:
+                tipo_documento = TipoDocumento.objects(
+                    nombre__es=expected_tipos_documento['nombre']['es']
+                )
+                self.assertEqual(tipo_documento.count(), 1)
+                tipo_documento = tipo_documento[0].to_mongo()
+                for k in expected_tipos_documento:
+                    self.assertDictEqual(expected_tipos_documento[k],
+                                     tipo_documento[k])
+        # Verificar que no ingresen registros repetidos
+        populate_catalog.main(['-c', 'tipo_documento'])
+        self.assertEqual(TipoDocumento.objects.count(), 3)
+
+    @patch.object(PopulateCatalog, 'files',
+                  new={'TipoDocumento': 'TipoDocumento_invalid_id.json'})
+    def test_tipo_documento_invalid_id(self):
+        populate_catalog.main(['-c', 'tipo_documento'])
+        self.assertEqual(TipoDocumento.objects.count(), 0)

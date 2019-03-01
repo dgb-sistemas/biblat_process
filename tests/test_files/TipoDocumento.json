@@ -1,0 +1,29 @@
+[
+  {
+    "nombre": {
+      "es": "Artículo",
+      "en": "Article"
+    },
+    "descripcion": {
+      "es": "Texto original que en general tiene la siguiente estructura: resumen, introducción, antecedentes, desarrollo de uno o varios subtemas, conclusiones o resultados y bibliografía. Usualmente está firmado por uno o más autores y tiene una extensión mínima de tres o cuatro páginas."
+    }
+  },
+  {
+    "nombre": {
+      "en": "Editorial",
+      "es": "Editorial"
+    },
+    "descripcion": {
+      "es": "Texto que refleja la opinión institucional de la organización editora de la revista. Generalmente no está firmado."
+    }
+  },
+  {
+    "nombre": {
+      "en": "Trial",
+      "es": "Ensayo"
+    },
+    "descripcion": {
+      "es": "Escrito en el que se expone, analiza, comenta, interpreta o critica un tema desde un punto de vista muy personal, sin los constreñimientos del rigor académico."
+    }
+  }
+]
