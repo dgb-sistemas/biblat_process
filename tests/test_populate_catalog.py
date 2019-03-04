@@ -12,7 +12,8 @@ from biblat_schema.catalogs import (
     EnfoqueDocumento,
     Disciplina,
     SubDisciplina,
-    NombreGeografico
+    NombreGeografico,
+    LicenciaCC
 )
 
 from biblat_process.settings import config
@@ -198,3 +199,28 @@ class TestPopulateCatalog(unittest.TestCase):
     def test_nombre_geografico_invalid_id(self):
         populate_catalog.main(['-c', 'nombre_geografico'])
         self.assertEqual(Disciplina.objects.count(), 0)
+
+    def test_licencia_cc(self):
+        populate_catalog.main(['-c', 'licencia_cc'])
+        self.assertEqual(LicenciaCC.objects.count(), 3)
+        with open(os.path.join(os.path.join(DATA_DIR, 'LicenciaCC.json')),
+                  encoding="utf-8") as jsonf:
+            expected_licencias_cc = json.load(jsonf)
+            for expected_licencia_cc in expected_licencias_cc:
+                licencia_cc = LicenciaCC.objects(
+                    tipo=expected_licencia_cc['tipo']
+                )
+                self.assertEqual(licencia_cc.count(), 1)
+                licencia_cc = licencia_cc[0].to_mongo()
+                for k in expected_licencia_cc:
+                    self.assertEqual(expected_licencia_cc[k],
+                                     licencia_cc[k])
+        # Verificar que no ingresen registros repetidos
+        populate_catalog.main(['-c', 'licencia_cc'])
+        self.assertEqual(LicenciaCC.objects.count(), 3)
+
+    @patch.object(PopulateCatalog, 'files',
+                  new={'LicenciaCC': 'LicenciaCC_invalid_id.json'})
+    def test_licencia_cc_invalid_id(self):
+        populate_catalog.main(['-c', 'licencia_cc'])
+        self.assertEqual(LicenciaCC.objects.count(), 0)
