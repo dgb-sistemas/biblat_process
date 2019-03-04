@@ -13,7 +13,8 @@ from biblat_schema.catalogs import (
     Disciplina,
     SubDisciplina,
     NombreGeografico,
-    LicenciaCC
+    LicenciaCC,
+    SherpaRomeo
 )
 
 from biblat_process.settings import config
@@ -224,3 +225,28 @@ class TestPopulateCatalog(unittest.TestCase):
     def test_licencia_cc_invalid_id(self):
         populate_catalog.main(['-c', 'licencia_cc'])
         self.assertEqual(LicenciaCC.objects.count(), 0)
+
+    def test_sherpa_romeo(self):
+        populate_catalog.main(['-c', 'sherpa_romeo'])
+        self.assertEqual(SherpaRomeo.objects.count(), 4)
+        with open(os.path.join(os.path.join(DATA_DIR, 'SherpaRomeo.json')),
+                  encoding="utf-8") as jsonf:
+            expected_sherpa_romeos = json.load(jsonf)
+            for expected_sherpa_romeo in expected_sherpa_romeos:
+                sherpa_romeo = SherpaRomeo.objects(
+                    color__es=expected_sherpa_romeo['color']['es']
+                )
+                self.assertEqual(sherpa_romeo.count(), 1)
+                sherpa_romeo = sherpa_romeo[0].to_mongo()
+                for k in expected_sherpa_romeo:
+                    self.assertEqual(expected_sherpa_romeo[k],
+                                     sherpa_romeo[k])
+        # Verificar que no ingresen registros repetidos
+        populate_catalog.main(['-c', 'sherpa_romeo'])
+        self.assertEqual(SherpaRomeo.objects.count(), 4)
+
+    @patch.object(PopulateCatalog, 'files',
+                  new={'SherpaRomeo': 'SherpaRomeo_invalid_id.json'})
+    def test_sherpa_romeo_invalid_id(self):
+        populate_catalog.main(['-c', 'sherpa_romeo'])
+        self.assertEqual(SherpaRomeo.objects.count(), 0)

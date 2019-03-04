@@ -1,0 +1,14 @@
+[
+  {
+    "_id": 1,
+    "color": {
+       "es": "Verde",
+       "en": "Green"
+    },
+    "politica": {
+       "es": "Puede archivar pre-print y el post-print o la versión de editor/PDF",
+       "en": "Can archive pre-print and post-print or publisher's version/PDF"
+    },
+    "codigo": "#D0F9D2"
+  }
+]
