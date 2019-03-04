@@ -151,7 +151,7 @@ class PopulateCatalog:
                     ).first()
                     if nombre_geografico:
                         nombre_geografico_data['_id'] = nombre_geografico.id
-                    if not nombre_geografico_data['nota']['es']:
+                    if not nombre_geografico_data.get('nota', {'es': None}).get('es'):
                         nombre_geografico_data['nota'] = None
                     nombre_geografico = NombreGeografico(**nombre_geografico_data)
                     nombre_geografico.save()

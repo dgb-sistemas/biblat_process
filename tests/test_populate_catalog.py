@@ -11,7 +11,8 @@ from biblat_schema.catalogs import (
     TipoDocumento,
     EnfoqueDocumento,
     Disciplina,
-    SubDisciplina
+    SubDisciplina,
+    NombreGeografico
 )
 
 from biblat_process.settings import config
@@ -172,3 +173,28 @@ class TestPopulateCatalog(unittest.TestCase):
     def test_subdisciplina_invalid_id(self):
         populate_catalog.main(['-c', 'subdisciplina'])
         self.assertEqual(SubDisciplina.objects.count(), 0)
+
+    def test_nombre_geografico(self):
+        populate_catalog.main(['-c', 'nombre_geografico'])
+        self.assertEqual(NombreGeografico.objects.count(), 3)
+        with open(os.path.join(os.path.join(DATA_DIR, 'NombreGeografico.json')),
+                  encoding="utf-8") as jsonf:
+            expected_nombres_geograficos = json.load(jsonf)
+            for expected_nombre_geografico in expected_nombres_geograficos:
+                nombre_geografico = NombreGeografico.objects(
+                    nombre__es=expected_nombre_geografico['nombre']['es']
+                )
+                self.assertEqual(nombre_geografico.count(), 1)
+                nombre_geografico = nombre_geografico[0].to_mongo()
+                for k in expected_nombre_geografico:
+                    self.assertEqual(expected_nombre_geografico[k],
+                                     nombre_geografico[k])
+        # Verificar que no ingresen registros repetidos
+        populate_catalog.main(['-c', 'nombre_geografico'])
+        self.assertEqual(NombreGeografico.objects.count(), 3)
+
+    @patch.object(PopulateCatalog, 'files',
+                  new={'NombreGeografico': 'NombreGeografico_invalid_id.json'})
+    def test_nombre_geografico_invalid_id(self):
+        populate_catalog.main(['-c', 'nombre_geografico'])
+        self.assertEqual(Disciplina.objects.count(), 0)
