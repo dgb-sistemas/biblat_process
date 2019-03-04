@@ -10,7 +10,8 @@ from biblat_schema.catalogs import (
     Idioma,
     TipoDocumento,
     EnfoqueDocumento,
-    Disciplina
+    Disciplina,
+    SubDisciplina
 )
 
 from biblat_process.settings import config
@@ -142,3 +143,32 @@ class TestPopulateCatalog(unittest.TestCase):
     def test_disciplina_invalid_id(self):
         populate_catalog.main(['-c', 'disciplina'])
         self.assertEqual(Disciplina.objects.count(), 0)
+
+    def test_subdisciplina(self):
+        populate_catalog.main(['-c', 'subdisciplina'])
+        self.assertEqual(SubDisciplina.objects.count(), 3)
+        with open(os.path.join(os.path.join(DATA_DIR, 'SubDisciplina.json')),
+                  encoding="utf-8") as jsonf:
+            expected_subdisciplinas = json.load(jsonf)
+            for expected_subdisciplina in expected_subdisciplinas:
+                expected_subdisciplina['disciplina'] = Disciplina.objects(
+                    nombre__es=expected_subdisciplina['disciplina']
+                ).first().id
+                subdisciplina = SubDisciplina.objects(
+                    nombre__es=expected_subdisciplina['nombre']['es']
+                )
+                self.assertEqual(subdisciplina.count(), 1)
+                subdisciplina = subdisciplina[0].to_mongo()
+                for k in expected_subdisciplina:
+                    self.assertEqual(expected_subdisciplina[k],
+                                     subdisciplina[k])
+        # Verificar que no ingresen registros repetidos
+        populate_catalog.main(['-c', 'subdisciplina'])
+        self.assertEqual(SubDisciplina.objects.count(), 3)
+
+    @patch.object(PopulateCatalog, 'files',
+                  new={'Disciplina': 'Disciplina.json',
+                       'SubDisciplina': 'SubDisciplina_invalid_id.json'})
+    def test_subdisciplina_invalid_id(self):
+        populate_catalog.main(['-c', 'subdisciplina'])
+        self.assertEqual(SubDisciplina.objects.count(), 0)
