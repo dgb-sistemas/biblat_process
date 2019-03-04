@@ -9,7 +9,8 @@ from biblat_schema.catalogs import (
     Pais,
     Idioma,
     TipoDocumento,
-    EnfoqueDocumento
+    EnfoqueDocumento,
+    Disciplina
 )
 
 from biblat_process.settings import config
@@ -116,3 +117,28 @@ class TestPopulateCatalog(unittest.TestCase):
     def test_enfoque_documento_invalid_id(self):
         populate_catalog.main(['-c', 'enfoque_documento'])
         self.assertEqual(EnfoqueDocumento.objects.count(), 0)
+
+    def test_disciplina(self):
+        populate_catalog.main(['-c', 'disciplina'])
+        self.assertEqual(Disciplina.objects.count(), 3)
+        with open(os.path.join(os.path.join(DATA_DIR, 'Disciplina.json')),
+                  encoding="utf-8") as jsonf:
+            expected_disciplinas = json.load(jsonf)
+            for expected_disciplina in expected_disciplinas:
+                disciplina = Disciplina.objects(
+                    nombre__es=expected_disciplina['nombre']['es']
+                )
+                self.assertEqual(disciplina.count(), 1)
+                disciplina = disciplina[0].to_mongo()
+                for k in expected_disciplina:
+                    self.assertEqual(expected_disciplina[k],
+                                         disciplina[k])
+        # Verificar que no ingresen registros repetidos
+        populate_catalog.main(['-c', 'disciplina'])
+        self.assertEqual(Disciplina.objects.count(), 3)
+
+    @patch.object(PopulateCatalog, 'files',
+                  new={'Disciplina': 'Disciplina_invalid_id.json'})
+    def test_disciplina_invalid_id(self):
+        populate_catalog.main(['-c', 'disciplina'])
+        self.assertEqual(Disciplina.objects.count(), 0)
