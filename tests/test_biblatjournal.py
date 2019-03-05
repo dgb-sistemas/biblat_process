@@ -29,7 +29,7 @@ class TestBiblatJournal(unittest.TestCase):
                 if file.endswith('.gz'):
                     os.unlink(os.path.join(root, file))
 
-    def test_cla01_document(self):
+    def test_cla01_journal(self):
         print('test_cla01_document')
         self.maxDiff = None
         self.config['db_files'] = 'test_cla01.txt.gz'
@@ -60,7 +60,7 @@ class TestBiblatJournal(unittest.TestCase):
         self.assertEqual(revistas[0]['autor'], registro_expected)
         self.assertEqual(len(revistas[0]['autor']), 2)
 
-    def test_per01_document(self):
+    def test_per01_journal(self):
         print('test_per01_document')
         self.maxDiff = None
         self.config['db_files'] = 'test_per01.txt.gz'

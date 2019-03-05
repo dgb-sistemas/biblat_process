@@ -1,8 +1,6 @@
 import inspect
 from datetime import datetime
 
-from biblat_process import tesauro
-
 
 class RevistaDict:
 
@@ -22,7 +20,7 @@ class RevistaDict:
     @property
     def base_datos(self):
         # TODO revisar la etiqueta
-        return self.marc_dict.get('245', [{'a': None}])[0].get('a', None)
+        return self.marc_dict.get('', [{'a': None}])[0].get('a', None)
 
     @property
     def titulo_revista(self):
@@ -30,28 +28,30 @@ class RevistaDict:
 
     @property
     def titulo_abr_revista(self):
-        # TODO revisar la etiqueta
+        # TODO revisar la etiqueta.
         return self.marc_dict.get('245', [{'a': None}])[0].get('a', None)
 
     @property
     def issn(self):
         # TODO revisar la etiqueta
-        return self.marc_dict.get('245', [{'a': None}])[0].get('a', None)
-
-    @property
-    def issn_electronico(self):
-        # TODO revisar la etiqueta
-        return self.marc_dict.get('245', [{'a': None}])[0].get('a', None)
+        return self.marc_dict.get('022', [{'a': None}])[0].get('a', None)
 
     @property
     def pais(self):
         # TODO revisar la etiqueta
-        return self.marc_dict.get('245', [{'a': None}])[0].get('a', None)
+        return self.marc_dict.get('008', [{'e': None}])[0].get('e', None)
 
     @property
     def disciplina(self):
-        # TODO revisar la etiqueta
-        return self.marc_dict.get('245', [{'a': None}])[0].get('a', None)
+        result = []
+        if '650' in self.marc_dict:
+            for disciplinadoc in self.marc_dict['650']:
+                disciplinadoc_dict = {
+                    'idioma': disciplinadoc.get('spa', None),
+                    'palabra_clave': disciplinadoc.get('a', None)
+                }
+                result.append(disciplinadoc_dict)
+        return result or None
 
     @property
     def licencia_cc(self):
