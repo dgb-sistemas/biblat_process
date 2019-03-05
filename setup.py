@@ -21,5 +21,10 @@ setup(
     install_requires=[],
     tests_require=[],
     dependency_links=[],
-    test_suite='tests.discover_suite'
+    test_suite='tests.discover_suite',
+    entry_points={
+        'console_scripts': [
+        'claper_dump=biblat_process.marc_dump:main',
+        ],
+    },
 )
