@@ -1,6 +1,7 @@
 import inspect
 from datetime import datetime
 
+from biblat_process import tesauro
 
 class RevistaDict:
 
@@ -39,7 +40,9 @@ class RevistaDict:
     @property
     def pais(self):
         # TODO revisar la etiqueta
-        return self.marc_dict.get('008', [{'e': None}])[0].get('e', None)
+        pais = self.marc_dict.get('008', [{'e': None}])[0].get('e', None)
+        pais = tesauro.paises[pais]
+        return pais or None
 
     @property
     def disciplina(self):
@@ -66,8 +69,10 @@ class RevistaDict:
     @property
     def idioma(self):
         if '041' in self.marc_dict and 'a' in self.marc_dict['041'][0]:
-            return str(self.marc_dict['041'][0]['a'])
-        return None
+            idioma = str(self.marc_dict['041'][0]['a'])
+            idioma = tesauro.idioma[idioma]
+
+        return idioma or None
 
     @property
     def periodicidad(self):
