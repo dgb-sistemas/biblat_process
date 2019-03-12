@@ -4,6 +4,7 @@ import gzip
 import unittest
 from biblat_process.marc2dict import Marc2Dict
 from biblat_process.biblatjournal import RevistaDict
+from biblat_process.settings import config
 
 
 class TestBiblatJournal(unittest.TestCase):
@@ -30,22 +31,17 @@ class TestBiblatJournal(unittest.TestCase):
                     os.unlink(os.path.join(root, file))
 
     def test_cla01_journal(self):
-        print('test_cla01_document')
+        print('Prueba de revista para test_cla01_journal')
         self.maxDiff = None
-        self.config['db_files'] = 'test_cla01.txt.gz'
-        marc2dict = Marc2Dict(self.config)
+        config.DB_FILES = ['test_cla01.txt.gz']
+        marc2dict = Marc2Dict()
         revistas = []
 
         registro_expected = [
             {
-                'nombre': 'Sandoval Montes, I',
-                'correo_electronico': 'ismael.sandoval@inegi.org.mx',
-                'referencia': 1
-            },
-            {
-                'nombre': 'Ramos Leal, J.A',
-                'correo_electronico': None,
-                'referencia': 2
+                'titulo_revista': 'Revista geográfica',
+                'issn': '0031-0581',
+                'pais': None
             }
         ]
 
@@ -57,26 +53,20 @@ class TestBiblatJournal(unittest.TestCase):
             print(revista_dict)
 
         self.assertEqual(len(revistas), 1)
-        self.assertEqual(revistas[0]['autor'], registro_expected)
-        self.assertEqual(len(revistas[0]['autor']), 2)
+        self.assertEqual(revistas[0]['titulo_revista'], registro_expected[0]['titulo_revista'])
 
     def test_per01_journal(self):
-        print('test_per01_document')
+        print('Prueba de revista para test_per01_journal')
         self.maxDiff = None
-        self.config['db_files'] = 'test_per01.txt.gz'
-        marc2dict = Marc2Dict(self.config)
+        config.DB_FILES = ['test_per01.txt.gz']
+        marc2dict = Marc2Dict()
         revistas = []
 
         registro_expected = [
             {
-                'nombre': 'Oppenheimer, Marina',
-                'correo_electronico': 'marinaopp@yahoo.com.br',
-                'referencia': 1
-            },
-            {
-                'nombre': 'Silveira, Luis Fabio',
-                'correo_electronico': 'lfsilvei@usp.br',
-                'referencia': 1
+                'titulo_revista': 'Papeis avulsos de zoologia',
+                'issn': '0031-1049',
+                'pais': 'BR'
             }
         ]
 
@@ -88,5 +78,4 @@ class TestBiblatJournal(unittest.TestCase):
             print(revista_dict)
 
         self.assertEqual(len(revistas),1)
-        self.assertEqual(revistas[0]['autor'], registro_expected)
-        self.assertEqual(len(revistas[0]['autor']), 2)
+        self.assertEqual(revistas[0]['titulo_revista'], registro_expected[0]['titulo_revista'])

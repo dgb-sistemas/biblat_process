@@ -41,8 +41,11 @@ class RevistaDict:
     def pais(self):
         # TODO revisar la etiqueta
         pais = self.marc_dict.get('008', [{'e': None}])[0].get('e', None)
-        pais = tesauro.paises[pais]
-        return pais or None
+        if pais in tesauro.paises:
+             pais = tesauro.paises[pais]
+        else:
+            pais = 'None'
+        return pais
 
     @property
     def disciplina(self):
@@ -70,9 +73,11 @@ class RevistaDict:
     def idioma(self):
         if '041' in self.marc_dict and 'a' in self.marc_dict['041'][0]:
             idioma = str(self.marc_dict['041'][0]['a'])
-            idioma = tesauro.idioma[idioma]
-
-        return idioma or None
+            if idioma in tesauro.idioma:
+                idioma = tesauro.idioma[idioma]
+            else:
+                idioma = None
+        return idioma
 
     @property
     def periodicidad(self):
