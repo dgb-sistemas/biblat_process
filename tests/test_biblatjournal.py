@@ -61,6 +61,9 @@ class TestBiblatJournal(unittest.TestCase):
         self.assertEqual(revistas[0]['idioma'], registro_expected[0]['idioma'])
         self.assertEqual(revistas[0]['base_datos'], registro_expected[0]['base_datos'])
 
+    def test_disciplina_cla01_journal(self):
+        print('Prueba del campo disciplina de revista en CLASE')
+
     def test_per01_journal(self):
         print('Prueba de revista para test_per01_journal')
         self.maxDiff = None
@@ -91,3 +94,6 @@ class TestBiblatJournal(unittest.TestCase):
         self.assertEqual(revistas[0]['pais'], registro_expected[0]['pais'])
         self.assertEqual(revistas[0]['idioma'], registro_expected[0]['idioma'])
         self.assertEqual(revistas[0]['base_datos'], registro_expected[0]['base_datos'])
+
+    def test_disciplina_per_journal(self):
+        print('Prueba del campo disciplina de revista en PERIODICA.')
