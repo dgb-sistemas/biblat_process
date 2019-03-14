@@ -3,6 +3,7 @@ from datetime import datetime
 
 from biblat_process import tesauro
 
+
 class RevistaDict:
 
     def __init__(self, marc_dict):
@@ -21,7 +22,7 @@ class RevistaDict:
     @property
     def base_datos(self):
         # TODO revisar la etiqueta
-        return self.marc_dict.get('', [{'a': None}])[0].get('a', None)
+        return self.marc_dict.get('035', [{'a': None}])[0].get('a', None)
 
     @property
     def titulo_revista(self):
@@ -44,7 +45,7 @@ class RevistaDict:
         if pais in tesauro.paises:
              pais = tesauro.paises[pais]
         else:
-            pais = 'None'
+            pais = None
         return pais
 
     @property

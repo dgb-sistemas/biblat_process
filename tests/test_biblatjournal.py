@@ -39,9 +39,11 @@ class TestBiblatJournal(unittest.TestCase):
 
         registro_expected = [
             {
+                'base_datos': 'CLA01000300023',
                 'titulo_revista': 'Revista geográfica',
                 'issn': '0031-0581',
-                'pais': None
+                'pais': None,
+                'idioma': ['spa']
             }
         ]
 
@@ -54,6 +56,10 @@ class TestBiblatJournal(unittest.TestCase):
 
         self.assertEqual(len(revistas), 1)
         self.assertEqual(revistas[0]['titulo_revista'], registro_expected[0]['titulo_revista'])
+        self.assertEqual(revistas[0]['issn'], registro_expected[0]['issn'])
+        self.assertEqual(revistas[0]['pais'], registro_expected[0]['pais'])
+        self.assertEqual(revistas[0]['idioma'], registro_expected[0]['idioma'])
+        self.assertEqual(revistas[0]['base_datos'], registro_expected[0]['base_datos'])
 
     def test_per01_journal(self):
         print('Prueba de revista para test_per01_journal')
@@ -64,9 +70,11 @@ class TestBiblatJournal(unittest.TestCase):
 
         registro_expected = [
             {
+                'base_datos': 'PER01000339138',
                 'titulo_revista': 'Papeis avulsos de zoologia',
                 'issn': '0031-1049',
-                'pais': 'BR'
+                'pais': 'BR',
+                'idioma' : ['eng']
             }
         ]
 
@@ -77,5 +85,9 @@ class TestBiblatJournal(unittest.TestCase):
             revistas.append(revista_dict)
             print(revista_dict)
 
-        self.assertEqual(len(revistas),1)
+        self.assertEqual(len(revistas), 1)
         self.assertEqual(revistas[0]['titulo_revista'], registro_expected[0]['titulo_revista'])
+        self.assertEqual(revistas[0]['issn'], registro_expected[0]['issn'])
+        self.assertEqual(revistas[0]['pais'], registro_expected[0]['pais'])
+        self.assertEqual(revistas[0]['idioma'], registro_expected[0]['idioma'])
+        self.assertEqual(revistas[0]['base_datos'], registro_expected[0]['base_datos'])
