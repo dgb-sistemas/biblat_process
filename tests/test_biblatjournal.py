@@ -63,6 +63,23 @@ class TestBiblatJournal(unittest.TestCase):
 
     def test_disciplina_cla01_journal(self):
         print('Prueba del campo disciplina de revista en CLASE')
+        self.maxDiff = None
+        config.DB_FILES = ['test_cla01.txt.gz']
+        marc2dict = Marc2Dict()
+        revistas = []
+        disciplina_expected = [
+            {
+                'idioma': None,
+                'palabra_clave': 'Geociencias'
+            }
+        ]
+
+        for dict in marc2dict.get_dict():
+            revista_dict = RevistaDict(dict)
+            revista_dict = revista_dict.to_dict()
+            revistas.append(revista_dict)
+
+        self.assertIsNotNone(revistas[0]['disciplina'], "Falta disciplina")
 
     def test_per01_journal(self):
         print('Prueba de revista para test_per01_journal')
@@ -97,3 +114,20 @@ class TestBiblatJournal(unittest.TestCase):
 
     def test_disciplina_per_journal(self):
         print('Prueba del campo disciplina de revista en PERIODICA.')
+        self.maxDiff = None
+        config.DB_FILES = ['test_per01.txt.gz']
+        marc2dict = Marc2Dict()
+        revistas = []
+        disciplina_expected = [
+            {
+                'idioma': None,
+                'palabra_clave': 'Biología'
+            }
+        ]
+
+        for dict in marc2dict.get_dict():
+            revista_dict = RevistaDict(dict)
+            revista_dict = revista_dict.to_dict()
+            revistas.append(revista_dict)
+
+        self.assertIsNotNone(revistas[0]['disciplina'], "Falta disciplina")
