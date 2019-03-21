@@ -2,6 +2,7 @@ import inspect
 from datetime import datetime
 
 from biblat_process import tesauro
+from biblat_schema.catalogs import Disciplina
 
 
 class RevistaDict:
@@ -50,15 +51,12 @@ class RevistaDict:
 
     @property
     def disciplina(self):
-        result = []
-        if '650' in self.marc_dict:
-            for disciplinadoc in self.marc_dict['650']:
-                disciplinadoc_dict = {
-                    'idioma': disciplinadoc.get('spa', None),
-                    'palabra_clave': disciplinadoc.get('a', None)
-                }
-                result.append(disciplinadoc_dict)
-        return result or None
+        disc = Disciplina()
+        if '698' in self.marc_dict:
+            for disciplinadoc in self.marc_dict['698']:
+                disc.meta = disciplinadoc.get('spa', None)
+                disc.nombre = disciplinadoc.get('a', None)
+        return disc
 
     @property
     def licencia_cc(self):

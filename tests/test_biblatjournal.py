@@ -5,6 +5,7 @@ import unittest
 from biblat_process.marc2dict import Marc2Dict
 from biblat_process.biblatjournal import RevistaDict
 from biblat_process.settings import config
+from biblat_schema.catalogs import Disciplina
 
 
 class TestBiblatJournal(unittest.TestCase):
@@ -67,19 +68,17 @@ class TestBiblatJournal(unittest.TestCase):
         config.DB_FILES = ['test_cla01.txt.gz']
         marc2dict = Marc2Dict()
         revistas = []
-        disciplina_expected = [
-            {
-                'idioma': None,
-                'palabra_clave': 'Geociencias'
-            }
-        ]
+        disciplina_expected = Disciplina()
+        disciplina_expected.meta = None
+        disciplina_expected.nombre = 'Geografía'
 
         for dict in marc2dict.get_dict():
             revista_dict = RevistaDict(dict)
-            revista_dict = revista_dict.to_dict()
             revistas.append(revista_dict)
 
-        self.assertIsNotNone(revistas[0]['disciplina'], "Falta disciplina")
+        self.assertIsNotNone(revistas[0].disciplina, "Falta disciplina")
+        self.assertEqual(revistas[0].disciplina.meta, disciplina_expected.meta)
+        self.assertEqual(revistas[0].disciplina.nombre, disciplina_expected.nombre)
 
     def test_per01_journal(self):
         print('Prueba de revista para test_per01_journal')
@@ -118,16 +117,14 @@ class TestBiblatJournal(unittest.TestCase):
         config.DB_FILES = ['test_per01.txt.gz']
         marc2dict = Marc2Dict()
         revistas = []
-        disciplina_expected = [
-            {
-                'idioma': None,
-                'palabra_clave': 'Biología'
-            }
-        ]
+        disciplina_expected = Disciplina()
+        disciplina_expected.meta = None
+        disciplina_expected.nombre = 'Biología'
 
         for dict in marc2dict.get_dict():
             revista_dict = RevistaDict(dict)
-            revista_dict = revista_dict.to_dict()
             revistas.append(revista_dict)
 
-        self.assertIsNotNone(revistas[0]['disciplina'], "Falta disciplina")
+        self.assertIsNotNone(revistas[0].disciplina, "Falta disciplina")
+        self.assertEqual(revistas[0].disciplina.meta, disciplina_expected.meta)
+        self.assertEqual(revistas[0].disciplina.nombre, disciplina_expected.nombre)
