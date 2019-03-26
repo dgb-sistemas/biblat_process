@@ -69,7 +69,7 @@ class TestBiblatJournal(unittest.TestCase):
         marc2dict = Marc2Dict()
         revistas = []
         disciplina_expected = Disciplina()
-        disciplina_expected.meta = None
+        disciplina_expected.base = None
         disciplina_expected.nombre = 'Geografía'
 
         for dict in marc2dict.get_dict():
@@ -77,7 +77,7 @@ class TestBiblatJournal(unittest.TestCase):
             revistas.append(revista_dict)
 
         self.assertIsNotNone(revistas[0].disciplina, "Falta disciplina")
-        self.assertEqual(revistas[0].disciplina.meta, disciplina_expected.meta)
+        self.assertEqual(revistas[0].disciplina.base, disciplina_expected.base)
         self.assertEqual(revistas[0].disciplina.nombre, disciplina_expected.nombre)
 
     def test_per01_journal(self):
@@ -118,7 +118,7 @@ class TestBiblatJournal(unittest.TestCase):
         marc2dict = Marc2Dict()
         revistas = []
         disciplina_expected = Disciplina()
-        disciplina_expected.meta = None
+        disciplina_expected.base = None
         disciplina_expected.nombre = 'Biología'
 
         for dict in marc2dict.get_dict():
@@ -126,5 +126,5 @@ class TestBiblatJournal(unittest.TestCase):
             revistas.append(revista_dict)
 
         self.assertIsNotNone(revistas[0].disciplina, "Falta disciplina")
-        self.assertEqual(revistas[0].disciplina.meta, disciplina_expected.meta)
+        self.assertEqual(revistas[0].disciplina.base, disciplina_expected.base)
         self.assertEqual(revistas[0].disciplina.nombre, disciplina_expected.nombre)

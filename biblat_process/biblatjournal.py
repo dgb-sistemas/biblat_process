@@ -54,7 +54,7 @@ class RevistaDict:
         disc = Disciplina()
         if '698' in self.marc_dict:
             for disciplinadoc in self.marc_dict['698']:
-                disc.meta = disciplinadoc.get('spa', None)
+                disc.base = disciplinadoc.get('spa', None)
                 disc.nombre = disciplinadoc.get('a', None)
         return disc
 
