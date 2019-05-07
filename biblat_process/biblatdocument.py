@@ -2,8 +2,8 @@ import inspect
 from datetime import datetime
 
 from mongoengine import connect
-from biblat_schema.catalogs import SubDisciplina
-from biblat_schema.catalogs import NombreGeografico
+from biblat_schema.catalogs import SubDisciplina, NombreGeografico
+from biblat_schema.models import Revista
 
 from biblat_process import tesauro
 from biblat_process.settings import config
@@ -34,7 +34,8 @@ class DocumentoDict:
 
     @property
     def revista(self):
-        return self.marc_dict.get('222', [{'a': None}])[0].get('a')
+        str_issn = self.marc_dict.get('022', [{'a': None}])[0].get('a')
+        return Revista.objects(issn=str_issn).first()
 
     @property
     def fasciculo(self):
