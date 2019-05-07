@@ -6,9 +6,12 @@ from biblat_process.marc2dict import Marc2Dict
 from biblat_process.biblatjournal import RevistaDict
 from biblat_process.settings import config
 from biblat_schema.catalogs import Disciplina
+from mongoengine import connect
 
 
 class TestBiblatJournal(unittest.TestCase):
+    connection = None
+    model_class_to_delete = [Disciplina]
 
     def setUp(self):
         self.test_path = os.path.dirname(os.path.realpath(__file__))
@@ -25,11 +28,39 @@ class TestBiblatJournal(unittest.TestCase):
                                       'wb') as f_out:
                         f_out.writelines(f_in)
 
+        self.connection = connect(db='mongoenginetest',
+                                  host='mongomock://localhost',
+                                  is_mock=True)
+        # workaroud to fix "drop database" that run only once:
+        # https://github.com/mongomock/mongomock/issues/371
+        if self.model_class_to_delete:
+            for model_class in self.model_class_to_delete:
+                try:
+                    model_class.objects.all().delete()
+                except Exception:
+                    pass
+
     def tearDown(self):
         for root, paths, files in os.walk(self.test_files_path):
             for file in files:
                 if file.endswith('.gz'):
                     os.unlink(os.path.join(root, file))
+        self.connection.drop_database('mongotest')
+
+    def _make_disciplina_CLA01(self):
+        dict_disciplina = {
+            'base': [
+                'CLA01'
+            ],
+            'nombre': {
+                'es': 'Geografía',
+                'en': 'Geografy'
+            }
+        }
+
+        disciplina = Disciplina(**dict_disciplina)
+        disciplina.save()
+        return disciplina
 
     def test_cla01_journal(self):
         print('Prueba de revista para test_cla01_journal')
@@ -63,22 +94,18 @@ class TestBiblatJournal(unittest.TestCase):
         self.assertEqual(revistas[0]['base_datos'], registro_expected[0]['base_datos'])
 
     def test_disciplina_cla01_journal(self):
+        disciplina = self._make_disciplina_CLA01()
         print('Prueba del campo disciplina de revista en CLASE')
         self.maxDiff = None
         config.DB_FILES = ['test_cla01.txt.gz']
         marc2dict = Marc2Dict()
         revistas = []
-        disciplina_expected = Disciplina()
-        disciplina_expected.base = None
-        disciplina_expected.nombre = 'Geografía'
 
         for dict in marc2dict.get_dict():
             revista_dict = RevistaDict(dict)
             revistas.append(revista_dict)
 
-        self.assertIsNotNone(revistas[0].disciplina, "Falta disciplina")
-        self.assertEqual(revistas[0].disciplina.base, disciplina_expected.base)
-        self.assertEqual(revistas[0].disciplina.nombre, disciplina_expected.nombre)
+        self.assertIsNotNone(revistas[0].disciplina, disciplina)
 
     def test_per01_journal(self):
         print('Prueba de revista para test_per01_journal')
@@ -93,7 +120,7 @@ class TestBiblatJournal(unittest.TestCase):
                 'titulo_revista': 'Papeis avulsos de zoologia',
                 'issn': '0031-1049',
                 'pais': 'BR',
-                'idioma' : ['eng']
+                'idioma': ['eng']
             }
         ]
 
@@ -118,7 +145,7 @@ class TestBiblatJournal(unittest.TestCase):
         marc2dict = Marc2Dict()
         revistas = []
         disciplina_expected = Disciplina()
-        disciplina_expected.base = None
+        disciplina_expected.base = 'PER01'
         disciplina_expected.nombre = 'Biología'
 
         for dict in marc2dict.get_dict():

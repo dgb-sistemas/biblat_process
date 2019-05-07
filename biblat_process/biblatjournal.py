@@ -9,6 +9,8 @@ class RevistaDict:
 
     def __init__(self, marc_dict):
         self.marc_dict = marc_dict
+        self.disciplinas_list = [i.nombre.es for i in Disciplina.objects()]
+        self.disciplinas_list += [i.nombre.en for i in Disciplina.objects()]
 
     def to_dict(self):
         properties = {}
@@ -51,12 +53,9 @@ class RevistaDict:
 
     @property
     def disciplina(self):
-        disc = Disciplina()
-        if '698' in self.marc_dict:
-            for disciplinadoc in self.marc_dict['698']:
-                disc.base = disciplinadoc.get('spa', None)
-                disc.nombre = disciplinadoc.get('a', None)
-        return disc
+        str_disciplina = self.marc_dict.get('698', [{'a': None}])[0].get('a', None)
+        disciplina = Disciplina.objects(nombre__es=str_disciplina).first()
+        return disciplina
 
     @property
     def licencia_cc(self):
