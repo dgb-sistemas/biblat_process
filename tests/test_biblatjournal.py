@@ -86,7 +86,7 @@ class TestBiblatJournal(unittest.TestCase):
 
         registro_expected = [
             {
-                'base_datos': 'CLA01000300023',
+                'base_datos': 'CLA01',
                 'titulo_revista': 'Revista geográfica',
                 'issn': '0031-0581',
                 'pais': None,
@@ -131,7 +131,7 @@ class TestBiblatJournal(unittest.TestCase):
 
         registro_expected = [
             {
-                'base_datos': 'PER01000339138',
+                'base_datos': 'PER01',
                 'titulo_revista': 'Papeis avulsos de zoologia',
                 'issn': '0031-1049',
                 'pais': 'BR',
