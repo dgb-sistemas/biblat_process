@@ -51,10 +51,25 @@ class TestBiblatJournal(unittest.TestCase):
         dict_disciplina = {
             'base': [
                 'CLA01'
-            ],
+                ],
             'nombre': {
                 'es': 'Geografía',
-                'en': 'Geografy'
+                'en': 'Geography'
+            }
+        }
+
+        disciplina = Disciplina(**dict_disciplina)
+        disciplina.save()
+        return disciplina
+
+    def _make_disciplina_PER01(self):
+        dict_disciplina = {
+            'base': [
+                'PER01'
+                ],
+            'nombre': {
+                'es': 'Biología',
+                'en': 'Biology'
             }
         }
 
@@ -94,8 +109,8 @@ class TestBiblatJournal(unittest.TestCase):
         self.assertEqual(revistas[0]['base_datos'], registro_expected[0]['base_datos'])
 
     def test_disciplina_cla01_journal(self):
-        disciplina = self._make_disciplina_CLA01()
         print('Prueba del campo disciplina de revista en CLASE')
+        disciplina = self._make_disciplina_CLA01()
         self.maxDiff = None
         config.DB_FILES = ['test_cla01.txt.gz']
         marc2dict = Marc2Dict()
@@ -120,7 +135,7 @@ class TestBiblatJournal(unittest.TestCase):
                 'titulo_revista': 'Papeis avulsos de zoologia',
                 'issn': '0031-1049',
                 'pais': 'BR',
-                'idioma': ['eng']
+                'idioma' : ['eng']
             }
         ]
 
@@ -140,18 +155,14 @@ class TestBiblatJournal(unittest.TestCase):
 
     def test_disciplina_per_journal(self):
         print('Prueba del campo disciplina de revista en PERIODICA.')
+        disciplina = self._make_disciplina_PER01()
         self.maxDiff = None
         config.DB_FILES = ['test_per01.txt.gz']
         marc2dict = Marc2Dict()
         revistas = []
-        disciplina_expected = Disciplina()
-        disciplina_expected.base = 'PER01'
-        disciplina_expected.nombre = 'Biología'
 
         for dict in marc2dict.get_dict():
             revista_dict = RevistaDict(dict)
             revistas.append(revista_dict)
 
-        self.assertIsNotNone(revistas[0].disciplina, "Falta disciplina")
-        self.assertEqual(revistas[0].disciplina.base, disciplina_expected.base)
-        self.assertEqual(revistas[0].disciplina.nombre, disciplina_expected.nombre)
+        self.assertIsNotNone(revistas[0].disciplina, disciplina)
