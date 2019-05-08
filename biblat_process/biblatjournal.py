@@ -25,8 +25,7 @@ class RevistaDict:
     @property
     def base_datos(self):
         base = self.marc_dict.get('035', [{'a': None}])[0].get('a', None)
-        base = base[:5]
-        return base
+        return base[:5]
 
     @property
     def titulo_revista(self):

@@ -95,7 +95,6 @@ class TestBiblatJournal(unittest.TestCase):
         ]
 
         for dict in marc2dict.get_dict():
-            print(dict)
             revista_dict = RevistaDict(dict)
             revista_dict = revista_dict.to_dict()
             revistas.append(revista_dict)
@@ -135,12 +134,11 @@ class TestBiblatJournal(unittest.TestCase):
                 'titulo_revista': 'Papeis avulsos de zoologia',
                 'issn': '0031-1049',
                 'pais': 'BR',
-                'idioma' : ['eng']
+                'idioma': ['eng']
             }
         ]
 
         for dict in marc2dict.get_dict():
-            print(dict)
             revista_dict = RevistaDict(dict)
             revista_dict = revista_dict.to_dict()
             revistas.append(revista_dict)
