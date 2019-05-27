@@ -3,7 +3,7 @@ from datetime import datetime
 
 from mongoengine import connect
 from biblat_schema.catalogs import SubDisciplina, NombreGeografico
-from biblat_schema.models import Revista
+from biblat_schema.models import Revista, EnfoqueDocumento, TipoDocumento
 
 from biblat_process import tesauro
 from biblat_process.settings import config
@@ -240,25 +240,15 @@ class DocumentoDict:
 
     @property
     def tipo_documento(self):
-        result = []
-        if '590' in self.marc_dict:
-            for tipodocumento in self.marc_dict['590']:
-                tipodocumento_dict = {
-                    'tipo_documento': tipodocumento.get('a', None)
-                }
-                result.append(tipodocumento_dict)
-        return result or None
+        tipo_str = self.marc_dict.get('590', [{'a': None}])[0].get('a')
+        tipo = TipoDocumento.objects(nombre__es=tipo_str).first()
+        return tipo
 
     @property
     def enfoque_documento(self):
-        result = []
-        if '590' in self.marc_dict:
-            for enfoquedocumento in self.marc_dict['590']:
-                enfoquedocumento_dict = {
-                    'enfoque_documento': enfoquedocumento.get('b', None)
-                }
-                result.append(enfoquedocumento_dict)
-        return result or None
+        enfoque_str = self.marc_dict.get('590', [{'b': None}])[0].get('b')
+        enfoque = EnfoqueDocumento.objects(nombre__es=enfoque_str).first()
+        return enfoque
 
     @property
     def referencias_documento(self):
