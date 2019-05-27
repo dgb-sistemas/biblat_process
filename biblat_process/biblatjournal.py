@@ -33,12 +33,10 @@ class RevistaDict:
 
     @property
     def titulo_abr_revista(self):
-        # TODO revisar la etiqueta.
         return self.marc_dict.get('245', [{'a': None}])[0].get('a', None)
 
     @property
     def issn(self):
-        # TODO revisar la etiqueta
         return self.marc_dict.get('022', [{'a': None}])[0].get('a', None)
 
     @property
@@ -54,12 +52,10 @@ class RevistaDict:
 
     @property
     def licencia_cc(self):
-        # TODO revisar la etiqueta
         return self.marc_dict.get('245', [{'a': None}])[0].get('a', None)
 
     @property
     def sherpa_romeo(self):
-        # TODO revisar la etiqueta
         return self.marc_dict.get('245', [{'a': None}])[0].get('a', None)
 
     @property
@@ -69,17 +65,14 @@ class RevistaDict:
 
     @property
     def periodicidad(self):
-        # TODO revisar la etiqueta
         return self.marc_dict.get('245', [{'a': None}])[0].get('a', None)
 
     @property
     def logo(self):
-        # TODO revisar la etiqueta
         return self.marc_dict.get('245', [{'a': None}])[0].get('a', None)
 
     @property
     def portada(self):
-        # TODO revisar la etiqueta
         return self.marc_dict.get('245', [{'a': None}])[0].get('a', None)
 
     @property

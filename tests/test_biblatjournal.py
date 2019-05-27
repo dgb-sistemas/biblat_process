@@ -78,7 +78,7 @@ class TestBiblatJournal(unittest.TestCase):
         return disciplina
 
     def test_cla01_journal(self):
-        print('Prueba de revista para test_cla01_journal')
+        """Prueba de revista para test_cla01_journal"""
         self.maxDiff = None
         config.DB_FILES = ['test_cla01.txt.gz']
         marc2dict = Marc2Dict()
@@ -108,7 +108,7 @@ class TestBiblatJournal(unittest.TestCase):
         self.assertEqual(revistas[0]['base_datos'], registro_expected[0]['base_datos'])
 
     def test_disciplina_cla01_journal(self):
-        print('Prueba del campo disciplina de revista en CLASE')
+        """Prueba del campo disciplina de revista en CLASE"""
         disciplina = self._make_disciplina_CLA01()
         self.maxDiff = None
         config.DB_FILES = ['test_cla01.txt.gz']
@@ -122,7 +122,7 @@ class TestBiblatJournal(unittest.TestCase):
         self.assertIsNotNone(revistas[0].disciplina, disciplina)
 
     def test_per01_journal(self):
-        print('Prueba de revista para test_per01_journal')
+        """Prueba de revista para test_per01_journal"""
         self.maxDiff = None
         config.DB_FILES = ['test_per01.txt.gz']
         marc2dict = Marc2Dict()
@@ -152,7 +152,7 @@ class TestBiblatJournal(unittest.TestCase):
         self.assertEqual(revistas[0]['base_datos'], registro_expected[0]['base_datos'])
 
     def test_disciplina_per_journal(self):
-        print('Prueba del campo disciplina de revista en PERIODICA.')
+        """Prueba del campo disciplina de revista en PERIODICA."""
         disciplina = self._make_disciplina_PER01()
         self.maxDiff = None
         config.DB_FILES = ['test_per01.txt.gz']
