@@ -209,7 +209,7 @@ class DocumentoDict:
             for palabraclave in self.marc_dict.get('653', []):
                 palabraclave = palabraclave.get('a', None)
                 if palabraclave in self.subdisciplinas_list:
-                    subdisciplina = SubDisciplina.objects(__raw__={'nombre.es': palabraclave}).first()
+                    subdisciplina = SubDisciplina.objects(nombre__es=palabraclave).first()
                     result.append(subdisciplina.id)
 
             for keyword in self.marc_dict.get('654', []):
