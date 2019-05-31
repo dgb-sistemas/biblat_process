@@ -3,7 +3,7 @@ from datetime import datetime
 
 from mongoengine import connect
 from biblat_schema.catalogs import SubDisciplina, NombreGeografico
-from biblat_schema.models import Revista, EnfoqueDocumento, TipoDocumento
+from biblat_schema.models import Revista, EnfoqueDocumento, TipoDocumento, Fasciculo
 
 from biblat_process import tesauro
 from biblat_process.settings import config
@@ -39,19 +39,19 @@ class DocumentoDict:
 
     @property
     def fasciculo(self):
-        result = []
-        if '300' in self.marc_dict:
-                for fasciculo in self.marc_dict['300']:
-                    fasciculo_dict = {
-                        'volumen': fasciculo.get('a', None),
-                        'numero': fasciculo.get('b', None)
-                    }
-                    if fasciculo_dict['volumen']:
-                        fasciculo_dict['volumen'] = int(str(fasciculo_dict['volumen']).replace('V', ''))
-                    if fasciculo_dict['numero']:
-                        fasciculo_dict['numero'] = int(str(fasciculo_dict['numero']).replace('N', ''))
-                        result.append(fasciculo_dict)
-        return result or None
+        volumen = self.marc_dict.get('300', [{'a': None}])[0].get('a')
+        numero = self.marc_dict.get('300', [{'b': None}])[0].get('b')
+        anio = self.marc_dict.get('260', [{'c': None}])[0].get('c')
+        parte = self.marc_dict.get('300', [{'d': None}])[0].get('d')
+
+        fasciculo = Fasciculo.objects(
+            volumen=volumen,
+            numero=numero,
+            anio=anio,
+            parte=parte
+        ).first()
+
+        return fasciculo
 
     @property
     def numero_sistema(self):
@@ -168,15 +168,12 @@ class DocumentoDict:
         )
 
     @property
-    def disciplina(self):
+    def disciplinas(self):
         result = []
-        if '650' in self.marc_dict:
-            for disciplinadoc in self.marc_dict['650']:
-                disciplinadoc_dict = {
-                    'idioma': disciplinadoc.get('spa', None),
-                    'palabra_clave': disciplinadoc.get('a', None)
-                }
-                result.append(disciplinadoc_dict)
+        for disciplinadoc in self.marc_dict.get('650', []):
+            disciplinadoc = disciplinadoc.get('a', None)
+            disciplina = Disciplina.objects(nombre__es=disciplinadoc).first()
+            result.append(disciplina)
         return result or None
 
     @property
