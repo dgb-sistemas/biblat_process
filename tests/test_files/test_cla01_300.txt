@@ -1,0 +1,33 @@
+000467920 FMT   L BK
+000467920 LDR   L 00000nab^a2200000zi^4500
+000467920 008   L $$eMéxico
+000467920 022   L $$a2007-2031
+000467920 035   L $$aCLA01000467920
+000467920 036   L $$a1810
+000467920 039   L $$aENL.
+000467920 041   L $$aInglés
+000467920 100   L $$aInzunza-Acedo, Beatriz Elena
+000467920 222   L $$aGlobal media journal México
+000467920 245   L $$aThe Understanding of Romance in Audiences of 50 Shades of Grey
+000467920 260   L $$c2015
+000467920 300   L $$bN115$$cjul-dic
+000467920 546   L $$aEspañol, inglés
+000467920 504   L $$aRefs.
+000467920 520   L $$aEl éxito en taquillade la primera película de la saga de 50 Sombras de Grey, fue un tema controversial en México.
+000467920 520   L $$iThe success of 50 Shades of Grey was a controversial issue within Mexican audiences.
+000467920 520   L $$pThe success of 50 Shades of Grey was a controversial issue within Mexican audiences.
+000467920 590   L $$aArtículo.$$bDescriptivo
+000467920 650   L $$aCiencias de la comunicación
+000467920 698   L $$aCiencias de la comunicación
+000467920 653   L $$aSociología de la comunicación
+000467920 653   L $$aCine
+000467920 653   L $$aSExualidad
+000467920 653   L $$aRepresentaciones sociales
+000467920 653   L $$aRomance
+000467920 653   L $$a"Cincuenta sombras de Grey"
+000467920 653   L $$aRelaciones amorosas
+000467920 653   L $$aMonterrey
+000467920 653   L $$aMéxico
+000467920 856   L $$uhttps://journals.tdl.org/gmjei/index.php/GMJ_EI/article/view/229/180
+000467920 CAT   L $$aANDREA$$b10$$c20181002$$lCLA01$$h1521
+EOF
