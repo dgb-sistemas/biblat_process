@@ -206,7 +206,7 @@ class DocumentoDict:
             for palabraclave in self.marc_dict.get('653', []):
                 palabraclave = palabraclave.get('a', None)
                 if palabraclave in self.subdisciplinas_list:
-                    subdisciplina = SubDisciplina.objects(nombre__es=palabraclave).first()
+                    subdisciplina = SubDisciplina.objects(nombre__en= keyword).first()
                     result.append(subdisciplina.id)
 
             for keyword in self.marc_dict.get('654', []):
@@ -224,13 +224,13 @@ class DocumentoDict:
             for palabraclave in self.marc_dict.get('653', []):
                 palabraclave = palabraclave.get('a', None)
                 if palabraclave in self.nombresgeograficos_list:
-                    nombregeografico = NombreGeografico.objects(__raw__={'nombre.es': palabraclave}).first()
+                    nombregeografico = NombreGeografico.objects(nombre__es=palabraclave).first()
                     result.append(nombregeografico.id)
 
             for keyword in self.marc_dict.get('654', []):
                 keyword = keyword.get('a', None)
                 if keyword in self.nombresgeograficos_list:
-                    nombregeografico = NombreGeografico.objects(__raw__={'nombre.en': keyword}).first()
+                    nombregeografico = NombreGeografico.objects(nombre__en=keyword).first()
                     if nombregeografico and nombregeografico.id not in result:
                         result.append(nombregeografico.id)
         return result or None
