@@ -1,0 +1,12 @@
+[
+  {
+    "_id": 1,
+    "base": [
+      "CLA01"
+    ],
+    "nombre": {
+      "es": "Administración y contaduría",
+      "en": "Management and accounting"
+    }
+  }
+]

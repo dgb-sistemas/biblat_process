@@ -1,30 +1,30 @@
 [
   {
-    "tipo": "BY",
+    "tipo": "BY/4.0",
     "url": "https://creativecommons.org/licenses/by/4.0"
   },
   {
-    "tipo": "BY-SA",
+    "tipo": "BY-SA/4.0",
     "url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   {
-    "tipo": "BY-ND",
+    "tipo": "BY-ND/4.0",
     "url": "https://creativecommons.org/licenses/by-nd/4.0"
   },
   {
-    "tipo": "BY-NC",
+    "tipo": "BY-NC/4.0",
     "url": "https://creativecommons.org/licenses/by-nc/4.0"
   },
   {
-    "tipo": "BY-NC-SA",
+    "tipo": "BY-NC-SA/4.0",
     "url": "https://creativecommons.org/licenses/by-nc-sa/4.0"
   },  
   {
-    "tipo": "BY-NC-ND",
+    "tipo": "BY-NC-ND/4.0",
     "url": "https://creativecommons.org/licenses/by-nc-nd/4.0"
   },   
   {
-    "tipo": "BY",
+    "tipo": "BY/4.0",
     "url": "https://creativecommons.org/licenses/by/4.0"
   }
 ]

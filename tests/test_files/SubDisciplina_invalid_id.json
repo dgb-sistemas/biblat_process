@@ -1,0 +1,10 @@
+[
+  {
+    "_id": 1,
+    "disciplina": "Administración y contaduría",
+    "nombre": {
+      "es": "Administración de instituciones",
+      "en": "Management of institutions"
+    }
+  }
+]

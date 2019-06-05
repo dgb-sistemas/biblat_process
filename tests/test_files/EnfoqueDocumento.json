@@ -1,0 +1,29 @@
+[
+  {
+    "nombre": {
+      "es": "Analítico",
+      "en": "Analytical"
+    },
+    "descripcion": {
+      "es": "Exposición que presenta la característica de desagregar en sus partes componentes un todo, y en la cual existe un examen o identificación de las relaciones que se establecen entre ellas y de éstas con el todo."
+    }
+  },
+  {
+    "nombre": {
+      "es": "Aplicado",
+      "en": "Applied"
+    },
+    "descripcion": {
+      "es": "Exposición o demostración práctica de alguna técnica o metodología. Resultados de observaciones científicas o técnicas. Presentación de resultados estadísticos."
+    }
+  },
+  {
+    "nombre": {
+      "es": "Caso clínico",
+      "en": "Clinical case"
+    },
+    "descripcion": {
+      "es": "Exposición sobre los efectos de algún medicamento, intervención quirúrgica, tratamiento o terapia, de algún fenómeno, enfermedad física o mental incluyendo malformaciones, en los campos de la biomedicina o ciencias del comportamiento. Se aplica también a estudios clínicos y reportes de casos."
+    }
+  }
+]

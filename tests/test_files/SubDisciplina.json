@@ -1,0 +1,23 @@
+[
+  {
+    "disciplina": "Administración y contaduría",
+    "nombre": {
+      "es": "Administración de instituciones",
+      "en": "Management of institutions"
+    }
+  },
+  {
+    "disciplina": "Administración y contaduría",
+    "nombre": {
+      "es": "Administración de la producción",
+      "en": "Production management"
+    }
+  },
+  {
+    "disciplina": "Administración y contaduría",
+    "nombre": {
+      "es": "Administración pública",
+      "en": "Public administration"
+    }
+  }
+]

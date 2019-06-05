@@ -1,0 +1,12 @@
+[
+  {
+    "_id": 1,
+    "nombre": {
+      "es": "Artículo",
+      "en": "Article"
+    },
+    "descripcion": {
+      "es": "Texto original que en general tiene la siguiente estructura: resumen, introducción, antecedentes, desarrollo de uno o varios subtemas, conclusiones o resultados y bibliografía. Usualmente está firmado por uno o más autores y tiene una extensión mínima de tres o cuatro páginas."
+    }
+  }
+]
