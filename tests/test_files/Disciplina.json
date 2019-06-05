@@ -1,0 +1,29 @@
+[
+  {
+    "base": [
+      "CLA01"
+    ],
+    "nombre": {
+      "es": "Administración y contaduría",
+      "en": "Management and accounting"
+    }
+  },
+  {
+    "base": [
+      "PER01"
+    ],
+    "nombre": {
+      "es": "Agrociencias",
+      "en": "Agricultural sciences"
+    }
+  },
+  {
+    "base": [
+      "CLA01"
+    ],
+    "nombre": {
+      "es": "Antropología",
+      "en": "Anthropology"
+    }
+  }
+]

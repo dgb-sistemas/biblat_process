@@ -1,0 +1,3143 @@
+[
+  {
+    "nombre": {
+      "en": "Abu Dabi",
+      "es": "Abu Dhabi"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Afganistán",
+      "es": "Afghanistan"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Africa",
+      "es": "Africa"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Africa Anglófona",
+      "es": "English-Speaking Africa"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Africa Central",
+      "es": "Central Africa"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Africa del Este",
+      "es": "Eastern Africa"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Africa del Norte",
+      "es": "Northern Africa"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Africa del Oeste",
+      "es": "Western Africa"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Africa del Sur",
+      "es": "Southern Africa"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Africa Francófona",
+      "es": "French-Speaking Africa"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Africa Oriental",
+      "es": "East Africa"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Africa Portuguesa",
+      "es": "Portuguese Africa"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Ajmán",
+      "es": "Ajman"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Albania",
+      "es": "Albania"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Alemania",
+      "es": "Germany"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Amazonas",
+      "es": "Amazon"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "América",
+      "es": "Americas"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "América Central",
+      "es": "Central America"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "América del Norte",
+      "es": "North America"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "América del Sur",
+      "es": "South America"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "América Latina",
+      "es": "Latin America"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Andes",
+      "es": "Andes"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Andorra",
+      "es": "Andorra"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Angloamérica",
+      "es": "Angloamerica"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Angola",
+      "es": "Angola"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Anguila",
+      "es": "Anguilla"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Antártida",
+      "es": "Antarctica"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Antigua y Barbuda",
+      "es": "Antigua and Barbuda"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Antillas",
+      "es": "Antilles"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Antillas Francesas",
+      "es": "French Antilles"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Antillas Holandesas",
+      "es": "Netherlands Antilles"
+    },
+    "nota": {
+      "es": "Para documentos históricos"
+    }
+  },
+  {
+    "nombre": {
+      "en": "Arabia Saudita",
+      "es": "Saudi Arabia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Argelia",
+      "es": "Algeria"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Argentina",
+      "es": "Argentina"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Armenia",
+      "es": "Armenia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Artico",
+      "es": "Arctic Ocean"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Aruba",
+      "es": "Aruba"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Asia",
+      "es": "Asia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Asia Central",
+      "es": "Central Asia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Asia del Este",
+      "es": "East Asia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Asia del Sur",
+      "es": "South Asia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Asia Occidental",
+      "es": "Western Asia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Atlántico",
+      "es": "Atlantic Ocean"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Australasia",
+      "es": "Australasia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Australia",
+      "es": "Australia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Austria",
+      "es": "Austria"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Azerbaiyán",
+      "es": "Azerbaijan"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Bahamas",
+      "es": "Bahamas"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Bangladesh",
+      "es": "Bangladesh"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Barbados",
+      "es": "Barbados"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Baréin",
+      "es": "Bahrain"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Belarús",
+      "es": "Belarus"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Bélgica",
+      "es": "Belgium"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Belice",
+      "es": "Belize"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Benin",
+      "es": "Benin"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Bermudas",
+      "es": "Bermuda"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Bolivia",
+      "es": "Bolivia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Bonaire",
+      "es": "Bonaire"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Bophuthatswana",
+      "es": "Bophuthatswana"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Bosnia y Herzegovina",
+      "es": "Bosnia and Herzegovina"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Botswana",
+      "es": "Botswana"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Brasil",
+      "es": "Brazil"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Brunéi",
+      "es": "Brunei"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Bulgaria",
+      "es": "Bulgaria"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Buraimi",
+      "es": "Buraimi"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Burkina Faso",
+      "es": "Burkina Faso"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Burundi",
+      "es": "Burundi"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Bután",
+      "es": "Buthan"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Cabo Verde",
+      "es": "Cape Verde"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Camerún",
+      "es": "Cameroon"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Canadá",
+      "es": "Canada"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Canal de Panamá        ",
+      "es": "Panama Canal"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Caribe",
+      "es": "Caribbean"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Chad",
+      "es": "Chad"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Checoslovaquia",
+      "es": "Czechoslovakia"
+    },
+    "nota": {
+      "es": "Para documentos históricos"
+    }
+  },
+  {
+    "nombre": {
+      "en": "Chile",
+      "es": "Chile"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "China",
+      "es": "China"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Chipre",
+      "es": "Cyprus"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Ciskei",
+      "es": "Ciskei"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Colombia",
+      "es": "Colombia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Comoras",
+      "es": "Comoros"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Comunidad Británica",
+      "es": "Commonwealth"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Congo",
+      "es": "Congo"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Cono Sur",
+      "es": "Southern Cone"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Corea",
+      "es": "Korea"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Corea del Norte",
+      "es": "North Korea"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Corea del Sur",
+      "es": "South Korea"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Costa de Marfil",
+      "es": "Ivory Coast"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Costa Rica",
+      "es": "Costa Rica"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Croacia",
+      "es": "Croatia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Cuba",
+      "es": "Cuba"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Cuenca del Pacífico",
+      "es": "Pacific Rim"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Cultura Inca",
+      "es": "Inca Culture"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Cultura Maya",
+      "es": "Mayan Culture"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Curazao",
+      "es": "Curazao"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Dinamarca",
+      "es": "Denmark"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Dominica",
+      "es": "Dominica"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Dubái",
+      "es": "Dubai"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Ecuador",
+      "es": "Ecuador"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Egipto",
+      "es": "Egypt"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "El Salvador",
+      "es": "El Salvador"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Emiratos Arabes Unidos",
+      "es": "United Arab Emirates"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Eritrea",
+      "es": "Eritrea"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Escandinavia",
+      "es": "Scandinavia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Escocia",
+      "es": "Scotland"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Eslovaquia",
+      "es": "Slovakia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Eslovenia",
+      "es": "Slovenia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "España",
+      "es": "Spain"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Estados Federados de Micronesia",
+      "es": "Federated States of Micronesia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Estados Unidos de América",
+      "es": "United States of America"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Estonia",
+      "es": "Estonia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Estrecho de Magallanes",
+      "es": "Magellan Strait"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Etiopía",
+      "es": "Ethiopia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Europa",
+      "es": "Europe"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Europa Central",
+      "es": "Central Europe"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Europa del Norte",
+      "es": "Northern Europe"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Europa del Sur",
+      "es": "Southern Europe"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Europa Occidental",
+      "es": "Western Europe"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Europa Oriental",
+      "es": "Eastern Europe"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Fiji",
+      "es": "Fiji"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Filipinas",
+      "es": "Philippines"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Finlandia",
+      "es": "Finland"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Francia",
+      "es": "France"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Fuyaira",
+      "es": "Fujairah"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Gabón",
+      "es": "Gabon"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Gales",
+      "es": "Wales"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Gambia",
+      "es": "Gambia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Georgia",
+      "es": "Georgia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Ghana",
+      "es": "Ghana"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Gibraltar",
+      "es": "Gibraltar"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Golfo de California",
+      "es": "Gulf of California"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Golfo de Cariaco",
+      "es": "Gulf of Cariaco"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Golfo de México",
+      "es": "Gulf of Mexico"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Gran Bretaña",
+      "es": "Great Britain"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Granada",
+      "es": "Grenada"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Grecia",
+      "es": "Greece"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Grecia Clásica",
+      "es": "Ancient Greece"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Groenlandia",
+      "es": "Greenland"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Grupo Andino",
+      "es": "Andean Group"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Guadalupe",
+      "es": "Guadeloupe"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Guam",
+      "es": "Guam"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Guatemala",
+      "es": "Guatemala"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Guayana Británica",
+      "es": "British Guiana"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Guayana Francesa",
+      "es": "French Guiana"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Guayana Holandesa",
+      "es": "Dutch Guiana"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Guinea",
+      "es": "Guinea"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Guinea Ecuatorial",
+      "es": "Equatorial Guinea"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Guinea-Bissau",
+      "es": "Guinea-Bissau"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Guyana",
+      "es": "Guyana"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Haití",
+      "es": "Haiti"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Hispanoamérica",
+      "es": "Spanish America"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Holanda",
+      "es": "Holland"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Honduras",
+      "es": "Honduras"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Honduras Británica   ",
+      "es": "British Honduras"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Hong Kong",
+      "es": "Hong Kong"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Hungría",
+      "es": "Hungary"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Iberoamérica",
+      "es": "Iberoamerica"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "India",
+      "es": "India"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Indias",
+      "es": "Indies"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Indias Occidentales",
+      "es": "West Indies"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Indias Orientales",
+      "es": "East Indies"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Indonesia",
+      "es": "Indonesia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Inglaterra",
+      "es": "England"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Irak",
+      "es": "Iraq"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Irán",
+      "es": "Iran"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Irlanda",
+      "es": "Ireland"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Irlanda del Norte",
+      "es": "North Ireland"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Islandia",
+      "es": "Iceland"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Islas Caimanes",
+      "es": "Cayman Islands"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Islas Cocos",
+      "es": "Cocos Islands"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Islas Comores",
+      "es": "Comoros"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Islas Cook",
+      "es": "Cook Islands"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Islas Feroe",
+      "es": "Faeroe Islands"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Islas Malvinas",
+      "es": "Falkland Islands"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Islas Marianas del Norte",
+      "es": "Northern Marianas Islands"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Islas Marshall",
+      "es": "Marshall Islands"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Islas Salomón",
+      "es": "Solomon Islands"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Islas Turcas y Caicos",
+      "es": "Turks and Caicos Islands"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Islas Vírgenes Británicas",
+      "es": "British Virgin Islands"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Islas Vírgenes Norteamericanas",
+      "es": "USA Virgin Islands"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Israel",
+      "es": "Israel"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Italia",
+      "es": "Italy"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Jamaica",
+      "es": "Jamaica"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Japón",
+      "es": "Japan"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Jordania",
+      "es": "Jordan"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Kampuchea",
+      "es": "Kampuchea"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Kazajstán",
+      "es": "Kazakhstan"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Kenia",
+      "es": "Kenya"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Kirguistán",
+      "es": "Kyrgyzstan"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Kiribati",
+      "es": "Kiribati"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Kuwait",
+      "es": "Kuwait"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "La Española",
+      "es": "Hispaniola"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "La Guayana",
+      "es": "Guiana"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Laos",
+      "es": "Laos"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Lesotho",
+      "es": "Lesotho"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Letonia",
+      "es": "Latvia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Líbano",
+      "es": "Lebanon"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Liberia",
+      "es": "Liberia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Libia",
+      "es": "Libya"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Liechtenstein",
+      "es": "Liechtenstein"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Lituania",
+      "es": "Lithuania"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Luxemburgo",
+      "es": "Luxembourg"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Macao",
+      "es": "Macao"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Macedonia",
+      "es": "Macedonia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Madagascar",
+      "es": "Malagasy Republic"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Magreb",
+      "es": "Maghreb"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Mahoré",
+      "es": "Mahore"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Malasia",
+      "es": "Malaysia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Malawi",
+      "es": "Malawi"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Maldivas",
+      "es": "Maldives"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Malí",
+      "es": "Mali"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Malta",
+      "es": "Malta"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Marruecos",
+      "es": "Morocco"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Martinica",
+      "es": "Martinique"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Mauricio",
+      "es": "Mauritius"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Mauritania",
+      "es": "Mauritania"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Medio Oriente",
+      "es": "Middle East"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Melanesia",
+      "es": "Melanesia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Mesoamérica",
+      "es": "Mesoamerica"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "México",
+      "es": "Mexico"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Micronesia",
+      "es": "Micronesia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Midway",
+      "es": "Midway"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Moldova",
+      "es": "Moldova"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Mónaco",
+      "es": "Monaco"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Mongolia",
+      "es": "Mongolia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Montserrat",
+      "es": "Montserrat"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Mozambique",
+      "es": "Mozambique"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Myanmar",
+      "es": "Myanmar"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Namibia",
+      "es": "Namibia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Naurú",
+      "es": "Nauru"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Nepal",
+      "es": "Nepal"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Nicaragua",
+      "es": "Nicaragua"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Níger",
+      "es": "Niger"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Nigeria",
+      "es": "Nigeria"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Niue",
+      "es": "Niue"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Noruega",
+      "es": "Norway"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Nueva Caledonia",
+      "es": "New Caledonia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Nueva Zelandia",
+      "es": "New Zealand"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Nuevas Hébridas     ",
+      "es": "New Hebrides"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Oceanía",
+      "es": "Oceania"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Océano Antártico",
+      "es": "Southern Ocean"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Océano Artico     ",
+      "es": "Arctic Ocean"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Océano Atlántico     ",
+      "es": "Atlantic Ocean"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Océano Indico",
+      "es": "Indian Ocean"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Océano Pacífico",
+      "es": "Pacific Ocean"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Omán",
+      "es": "Oman"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Pacífico",
+      "es": "Pacific Ocean"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Países Arabes",
+      "es": "Arab Countries"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Países Balcánicos",
+      "es": "Balkan Countries"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Pakistán",
+      "es": "Pakistan"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Palau",
+      "es": "Palau"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Palestina",
+      "es": "Palestine"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Panamá",
+      "es": "Panama"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Papúa Nueva Guinea",
+      "es": "Papua New Guinea"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Paraguay",
+      "es": "Paraguay"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Patagonia",
+      "es": "Patagonia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Perú",
+      "es": "Peru"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Pitcairn",
+      "es": "Pitcairn"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Polinesia",
+      "es": "Polynesia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Polinesia Francesa",
+      "es": "French Polynesia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Polonia",
+      "es": "Poland"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Portugal",
+      "es": "Portugal"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Puerto Rico",
+      "es": "Puerto Rico"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Qatar",
+      "es": "Qatar"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Ras al-Jaima",
+      "es": "Ras Al Khaimah"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Reino Unido",
+      "es": "United Kingdom"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "República Arabe Saharaui Democrática",
+      "es": "Sahrawi Arab Democratic Republic"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "República Centroafricana",
+      "es": "Central African Republic"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "República Checa",
+      "es": "Czech Republic"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "República Democrática Alemana",
+      "es": "German Democratic Republic"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "República Democrática del Congo",
+      "es": "Democratic Republic of the Congo"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "República Dominicana",
+      "es": "Dominican Republic"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "República Federal Alemana",
+      "es": "Federal Republic of Germany"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Reunión",
+      "es": "Reunion"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Ruanda",
+      "es": "Rwanda"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Rumania",
+      "es": "Romania"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Rusia",
+      "es": "Russia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Sahara Occidental",
+      "es": "Western Sahara"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Samoa Americana",
+      "es": "American Samoa"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Samoa Occidental",
+      "es": "Western Samoa"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "San Cristóbal y Nevis",
+      "es": "Saint Kitts Nevis"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "San Marino",
+      "es": "San Marino"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "San Pedro y Miguelón",
+      "es": "Saint Pierre and Miquelon"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "San Vicente y las Granadinas",
+      "es": "Saint Vincent and the Grenadines"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Santa Elena y Ascención",
+      "es": "Saint Helena and Ascension"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Santa Lucía",
+      "es": "Saint Lucia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Santo Tomé y Príncipe",
+      "es": "Sao Tome and Principe"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Sarja",
+      "es": "Sharjah"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Senegal",
+      "es": "Senegal"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Seychelles",
+      "es": "Seychelles"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Sierra Leona",
+      "es": "Sierra Leone"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Singapur",
+      "es": "Singapore"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Sint Maarten",
+      "es": "Sint Maarten"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Siria",
+      "es": "Syria"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Somalia",
+      "es": "Somalia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Sri Lanka",
+      "es": "Sri Lanka"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Suazilandia",
+      "es": "Swaziland"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Sudáfrica",
+      "es": "South Africa"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Sudán",
+      "es": "Sudan"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Sudeste Asiático",
+      "es": "Southeast Asia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Suecia",
+      "es": "Sweden"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Suiza",
+      "es": "Switzerland"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Surinam",
+      "es": "Suriname"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Tailandia",
+      "es": "Thailand"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Taiwán",
+      "es": "Taiwan"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Tanzania",
+      "es": "Tanzania"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Tayikistán",
+      "es": "Tajikistan"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Timor Oriental",
+      "es": "East Timor"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Togo",
+      "es": "Togo"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Tokelau",
+      "es": "Tokelau"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Tonga",
+      "es": "Tonga"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Transkei",
+      "es": "Transkei"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Trinidad y Tobago",
+      "es": "Trinidad and Tobago"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Tristán da Cunha",
+      "es": "Tristan da Cunha"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Túnez",
+      "es": "Tunisia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Turkmenistán",
+      "es": "Turkmenistan"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Turquía",
+      "es": "Turkey"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Tuvalu",
+      "es": "Tuvalu"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Ucrania",
+      "es": "Ukraine"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Uganda",
+      "es": "Uganda"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Umm el Kaiwain",
+      "es": "Umm Al-Qawain"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Unión Soviética",
+      "es": "Soviet Union"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Uruguay",
+      "es": "Uruguay"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Uzbekistán",
+      "es": "Uzbekistan"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Vanuatu",
+      "es": "Vanuatu"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Vaticano",
+      "es": "Vatican"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Vaticano",
+      "es": "Vatican"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Venda",
+      "es": "Venda"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Venezuela",
+      "es": "Venezuela"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Vietnam",
+      "es": "Viet Nam"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Virreinato de la Nueva España",
+      "es": "Viceroyalty of New Spain"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Virreinato de la Nueva Granada",
+      "es": "Viceroyalty of New Granada"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Virreinato de La Plata",
+      "es": "Viceroyalty of La Plata"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Virreinato del Brasil",
+      "es": "Viceroyalty of Brazil"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Virreinato del Perú",
+      "es": "Viceroyalty of Peru"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Wake",
+      "es": "Wake"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Wallis y Futuna",
+      "es": ""
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Wallis y Futuna",
+      "es": "Wallis and Futuna"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Yemen",
+      "es": "Yemen"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Yemen del Norte",
+      "es": "Yemen Arab Republic"
+    },
+    "nota": {
+      "es": "Para documentos históricos"
+    }
+  },
+  {
+    "nombre": {
+      "en": "Yemen del Sur",
+      "es": "South Yemen"
+    },
+    "nota": {
+      "es": "Para documentos históricos"
+    }
+  },
+  {
+    "nombre": {
+      "en": "Yibuti",
+      "es": "Djibouti"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Yibuti",
+      "es": "Djibouti"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Yugoslavia",
+      "es": "Yugoslavia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Zaire",
+      "es": "Zaire"
+    },
+    "nota": {
+      "es": "Para documentos históricos"
+    }
+  },
+  {
+    "nombre": {
+      "en": "Zambia",
+      "es": "Zambia"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Zimbabwe",
+      "es": "Zimbabwe"
+    },
+    "nota": {
+      "es": null
+    }
+  },
+  {
+    "nombre": {
+      "en": "Zona del Canal",
+      "es": "Canal Zone"
+    },
+    "nota": {
+      "es": "Para documentos históricos"
+    }
+  },
+  {
+    "nombre": {
+      "en": "Zonas Polares",
+      "es": "Polar Zones"
+    },
+    "nota": {
+      "es": null
+    }
+  }
+]

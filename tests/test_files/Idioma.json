@@ -1,0 +1,38 @@
+[
+  {
+    "iso_639_1": "es",
+    "iso_639_2b": "spa",
+    "iso_639_2t": "spa",
+    "iso_639_3": "spa",
+    "nombre": {
+      "es": "Español",
+      "en": "Spanish"
+    },
+    "scope": "I",
+    "type": "L"
+  },
+  {
+    "iso_639_1": "en",
+    "iso_639_2b": "eng",
+    "iso_639_2t": "eng",
+    "iso_639_3": "eng",
+    "nombre": {
+      "es": "Inglés",
+      "en": "English"
+    },
+    "scope": "I",
+    "type": "L"
+  },
+  {
+    "iso_639_1": "pt",
+    "iso_639_2b": "por",
+    "iso_639_2t": "por",
+    "iso_639_3": "por",
+    "nombre": {
+      "es": "Portugués",
+      "en": "Portuguese"
+    },
+    "scope": "I",
+    "type": "L"
+  }
+]

@@ -47,7 +47,7 @@ class TestingConfig(Config):
     )
 
     MONGODB_NAME = 'biblat_test'
-    MONGODB_HOST =  'mongomock://localhost/biblat_test'
+    MONGODB_HOST = 'mongomock://localhost/biblat_test'
 
 
 class ProductionConfig(Config):

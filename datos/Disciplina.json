@@ -1,0 +1,273 @@
+[
+  {
+    "base": [
+      "CLA01"
+    ],
+    "nombre": {
+      "es": "Administración y contaduría",
+      "en": "Management and accounting"
+    }
+  },
+  {
+    "base": [
+      "PER01"
+    ],
+    "nombre": {
+      "es": "Agrociencias",
+      "en": "Agricultural sciences"
+    }
+  },
+  {
+    "base": [
+      "CLA01"
+    ],
+    "nombre": {
+      "es": "Antropología",
+      "en": "Anthropology"
+    }
+  },
+  {
+    "base": [
+      "CLA01"
+    ],
+    "nombre": {
+      "es": "Arte",
+      "en": "Arts"
+    }
+  },
+  {
+    "base": [
+      "CLA01"
+    ],
+    "nombre": {
+      "es": "Bibliotecología y ciencia de la información",
+      "en": "Library and information science"
+    }
+  },
+  {
+    "base": [
+      "PER01"
+    ],
+    "nombre": {
+      "es": "Biología",
+      "en": "Biology"
+    }
+  },
+  {
+    "base": [
+      "CLA01"
+    ],
+    "nombre": {
+      "es": "Ciencia política",
+      "en": "Political science"
+    }
+  },
+  {
+    "base": [
+      "PER01"
+    ],
+    "nombre": {
+      "es": "Ciencia y tecnología",
+      "en": "Science and technology"
+    }
+  },
+  {
+    "base": [
+      "PER01"
+    ],
+    "nombre": {
+      "es": "Ciencias de la computación",
+      "en": "Computer science"
+    }
+  },
+  {
+    "base": [
+      "CLA01"
+    ],
+    "nombre": {
+      "es": "Ciencias de la comunicación",
+      "en": "Communication studies"
+    }
+  },
+  {
+    "base": [
+      "CLA01"
+    ],
+    "nombre": {
+      "es": "Demografía",
+      "en": "Demography"
+    }
+  },
+  {
+    "base": [
+      "CLA01"
+    ],
+    "nombre": {
+      "es": "Derecho",
+      "en": "Law"
+    }
+  },
+  {
+    "base": [
+      "CLA01"
+    ],
+    "nombre": {
+      "es": "Economía",
+      "en": "Economics"
+    }
+  },
+  {
+    "base": [
+      "CLA01"
+    ],
+    "nombre": {
+      "es": "Educación",
+      "en": "Education"
+    }
+  },
+  {
+    "base": [
+      "CLA01"
+    ],
+    "nombre": {
+      "es": "Filosofía",
+      "en": "Philosophy"
+    }
+  },
+  {
+    "base": [
+      "PER01"
+    ],
+    "nombre": {
+      "es": "Física y astronomía",
+      "en": "Physics and astronomy"
+    }
+  },
+  {
+    "base": [
+      "PER01"
+    ],
+    "nombre": {
+      "es": "Geociencias",
+      "en": "Earth sciences"
+    }
+  },
+  {
+    "base": [
+      "CLA01"
+    ],
+    "nombre": {
+      "es": "Geografía",
+      "en": "Geography"
+    }
+  },
+  {
+    "base": [
+      "CLA01"
+    ],
+    "nombre": {
+      "es": "Historia",
+      "en": "History"
+    }
+  },
+  {
+    "base": [
+      "PER01"
+    ],
+    "nombre": {
+      "es": "Ingeniería",
+      "en": "Engineering"
+    }
+  },
+  {
+    "base": [
+      "CLA01"
+    ],
+    "nombre": {
+      "es": "Literatura y lingüística",
+      "en": "Literature and linguistics"
+    }
+  },
+  {
+    "base": [
+      "PER01"
+    ],
+    "nombre": {
+      "es": "Matemáticas",
+      "en": "Mathematics"
+    }
+  },
+  {
+    "base": [
+      "PER01"
+    ],
+    "nombre": {
+      "es": "Medicina",
+      "en": "Medicine"
+    }
+  },
+  {
+    "base": [
+      "PER01"
+    ],
+    "nombre": {
+      "es": "Medicina veterinaria y zootecnia",
+      "en": "Veterinary medicine and animal husbandry"
+    }
+  },
+  {
+    "base": [
+      "CLA01",
+      "PER01"
+    ],
+    "nombre": {
+      "es": "Multidisciplinaria",
+      "en": "Multidisciplinary"
+    }
+  },
+  {
+    "base": [
+      "CLA01"
+    ],
+    "nombre": {
+      "es": "Psicología",
+      "en": "Psychology"
+    }
+  },
+  {
+    "base": [
+      "PER01"
+    ],
+    "nombre": {
+      "es": "Química",
+      "en": "Chemistry"
+    }
+  },
+  {
+    "base": [
+      "CLA01"
+    ],
+    "nombre": {
+      "es": "Relaciones internacionales",
+      "en": "International relations"
+    }
+  },
+  {
+    "base": [
+      "CLA01"
+    ],
+    "nombre": {
+      "es": "Religión",
+      "en": "Religion"
+    }
+  },
+  {
+    "base": [
+      "CLA01"
+    ],
+    "nombre": {
+      "es": "Sociología",
+      "en": "Sociology"
+    }
+  }
+]

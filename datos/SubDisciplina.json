@@ -1,0 +1,2592 @@
+[
+  {
+    "disciplina": "Administración y contaduría",
+    "nombre": {
+      "es": "Administración de instituciones",
+      "en": "Management of institutions"
+    }
+  },
+  {
+    "disciplina": "Administración y contaduría",
+    "nombre": {
+      "es": "Administración de la producción",
+      "en": "Production management"
+    }
+  },
+  {
+    "disciplina": "Administración y contaduría",
+    "nombre": {
+      "es": "Administración pública",
+      "en": "Public administration"
+    }
+  },
+  {
+    "disciplina": "Administración y contaduría",
+    "nombre": {
+      "es": "Contaduría",
+      "en": "Accounting"
+    }
+  },
+  {
+    "disciplina": "Administración y contaduría",
+    "nombre": {
+      "es": "Dirección y control",
+      "en": "Management"
+    }
+  },
+  {
+    "disciplina": "Administración y contaduría",
+    "nombre": {
+      "es": "Historia y teorías de la administración y la contaduría",
+      "en": "History and theory of management and accounting"
+    }
+  },
+  {
+    "disciplina": "Administración y contaduría",
+    "nombre": {
+      "es": "Mercadotecnia",
+      "en": "Marketing"
+    }
+  },
+  {
+    "disciplina": "Administración y contaduría",
+    "nombre": {
+      "es": "Organización",
+      "en": "Business organization"
+    }
+  },
+  {
+    "disciplina": "Administración y contaduría",
+    "nombre": {
+      "es": "Planeación",
+      "en": "Planning"
+    }
+  },
+  {
+    "disciplina": "Administración y contaduría",
+    "nombre": {
+      "es": "Recursos humanos",
+      "en": "Human resources"
+    }
+  },
+  {
+    "disciplina": "Agrociencias",
+    "nombre": {
+      "es": "Fertilización",
+      "en": "Fertilization"
+    }
+  },
+  {
+    "disciplina": "Agrociencias",
+    "nombre": {
+      "es": "Fitopatología",
+      "en": "Phytopathology"
+    }
+  },
+  {
+    "disciplina": "Agrociencias",
+    "nombre": {
+      "es": "Fitotecnia",
+      "en": "Crop husbandry"
+    }
+  },
+  {
+    "disciplina": "Agrociencias",
+    "nombre": {
+      "es": "Frutales",
+      "en": "Fruit trees"
+    }
+  },
+  {
+    "disciplina": "Agrociencias",
+    "nombre": {
+      "es": "Gramíneas",
+      "en": "Gramineae"
+    }
+  },
+  {
+    "disciplina": "Agrociencias",
+    "nombre": {
+      "es": "Hortalizas",
+      "en": "Vegetables"
+    }
+  },
+  {
+    "disciplina": "Agrociencias",
+    "nombre": {
+      "es": "Infraestructura agrícola",
+      "en": "Agricultural infraestructure"
+    }
+  },
+  {
+    "disciplina": "Agrociencias",
+    "nombre": {
+      "es": "Leguminosas",
+      "en": "Legumes"
+    }
+  },
+  {
+    "disciplina": "Agrociencias",
+    "nombre": {
+      "es": "Malezas",
+      "en": "Weeds"
+    }
+  },
+  {
+    "disciplina": "Agrociencias",
+    "nombre": {
+      "es": "Plantas ornamentales",
+      "en": "Ornamental plants"
+    }
+  },
+  {
+    "disciplina": "Agrociencias",
+    "nombre": {
+      "es": "Plantas para uso industrial",
+      "en": "Plants for industrial use"
+    }
+  },
+  {
+    "disciplina": "Agrociencias",
+    "nombre": {
+      "es": "Riego y drenaje",
+      "en": "Irrigation and drainage"
+    }
+  },
+  {
+    "disciplina": "Agrociencias",
+    "nombre": {
+      "es": "Silvicultura",
+      "en": "Silviculture"
+    }
+  },
+  {
+    "disciplina": "Agrociencias",
+    "nombre": {
+      "es": "Suelos",
+      "en": "Soils"
+    }
+  },
+  {
+    "disciplina": "Antropología",
+    "nombre": {
+      "es": "Antropología de la cultura",
+      "en": "Cultural anthropology"
+    }
+  },
+  {
+    "disciplina": "Antropología",
+    "nombre": {
+      "es": "Antropología física",
+      "en": "Physical anthropology"
+    }
+  },
+  {
+    "disciplina": "Antropología",
+    "nombre": {
+      "es": "Antropología lingüística",
+      "en": "Linguistic anthropology"
+    }
+  },
+  {
+    "disciplina": "Antropología",
+    "nombre": {
+      "es": "Arqueología",
+      "en": "Archaeology"
+    }
+  },
+  {
+    "disciplina": "Antropología",
+    "nombre": {
+      "es": "Etnohistoria",
+      "en": "Ethnohistory"
+    }
+  },
+  {
+    "disciplina": "Antropología",
+    "nombre": {
+      "es": "Etnología y antropología social",
+      "en": "Ethnology and social anthropology"
+    }
+  },
+  {
+    "disciplina": "Antropología",
+    "nombre": {
+      "es": "Historia y filosofía de la antropología",
+      "en": "History and philosophy of anthropology"
+    }
+  },
+  {
+    "disciplina": "Arte",
+    "nombre": {
+      "es": "Arquitectura",
+      "en": "Architecture"
+    }
+  },
+  {
+    "disciplina": "Arte",
+    "nombre": {
+      "es": "Arte y sociedad",
+      "en": "Arts and society"
+    }
+  },
+  {
+    "disciplina": "Arte",
+    "nombre": {
+      "es": "Artes gráficas",
+      "en": "Graphics arts"
+    }
+  },
+  {
+    "disciplina": "Arte",
+    "nombre": {
+      "es": "Artesanías",
+      "en": "Handicrafts"
+    }
+  },
+  {
+    "disciplina": "Arte",
+    "nombre": {
+      "es": "Cine",
+      "en": "Cinema"
+    }
+  },
+  {
+    "disciplina": "Arte",
+    "nombre": {
+      "es": "Crítica del arte",
+      "en": "Art criticism"
+    }
+  },
+  {
+    "disciplina": "Arte",
+    "nombre": {
+      "es": "Danza",
+      "en": "Dance"
+    }
+  },
+  {
+    "disciplina": "Arte",
+    "nombre": {
+      "es": "Escultura",
+      "en": "Sculpture"
+    }
+  },
+  {
+    "disciplina": "Arte",
+    "nombre": {
+      "es": "Fotografía",
+      "en": "Photography"
+    }
+  },
+  {
+    "disciplina": "Arte",
+    "nombre": {
+      "es": "Historia del arte",
+      "en": "Art history"
+    }
+  },
+  {
+    "disciplina": "Arte",
+    "nombre": {
+      "es": "Museología",
+      "en": "Museology"
+    }
+  },
+  {
+    "disciplina": "Arte",
+    "nombre": {
+      "es": "Música",
+      "en": "Music"
+    }
+  },
+  {
+    "disciplina": "Arte",
+    "nombre": {
+      "es": "Pintura",
+      "en": "Painting"
+    }
+  },
+  {
+    "disciplina": "Arte",
+    "nombre": {
+      "es": "Teatro",
+      "en": "Theatre"
+    }
+  },
+  {
+    "disciplina": "Bibliotecología y ciencia de la información",
+    "nombre": {
+      "es": "Análisis y sistematización de la información",
+      "en": "Information analysis"
+    }
+  },
+  {
+    "disciplina": "Bibliotecología y ciencia de la información",
+    "nombre": {
+      "es": "Fuentes documentales",
+      "en": "Information sources"
+    }
+  },
+  {
+    "disciplina": "Bibliotecología y ciencia de la información",
+    "nombre": {
+      "es": "Información y sociedad",
+      "en": "Information and society"
+    }
+  },
+  {
+    "disciplina": "Bibliotecología y ciencia de la información",
+    "nombre": {
+      "es": "Servicios bibliotecarios y de información",
+      "en": "Library and information services"
+    }
+  },
+  {
+    "disciplina": "Bibliotecología y ciencia de la información",
+    "nombre": {
+      "es": "Sistemas de información",
+      "en": "Information systems"
+    }
+  },
+  {
+    "disciplina": "Bibliotecología y ciencia de la información",
+    "nombre": {
+      "es": "Tecnología de la información",
+      "en": "Information technology"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Algas",
+      "en": "Algae"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Anatomía e histología",
+      "en": "Anatomy and histology"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Anfibios y reptiles",
+      "en": "Amphibians and reptiles"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Angiospermas",
+      "en": "Angiosperms"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Artrópodos",
+      "en": "Arthropods"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Aves",
+      "en": "Birds"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Bacterias",
+      "en": "Bacteria"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Biofísica",
+      "en": "Biophysics"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Biología acuática",
+      "en": "Aquatic biology"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Biología celular",
+      "en": "Cell biology"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Botánica",
+      "en": "Botany"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Briofitas y pteridofitas",
+      "en": "Bryophytes and pteridophytes"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Cordados",
+      "en": "Chordates"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Crustáceos",
+      "en": "Crustaceans"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Ecología",
+      "en": "Ecology"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Etología",
+      "en": "Ethology"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Evolución y filogenia",
+      "en": "Evolution and phylogeny"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Fisiología animal",
+      "en": "Animal physiology"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Fisiología vegetal",
+      "en": "Plant physiology"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Genética",
+      "en": "Genetics"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Gimnospermas",
+      "en": "Gymnosperms"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Helmintos",
+      "en": "Helminths"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Hongos",
+      "en": "Fungi"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Inmunología",
+      "en": "Immunology"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Insectos",
+      "en": "Insects"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Invertebrados",
+      "en": "Invertebrates"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Mamíferos",
+      "en": "Mammals"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Moluscos",
+      "en": "Molluscs"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Paleontología",
+      "en": "Paleontology"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Parasitología",
+      "en": "Parasitology"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Peces",
+      "en": "Fish"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Protozoarios",
+      "en": "Protozoa"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Quelicerados",
+      "en": "Chelicerata"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Reproducción y desarrollo",
+      "en": "Reproduction and development"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Taxonomía y sistemática",
+      "en": "Taxonomy and systematics"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Virus",
+      "en": "Virus"
+    }
+  },
+  {
+    "disciplina": "Biología",
+    "nombre": {
+      "es": "Zoología",
+      "en": "Zoology"
+    }
+  },
+  {
+    "disciplina": "Ciencia política",
+    "nombre": {
+      "es": "Activismo y participación política",
+      "en": "Activism and political participation"
+    }
+  },
+  {
+    "disciplina": "Ciencia política",
+    "nombre": {
+      "es": "Cambio político",
+      "en": "Political change"
+    }
+  },
+  {
+    "disciplina": "Ciencia política",
+    "nombre": {
+      "es": "Doctrinas y corrientes políticas",
+      "en": "Political doctrines"
+    }
+  },
+  {
+    "disciplina": "Ciencia política",
+    "nombre": {
+      "es": "Formas y tipos de gobierno",
+      "en": "Forms and types of government"
+    }
+  },
+  {
+    "disciplina": "Ciencia política",
+    "nombre": {
+      "es": "Gobierno",
+      "en": "Government"
+    }
+  },
+  {
+    "disciplina": "Ciencia política",
+    "nombre": {
+      "es": "Grupos de presión",
+      "en": "Advocacy groups"
+    }
+  },
+  {
+    "disciplina": "Ciencia política",
+    "nombre": {
+      "es": "Historia y filosofía de la política",
+      "en": "History and philosophy of politics"
+    }
+  },
+  {
+    "disciplina": "Ciencia política",
+    "nombre": {
+      "es": "Partidos políticos",
+      "en": "Political parties"
+    }
+  },
+  {
+    "disciplina": "Ciencia política",
+    "nombre": {
+      "es": "Proceso político",
+      "en": "Political process"
+    }
+  },
+  {
+    "disciplina": "Ciencia política",
+    "nombre": {
+      "es": "Sistemas de seguridad",
+      "en": "Defense systems"
+    }
+  },
+  {
+    "disciplina": "Ciencia política",
+    "nombre": {
+      "es": "Sistemas políticos",
+      "en": "Poltical systems"
+    }
+  },
+  {
+    "disciplina": "Ciencia y tecnología",
+    "nombre": {
+      "es": "Ciencia",
+      "en": "Science"
+    }
+  },
+  {
+    "disciplina": "Ciencia y tecnología",
+    "nombre": {
+      "es": "Ciencias exactas",
+      "en": "Exact sciences"
+    }
+  },
+  {
+    "disciplina": "Ciencia y tecnología",
+    "nombre": {
+      "es": "Ciencias naturales",
+      "en": "Natural sciences"
+    }
+  },
+  {
+    "disciplina": "Ciencia y tecnología",
+    "nombre": {
+      "es": "Tecnología",
+      "en": "Technology"
+    }
+  },
+  {
+    "disciplina": "Ciencias de la computación",
+    "nombre": {
+      "es": "Análisis de sistemas",
+      "en": "Systems analysis"
+    }
+  },
+  {
+    "disciplina": "Ciencias de la computación",
+    "nombre": {
+      "es": "Inteligencia artificial",
+      "en": "Artificial intelligence"
+    }
+  },
+  {
+    "disciplina": "Ciencias de la computación",
+    "nombre": {
+      "es": "Procesamiento de datos",
+      "en": "Data processing"
+    }
+  },
+  {
+    "disciplina": "Ciencias de la computación",
+    "nombre": {
+      "es": "Programación",
+      "en": "Programming"
+    }
+  },
+  {
+    "disciplina": "Ciencias de la computación",
+    "nombre": {
+      "es": "Redes",
+      "en": "Networks"
+    }
+  },
+  {
+    "disciplina": "Ciencias de la computación",
+    "nombre": {
+      "es": "Teoría de la computación",
+      "en": "Computer theory"
+    }
+  },
+  {
+    "disciplina": "Ciencias de la comunicación",
+    "nombre": {
+      "es": "Historia y teorías de la comunicación",
+      "en": "History and theory of communication"
+    }
+  },
+  {
+    "disciplina": "Ciencias de la comunicación",
+    "nombre": {
+      "es": "Medios de comunicación masiva",
+      "en": "Mass media"
+    }
+  },
+  {
+    "disciplina": "Ciencias de la comunicación",
+    "nombre": {
+      "es": "Psicología de la comunicación colectiva",
+      "en": "Psychology of mass communication"
+    }
+  },
+  {
+    "disciplina": "Ciencias de la comunicación",
+    "nombre": {
+      "es": "Régimen legal de los medios de comunicación",
+      "en": "Mass media legal issues"
+    }
+  },
+  {
+    "disciplina": "Ciencias de la comunicación",
+    "nombre": {
+      "es": "Sociología de la comunicación",
+      "en": "Sociology of communication"
+    }
+  },
+  {
+    "disciplina": "Demografía",
+    "nombre": {
+      "es": "Asentamientos humanos",
+      "en": "Human settlements"
+    }
+  },
+  {
+    "disciplina": "Demografía",
+    "nombre": {
+      "es": "Características de la población",
+      "en": "Demographics"
+    }
+  },
+  {
+    "disciplina": "Demografía",
+    "nombre": {
+      "es": "Censos y estadísticas",
+      "en": "Census and statistics"
+    }
+  },
+  {
+    "disciplina": "Demografía",
+    "nombre": {
+      "es": "Políticas demográficas",
+      "en": "Demographic policies"
+    }
+  },
+  {
+    "disciplina": "Demografía",
+    "nombre": {
+      "es": "Sociología de la población",
+      "en": "Sociology of population"
+    }
+  },
+  {
+    "disciplina": "Derecho",
+    "nombre": {
+      "es": "Derecho agrario",
+      "en": "Agrarian law"
+    }
+  },
+  {
+    "disciplina": "Derecho",
+    "nombre": {
+      "es": "Derecho civil",
+      "en": "Civil law"
+    }
+  },
+  {
+    "disciplina": "Derecho",
+    "nombre": {
+      "es": "Derecho comparado",
+      "en": "Comparative law"
+    }
+  },
+  {
+    "disciplina": "Derecho",
+    "nombre": {
+      "es": "Derecho económico",
+      "en": "Economic law"
+    }
+  },
+  {
+    "disciplina": "Derecho",
+    "nombre": {
+      "es": "Derecho internacional",
+      "en": "International law"
+    }
+  },
+  {
+    "disciplina": "Derecho",
+    "nombre": {
+      "es": "Derecho laboral",
+      "en": "Labor law"
+    }
+  },
+  {
+    "disciplina": "Derecho",
+    "nombre": {
+      "es": "Derecho mercantil",
+      "en": "Commercial law"
+    }
+  },
+  {
+    "disciplina": "Derecho",
+    "nombre": {
+      "es": "Derecho penal",
+      "en": "Criminal law"
+    }
+  },
+  {
+    "disciplina": "Derecho",
+    "nombre": {
+      "es": "Derecho procesal",
+      "en": "Procedural law"
+    }
+  },
+  {
+    "disciplina": "Derecho",
+    "nombre": {
+      "es": "Derecho público",
+      "en": "Public law"
+    }
+  },
+  {
+    "disciplina": "Derecho",
+    "nombre": {
+      "es": "Derecho social",
+      "en": "Social law"
+    }
+  },
+  {
+    "disciplina": "Derecho",
+    "nombre": {
+      "es": "Derecho universitario",
+      "en": "University legislation"
+    }
+  },
+  {
+    "disciplina": "Derecho",
+    "nombre": {
+      "es": "Derechos especiales",
+      "en": "Special legislation"
+    }
+  },
+  {
+    "disciplina": "Derecho",
+    "nombre": {
+      "es": "Filosofía del derecho",
+      "en": "Philosophy of law"
+    }
+  },
+  {
+    "disciplina": "Derecho",
+    "nombre": {
+      "es": "Historia y teorías del derecho",
+      "en": "History and theory of law"
+    }
+  },
+  {
+    "disciplina": "Derecho",
+    "nombre": {
+      "es": "Técnica y metodología jurídicas",
+      "en": "Legal methods and techniques"
+    }
+  },
+  {
+    "disciplina": "Economía",
+    "nombre": {
+      "es": "Balanza de pagos y deuda externa",
+      "en": "Balance of payments and external debt"
+    }
+  },
+  {
+    "disciplina": "Economía",
+    "nombre": {
+      "es": "Banca",
+      "en": "Banks"
+    }
+  },
+  {
+    "disciplina": "Economía",
+    "nombre": {
+      "es": "Comercio internacional",
+      "en": "International trade"
+    }
+  },
+  {
+    "disciplina": "Economía",
+    "nombre": {
+      "es": "Comercio nacional",
+      "en": "Domestic trade"
+    }
+  },
+  {
+    "disciplina": "Economía",
+    "nombre": {
+      "es": "Condiciones económicas",
+      "en": "Economic conditions"
+    }
+  },
+  {
+    "disciplina": "Economía",
+    "nombre": {
+      "es": "Desarrollo económico",
+      "en": "Economic development"
+    }
+  },
+  {
+    "disciplina": "Economía",
+    "nombre": {
+      "es": "Econometría",
+      "en": "Econometrics"
+    }
+  },
+  {
+    "disciplina": "Economía",
+    "nombre": {
+      "es": "Economía agrícola",
+      "en": "Agricultural economics"
+    }
+  },
+  {
+    "disciplina": "Economía",
+    "nombre": {
+      "es": "Economía de energéticos",
+      "en": "Energy economics"
+    }
+  },
+  {
+    "disciplina": "Economía",
+    "nombre": {
+      "es": "Economía de servicios",
+      "en": "Service sector"
+    }
+  },
+  {
+    "disciplina": "Economía",
+    "nombre": {
+      "es": "Economía del trabajo",
+      "en": "Labor economics"
+    }
+  },
+  {
+    "disciplina": "Economía",
+    "nombre": {
+      "es": "Economía del transporte",
+      "en": "Transport economics"
+    }
+  },
+  {
+    "disciplina": "Economía",
+    "nombre": {
+      "es": "Economía descriptiva",
+      "en": "Descriptive economics"
+    }
+  },
+  {
+    "disciplina": "Economía",
+    "nombre": {
+      "es": "Economía industrial",
+      "en": "Industrial economics"
+    }
+  },
+  {
+    "disciplina": "Economía",
+    "nombre": {
+      "es": "Economía monetaria",
+      "en": "Monetary economics"
+    }
+  },
+  {
+    "disciplina": "Economía",
+    "nombre": {
+      "es": "Economía pesquera",
+      "en": "Fishery economics"
+    }
+  },
+  {
+    "disciplina": "Economía",
+    "nombre": {
+      "es": "Economía política",
+      "en": "Political economy"
+    }
+  },
+  {
+    "disciplina": "Economía",
+    "nombre": {
+      "es": "Empresas",
+      "en": "Enterprises"
+    }
+  },
+  {
+    "disciplina": "Economía",
+    "nombre": {
+      "es": "Finanzas públicas",
+      "en": "Public finance"
+    }
+  },
+  {
+    "disciplina": "Economía",
+    "nombre": {
+      "es": "Historia y filosofía de la economía",
+      "en": "History and philosophy of economics"
+    }
+  },
+  {
+    "disciplina": "Economía",
+    "nombre": {
+      "es": "Inversiones",
+      "en": "Investments"
+    }
+  },
+  {
+    "disciplina": "Economía",
+    "nombre": {
+      "es": "Planificación económica",
+      "en": "Economic planning"
+    }
+  },
+  {
+    "disciplina": "Economía",
+    "nombre": {
+      "es": "Política económica",
+      "en": "Economic policy"
+    }
+  },
+  {
+    "disciplina": "Economía",
+    "nombre": {
+      "es": "Precios",
+      "en": "Prices"
+    }
+  },
+  {
+    "disciplina": "Economía",
+    "nombre": {
+      "es": "Sistemas económicos",
+      "en": "Economic systems"
+    }
+  },
+  {
+    "disciplina": "Economía",
+    "nombre": {
+      "es": "Teorías económicas",
+      "en": "Economic theory"
+    }
+  },
+  {
+    "disciplina": "Educación",
+    "nombre": {
+      "es": "Administración de la educación",
+      "en": "Educational administration"
+    }
+  },
+  {
+    "disciplina": "Educación",
+    "nombre": {
+      "es": "Capacitación y enseñanza técnica",
+      "en": "Training and technical education"
+    }
+  },
+  {
+    "disciplina": "Educación",
+    "nombre": {
+      "es": "Currículo",
+      "en": "Curriculum"
+    }
+  },
+  {
+    "disciplina": "Educación",
+    "nombre": {
+      "es": "Didáctica",
+      "en": "Didactics"
+    }
+  },
+  {
+    "disciplina": "Educación",
+    "nombre": {
+      "es": "Educación a distancia",
+      "en": "Distance education"
+    }
+  },
+  {
+    "disciplina": "Educación",
+    "nombre": {
+      "es": "Educación básica",
+      "en": "Basic education"
+    }
+  },
+  {
+    "disciplina": "Educación",
+    "nombre": {
+      "es": "Educación de posgrado",
+      "en": "Postgraduate education"
+    }
+  },
+  {
+    "disciplina": "Educación",
+    "nombre": {
+      "es": "Educación especial",
+      "en": "Special education"
+    }
+  },
+  {
+    "disciplina": "Educación",
+    "nombre": {
+      "es": "Educación física",
+      "en": "Physical education"
+    }
+  },
+  {
+    "disciplina": "Educación",
+    "nombre": {
+      "es": "Educación media y media superior",
+      "en": "Secondary education"
+    }
+  },
+  {
+    "disciplina": "Educación",
+    "nombre": {
+      "es": "Educación para adultos",
+      "en": "Adult education"
+    }
+  },
+  {
+    "disciplina": "Educación",
+    "nombre": {
+      "es": "Educación preescolar",
+      "en": "Preschool education"
+    }
+  },
+  {
+    "disciplina": "Educación",
+    "nombre": {
+      "es": "Educación superior",
+      "en": "Higher education"
+    }
+  },
+  {
+    "disciplina": "Educación",
+    "nombre": {
+      "es": "Evaluación educativa",
+      "en": "Educational assessment"
+    }
+  },
+  {
+    "disciplina": "Educación",
+    "nombre": {
+      "es": "Historia y filosofía de la educación",
+      "en": "History and philosophy of education"
+    }
+  },
+  {
+    "disciplina": "Educación",
+    "nombre": {
+      "es": "Investigación educativa",
+      "en": "Educational research"
+    }
+  },
+  {
+    "disciplina": "Educación",
+    "nombre": {
+      "es": "Pedagogía",
+      "en": "Pedagogy"
+    }
+  },
+  {
+    "disciplina": "Educación",
+    "nombre": {
+      "es": "Planeación y políticas educativas",
+      "en": "Educational policy and planning"
+    }
+  },
+  {
+    "disciplina": "Educación",
+    "nombre": {
+      "es": "Sistemas educativos",
+      "en": "Educational systems"
+    }
+  },
+  {
+    "disciplina": "Educación",
+    "nombre": {
+      "es": "Sociología de la educación",
+      "en": "Sociology of education"
+    }
+  },
+  {
+    "disciplina": "Filosofía",
+    "nombre": {
+      "es": "Axiología",
+      "en": "Axiology"
+    }
+  },
+  {
+    "disciplina": "Filosofía",
+    "nombre": {
+      "es": "Doctrinas y corrientes filosóficas",
+      "en": "Philosophical doctrines"
+    }
+  },
+  {
+    "disciplina": "Filosofía",
+    "nombre": {
+      "es": "Estética",
+      "en": "Aesthetics"
+    }
+  },
+  {
+    "disciplina": "Filosofía",
+    "nombre": {
+      "es": "Etica",
+      "en": "Ethics"
+    }
+  },
+  {
+    "disciplina": "Filosofía",
+    "nombre": {
+      "es": "Filosofía de la ciencia",
+      "en": "Philosophy of science"
+    }
+  },
+  {
+    "disciplina": "Filosofía",
+    "nombre": {
+      "es": "Gnoseología",
+      "en": "Gnoseology"
+    }
+  },
+  {
+    "disciplina": "Filosofía",
+    "nombre": {
+      "es": "Historia de la filosofía",
+      "en": "History of philosophy"
+    }
+  },
+  {
+    "disciplina": "Filosofía",
+    "nombre": {
+      "es": "Lógica",
+      "en": "Logic"
+    }
+  },
+  {
+    "disciplina": "Filosofía",
+    "nombre": {
+      "es": "Metafísica",
+      "en": "Metaphysics"
+    }
+  },
+  {
+    "disciplina": "Física y astronomía",
+    "nombre": {
+      "es": "Acústica",
+      "en": "Acoustics"
+    }
+  },
+  {
+    "disciplina": "Física y astronomía",
+    "nombre": {
+      "es": "Astronomía",
+      "en": "Astronomy"
+    }
+  },
+  {
+    "disciplina": "Física y astronomía",
+    "nombre": {
+      "es": "Dinámica de fluidos",
+      "en": "Fluid dynamics"
+    }
+  },
+  {
+    "disciplina": "Física y astronomía",
+    "nombre": {
+      "es": "Electromagnetismo",
+      "en": "Electromagnetism"
+    }
+  },
+  {
+    "disciplina": "Física y astronomía",
+    "nombre": {
+      "es": "Física",
+      "en": "Physics"
+    }
+  },
+  {
+    "disciplina": "Física y astronomía",
+    "nombre": {
+      "es": "Física atómica y molecular",
+      "en": "Atomic and molecular physics"
+    }
+  },
+  {
+    "disciplina": "Física y astronomía",
+    "nombre": {
+      "es": "Física de materia condensada",
+      "en": "Condensed matter physics"
+    }
+  },
+  {
+    "disciplina": "Física y astronomía",
+    "nombre": {
+      "es": "Física de partículas y campos cuánticos",
+      "en": "Particle physics and quantum fields"
+    }
+  },
+  {
+    "disciplina": "Física y astronomía",
+    "nombre": {
+      "es": "Física nuclear",
+      "en": "Nuclear physics"
+    }
+  },
+  {
+    "disciplina": "Física y astronomía",
+    "nombre": {
+      "es": "Mecánica, elasticidad y reología",
+      "en": "Mechanics, elasticity and rheology"
+    }
+  },
+  {
+    "disciplina": "Física y astronomía",
+    "nombre": {
+      "es": "Optica",
+      "en": "Optics"
+    }
+  },
+  {
+    "disciplina": "Física y astronomía",
+    "nombre": {
+      "es": "Teoría cinética y plasmas",
+      "en": "Kinetic theory and plasma"
+    }
+  },
+  {
+    "disciplina": "Física y astronomía",
+    "nombre": {
+      "es": "Termodinámica y física estadística",
+      "en": "Thermodynamics and statistical physics"
+    }
+  },
+  {
+    "disciplina": "Geociencias",
+    "nombre": {
+      "es": "Ciencias de la atmósfera",
+      "en": "Atmospheric sciences"
+    }
+  },
+  {
+    "disciplina": "Geociencias",
+    "nombre": {
+      "es": "Geofísica",
+      "en": "Geophysics"
+    }
+  },
+  {
+    "disciplina": "Geociencias",
+    "nombre": {
+      "es": "Geología",
+      "en": "Geology"
+    }
+  },
+  {
+    "disciplina": "Geociencias",
+    "nombre": {
+      "es": "Hidrología",
+      "en": "Hydrology"
+    }
+  },
+  {
+    "disciplina": "Geociencias",
+    "nombre": {
+      "es": "Mineralogía, petrología y geoquímica",
+      "en": "Mineralogy, petrology and geochemistry"
+    }
+  },
+  {
+    "disciplina": "Geociencias",
+    "nombre": {
+      "es": "Oceanografía",
+      "en": "Oceanography"
+    }
+  },
+  {
+    "disciplina": "Geociencias",
+    "nombre": {
+      "es": "Sismología y vulcanología",
+      "en": "Seismology and volcanology"
+    }
+  },
+  {
+    "disciplina": "Geografía",
+    "nombre": {
+      "es": "Cartografía",
+      "en": "Cartography"
+    }
+  },
+  {
+    "disciplina": "Geografía",
+    "nombre": {
+      "es": "Geografía económica y regional",
+      "en": "Economic and regional geography"
+    }
+  },
+  {
+    "disciplina": "Geografía",
+    "nombre": {
+      "es": "Geografía física",
+      "en": "Physical geography"
+    }
+  },
+  {
+    "disciplina": "Geografía",
+    "nombre": {
+      "es": "Geografía humana",
+      "en": "Human geography"
+    }
+  },
+  {
+    "disciplina": "Historia",
+    "nombre": {
+      "es": "Biografía",
+      "en": "Biography"
+    }
+  },
+  {
+    "disciplina": "Historia",
+    "nombre": {
+      "es": "Filosofía de la historia",
+      "en": "Philosophy of history"
+    }
+  },
+  {
+    "disciplina": "Historia",
+    "nombre": {
+      "es": "Historia de la ciencia",
+      "en": "History of science"
+    }
+  },
+  {
+    "disciplina": "Historia",
+    "nombre": {
+      "es": "Historia de la cultura",
+      "en": "Cultural history"
+    }
+  },
+  {
+    "disciplina": "Historia",
+    "nombre": {
+      "es": "Historia económica",
+      "en": "Economic history"
+    }
+  },
+  {
+    "disciplina": "Historia",
+    "nombre": {
+      "es": "Historia militar",
+      "en": "Military history"
+    }
+  },
+  {
+    "disciplina": "Historia",
+    "nombre": {
+      "es": "Historia política",
+      "en": "Political history"
+    }
+  },
+  {
+    "disciplina": "Historia",
+    "nombre": {
+      "es": "Historia regional",
+      "en": "Regional history"
+    }
+  },
+  {
+    "disciplina": "Historia",
+    "nombre": {
+      "es": "Historia social",
+      "en": "Social history"
+    }
+  },
+  {
+    "disciplina": "Historia",
+    "nombre": {
+      "es": "Historiografía",
+      "en": "Historiography"
+    }
+  },
+  {
+    "disciplina": "Historia",
+    "nombre": {
+      "es": "Prehistoria",
+      "en": "Prehistory"
+    }
+  },
+  {
+    "disciplina": "Ingeniería",
+    "nombre": {
+      "es": "Equipo y maquinaria",
+      "en": "Equipment and machinery"
+    }
+  },
+  {
+    "disciplina": "Ingeniería",
+    "nombre": {
+      "es": "Ingeniería ambiental",
+      "en": "Environmental engineering"
+    }
+  },
+  {
+    "disciplina": "Ingeniería",
+    "nombre": {
+      "es": "Ingeniería biónica y cibernética",
+      "en": "Bionics and cybernetics"
+    }
+  },
+  {
+    "disciplina": "Ingeniería",
+    "nombre": {
+      "es": "Ingeniería civil",
+      "en": "Civil engineering"
+    }
+  },
+  {
+    "disciplina": "Ingeniería",
+    "nombre": {
+      "es": "Ingeniería de control",
+      "en": "Control engineering"
+    }
+  },
+  {
+    "disciplina": "Ingeniería",
+    "nombre": {
+      "es": "Ingeniería de energéticos",
+      "en": "Energy engineering"
+    }
+  },
+  {
+    "disciplina": "Ingeniería",
+    "nombre": {
+      "es": "Ingeniería de instrumentos",
+      "en": "Instrumentation engineering"
+    }
+  },
+  {
+    "disciplina": "Ingeniería",
+    "nombre": {
+      "es": "Ingeniería de materiales",
+      "en": "Materials engineering"
+    }
+  },
+  {
+    "disciplina": "Ingeniería",
+    "nombre": {
+      "es": "Ingeniería de minas",
+      "en": "Mining engineering"
+    }
+  },
+  {
+    "disciplina": "Ingeniería",
+    "nombre": {
+      "es": "Ingeniería de telecomunicaciones",
+      "en": "Telecommunications engineering"
+    }
+  },
+  {
+    "disciplina": "Ingeniería",
+    "nombre": {
+      "es": "Ingeniería de transportes",
+      "en": "Trnasportation engineering"
+    }
+  },
+  {
+    "disciplina": "Ingeniería",
+    "nombre": {
+      "es": "Ingeniería eléctrica",
+      "en": "Electrical engineering"
+    }
+  },
+  {
+    "disciplina": "Ingeniería",
+    "nombre": {
+      "es": "Ingeniería electrónica",
+      "en": "Electronic engineering"
+    }
+  },
+  {
+    "disciplina": "Ingeniería",
+    "nombre": {
+      "es": "Ingeniería hidráulica",
+      "en": "Hydraulic engineering"
+    }
+  },
+  {
+    "disciplina": "Ingeniería",
+    "nombre": {
+      "es": "Ingeniería industrial",
+      "en": "Industrial engineering"
+    }
+  },
+  {
+    "disciplina": "Ingeniería",
+    "nombre": {
+      "es": "Ingeniería mecánica",
+      "en": "Mechanical engineering"
+    }
+  },
+  {
+    "disciplina": "Ingeniería",
+    "nombre": {
+      "es": "Ingeniería metalúrgica",
+      "en": "Metallurgical engineering"
+    }
+  },
+  {
+    "disciplina": "Ingeniería",
+    "nombre": {
+      "es": "Ingeniería petrolera",
+      "en": "Petroleum engineering"
+    }
+  },
+  {
+    "disciplina": "Ingeniería",
+    "nombre": {
+      "es": "Ingeniería química",
+      "en": "Chemical engineering"
+    }
+  },
+  {
+    "disciplina": "Ingeniería",
+    "nombre": {
+      "es": "Urbanismo",
+      "en": "Urbanism"
+    }
+  },
+  {
+    "disciplina": "Literatura y lingüística",
+    "nombre": {
+      "es": "Análisis del discurso",
+      "en": "Discourse analysis"
+    }
+  },
+  {
+    "disciplina": "Literatura y lingüística",
+    "nombre": {
+      "es": "Corrientes literarias",
+      "en": "Literary styles"
+    }
+  },
+  {
+    "disciplina": "Literatura y lingüística",
+    "nombre": {
+      "es": "Crítica literaria",
+      "en": "Literary criticism"
+    }
+  },
+  {
+    "disciplina": "Literatura y lingüística",
+    "nombre": {
+      "es": "Cuento",
+      "en": "Short story"
+    }
+  },
+  {
+    "disciplina": "Literatura y lingüística",
+    "nombre": {
+      "es": "Forma y contenido literarios",
+      "en": "Literary form and content"
+    }
+  },
+  {
+    "disciplina": "Literatura y lingüística",
+    "nombre": {
+      "es": "Géneros literarios",
+      "en": "Literary genres"
+    }
+  },
+  {
+    "disciplina": "Literatura y lingüística",
+    "nombre": {
+      "es": "Gramática",
+      "en": "Grammar"
+    }
+  },
+  {
+    "disciplina": "Literatura y lingüística",
+    "nombre": {
+      "es": "Historia de la literatura",
+      "en": "History of literature"
+    }
+  },
+  {
+    "disciplina": "Literatura y lingüística",
+    "nombre": {
+      "es": "Historia y filosofía de la lingüística",
+      "en": "History and philosophy of linguistics"
+    }
+  },
+  {
+    "disciplina": "Literatura y lingüística",
+    "nombre": {
+      "es": "Lingüística aplicada",
+      "en": "Applied linguistics"
+    }
+  },
+  {
+    "disciplina": "Literatura y lingüística",
+    "nombre": {
+      "es": "Lingüística diacrónica",
+      "en": "Diachronic linguistics"
+    }
+  },
+  {
+    "disciplina": "Literatura y lingüística",
+    "nombre": {
+      "es": "Literatura dramática",
+      "en": "Dramatic literature"
+    }
+  },
+  {
+    "disciplina": "Literatura y lingüística",
+    "nombre": {
+      "es": "Literatura y sociedad",
+      "en": "Literature and society"
+    }
+  },
+  {
+    "disciplina": "Literatura y lingüística",
+    "nombre": {
+      "es": "Narrativa",
+      "en": "Narrative"
+    }
+  },
+  {
+    "disciplina": "Literatura y lingüística",
+    "nombre": {
+      "es": "Novela",
+      "en": "Novel"
+    }
+  },
+  {
+    "disciplina": "Literatura y lingüística",
+    "nombre": {
+      "es": "Poesía",
+      "en": "Poetry"
+    }
+  },
+  {
+    "disciplina": "Literatura y lingüística",
+    "nombre": {
+      "es": "Prosa no imaginativa",
+      "en": "Non-fiction literature"
+    }
+  },
+  {
+    "disciplina": "Literatura y lingüística",
+    "nombre": {
+      "es": "Semántica y semiótica",
+      "en": "Semantics and semiotics"
+    }
+  },
+  {
+    "disciplina": "Literatura y lingüística",
+    "nombre": {
+      "es": "Sociolingüística",
+      "en": "Sociolinguistics"
+    }
+  },
+  {
+    "disciplina": "Literatura y lingüística",
+    "nombre": {
+      "es": "Traducción",
+      "en": "Translation"
+    }
+  },
+  {
+    "disciplina": "Matemáticas",
+    "nombre": {
+      "es": "Matemáticas aplicadas",
+      "en": "Applied mathematics"
+    }
+  },
+  {
+    "disciplina": "Matemáticas",
+    "nombre": {
+      "es": "Matemáticas puras",
+      "en": "Pure mathematics"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Anatomía humana",
+      "en": "Human anatomy"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Cirugía",
+      "en": "Surgery"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Dermatología",
+      "en": "Dermatology"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Diagnóstico",
+      "en": "Diagnosis"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Endocrinología",
+      "en": "Endrocrinology"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Farmacología",
+      "en": "Pharmacology"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Fisiología humana",
+      "en": "Human physiology"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Gastroenterología",
+      "en": "Gastroenterology"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Genética",
+      "en": "Genetics"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Geriatría",
+      "en": "Geriatrics"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Ginecología y obstetricia",
+      "en": "Gynecology and obstetrics"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Hematología",
+      "en": "Hematology"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Historia y filosofía de la medicina",
+      "en": "History and philosophy of medicine"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Hospitales",
+      "en": "Hospitals"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Inmunología",
+      "en": "Immunology"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Medicina alternativa",
+      "en": "Alternative medicine"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Medicina experimental",
+      "en": "Experimental medicine"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Medicina general y familiar",
+      "en": "General practice and family health"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Medicina social",
+      "en": "Social medicine"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Metabolismo y nutrición",
+      "en": "Metabolism and nutrition"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Microbiología",
+      "en": "Microbiology"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Nefrología",
+      "en": "Nephrology"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Neumología",
+      "en": "Pneumatology"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Neurología",
+      "en": "Neurology"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Odontología",
+      "en": "Dentistry"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Oftalmología",
+      "en": "Ophtalmology"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Oncología",
+      "en": "Oncology"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Otorrinolaringología",
+      "en": "Otolaryngology"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Pediatría",
+      "en": "Pediatrics"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Psiquiatría",
+      "en": "Psychatry"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Reumatología",
+      "en": "Rheumatology"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Salud pública",
+      "en": "Public health"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Sistema cardiovascular",
+      "en": "Cardiovascular system"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Terapéutica y rehabilitación",
+      "en": "Therapeutics and rehabilitation"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Toxicología",
+      "en": "Toxicology"
+    }
+  },
+  {
+    "disciplina": "Medicina",
+    "nombre": {
+      "es": "Traumatología y ortopedia",
+      "en": "Traumatology and orthopedics"
+    }
+  },
+  {
+    "disciplina": "Medicina veterinaria y zootecnia",
+    "nombre": {
+      "es": "Aves de corral",
+      "en": "Poultry"
+    }
+  },
+  {
+    "disciplina": "Medicina veterinaria y zootecnia",
+    "nombre": {
+      "es": "Bovinos",
+      "en": "Bovine"
+    }
+  },
+  {
+    "disciplina": "Medicina veterinaria y zootecnia",
+    "nombre": {
+      "es": "Equinos",
+      "en": "Equine"
+    }
+  },
+  {
+    "disciplina": "Medicina veterinaria y zootecnia",
+    "nombre": {
+      "es": "Medicina veterinaria",
+      "en": "Veterinary medicine"
+    }
+  },
+  {
+    "disciplina": "Medicina veterinaria y zootecnia",
+    "nombre": {
+      "es": "Nutrición animal",
+      "en": "Animal nutrition"
+    }
+  },
+  {
+    "disciplina": "Medicina veterinaria y zootecnia",
+    "nombre": {
+      "es": "Otras especies de interés zootécnico",
+      "en": "Species of commercial interest"
+    }
+  },
+  {
+    "disciplina": "Medicina veterinaria y zootecnia",
+    "nombre": {
+      "es": "Ovinos y caprinos",
+      "en": "Sheep and goats"
+    }
+  },
+  {
+    "disciplina": "Medicina veterinaria y zootecnia",
+    "nombre": {
+      "es": "Pequeñas especies",
+      "en": "Companion animals"
+    }
+  },
+  {
+    "disciplina": "Medicina veterinaria y zootecnia",
+    "nombre": {
+      "es": "Pesca",
+      "en": "Fisheries"
+    }
+  },
+  {
+    "disciplina": "Medicina veterinaria y zootecnia",
+    "nombre": {
+      "es": "Porcinos",
+      "en": "Swine"
+    }
+  },
+  {
+    "disciplina": "Medicina veterinaria y zootecnia",
+    "nombre": {
+      "es": "Reproducción y genética animal",
+      "en": "Animal reproduction and genetics"
+    }
+  },
+  {
+    "disciplina": "Medicina veterinaria y zootecnia",
+    "nombre": {
+      "es": "Zootecnia",
+      "en": "Animal husbandry"
+    }
+  },
+  {
+    "disciplina": "Psicología",
+    "nombre": {
+      "es": "Desarrollo psicológico",
+      "en": "Developmental psychology"
+    }
+  },
+  {
+    "disciplina": "Psicología",
+    "nombre": {
+      "es": "Historia y filosofía de la psicología",
+      "en": "History and philosophy of psychology"
+    }
+  },
+  {
+    "disciplina": "Psicología",
+    "nombre": {
+      "es": "Parapsicología",
+      "en": "Parapsychology"
+    }
+  },
+  {
+    "disciplina": "Psicología",
+    "nombre": {
+      "es": "Psicoanálisis",
+      "en": "Psychoanalysis"
+    }
+  },
+  {
+    "disciplina": "Psicología",
+    "nombre": {
+      "es": "Psicofisiología",
+      "en": "Psychophysiology"
+    }
+  },
+  {
+    "disciplina": "Psicología",
+    "nombre": {
+      "es": "Psicología clínica",
+      "en": "Clinical psychology"
+    }
+  },
+  {
+    "disciplina": "Psicología",
+    "nombre": {
+      "es": "Psicología educativa",
+      "en": "Educational psychology"
+    }
+  },
+  {
+    "disciplina": "Psicología",
+    "nombre": {
+      "es": "Psicología experimental",
+      "en": "Experimental psychology"
+    }
+  },
+  {
+    "disciplina": "Psicología",
+    "nombre": {
+      "es": "Psicología industrial",
+      "en": "Industrial psychology"
+    }
+  },
+  {
+    "disciplina": "Psicología",
+    "nombre": {
+      "es": "Psicología social",
+      "en": "Social psychology"
+    }
+  },
+  {
+    "disciplina": "Psicología",
+    "nombre": {
+      "es": "Psicometría",
+      "en": "Psychometrics"
+    }
+  },
+  {
+    "disciplina": "Química",
+    "nombre": {
+      "es": "Bioquímica",
+      "en": "Biochemistry"
+    }
+  },
+  {
+    "disciplina": "Química",
+    "nombre": {
+      "es": "Fermentaciones",
+      "en": "Fermentation"
+    }
+  },
+  {
+    "disciplina": "Química",
+    "nombre": {
+      "es": "Fisicoquímica y química teórica",
+      "en": "Physical and theoretical chemistry"
+    }
+  },
+  {
+    "disciplina": "Química",
+    "nombre": {
+      "es": "Fitoquímica",
+      "en": "Phytochemistry"
+    }
+  },
+  {
+    "disciplina": "Química",
+    "nombre": {
+      "es": "Química analítica",
+      "en": "Analytical chemistry"
+    }
+  },
+  {
+    "disciplina": "Química",
+    "nombre": {
+      "es": "Química de alimentos",
+      "en": "Food chemistry"
+    }
+  },
+  {
+    "disciplina": "Química",
+    "nombre": {
+      "es": "Química de polímeros",
+      "en": "Polymer chemistry"
+    }
+  },
+  {
+    "disciplina": "Química",
+    "nombre": {
+      "es": "Química farmacéutica",
+      "en": "Medicinal chemistry"
+    }
+  },
+  {
+    "disciplina": "Química",
+    "nombre": {
+      "es": "Química industrial",
+      "en": "Industrial chemistry"
+    }
+  },
+  {
+    "disciplina": "Química",
+    "nombre": {
+      "es": "Química inorgánica",
+      "en": "Inorganic chemistry"
+    }
+  },
+  {
+    "disciplina": "Química",
+    "nombre": {
+      "es": "Química orgánica",
+      "en": "Organic chemistry"
+    }
+  },
+  {
+    "disciplina": "Química",
+    "nombre": {
+      "es": "Química organometálica",
+      "en": "Organometallic chemistry"
+    }
+  },
+  {
+    "disciplina": "Relaciones internacionales",
+    "nombre": {
+      "es": "Cooperación internacional",
+      "en": "International cooperation"
+    }
+  },
+  {
+    "disciplina": "Relaciones internacionales",
+    "nombre": {
+      "es": "Diplomacia",
+      "en": "Diplomacy"
+    }
+  },
+  {
+    "disciplina": "Relaciones internacionales",
+    "nombre": {
+      "es": "Geopolítica",
+      "en": "Geopolitics"
+    }
+  },
+  {
+    "disciplina": "Relaciones internacionales",
+    "nombre": {
+      "es": "Historia y teorías de las relaciones internacionales",
+      "en": "History and theory of international relations"
+    }
+  },
+  {
+    "disciplina": "Relaciones internacionales",
+    "nombre": {
+      "es": "Organismos internacionales",
+      "en": "International organizations"
+    }
+  },
+  {
+    "disciplina": "Relaciones internacionales",
+    "nombre": {
+      "es": "Política internacional",
+      "en": "International policy"
+    }
+  },
+  {
+    "disciplina": "Relaciones internacionales",
+    "nombre": {
+      "es": "Relaciones culturales internacionales",
+      "en": "International cultural relations"
+    }
+  },
+  {
+    "disciplina": "Relaciones internacionales",
+    "nombre": {
+      "es": "Relaciones económicas internacionales",
+      "en": "International economic relations"
+    }
+  },
+  {
+    "disciplina": "Relaciones internacionales",
+    "nombre": {
+      "es": "Relaciones jurídicas internacionales",
+      "en": "International legal relations"
+    }
+  },
+  {
+    "disciplina": "Religión",
+    "nombre": {
+      "es": "Ceremonias religiosas",
+      "en": "Religious ceremonies"
+    }
+  },
+  {
+    "disciplina": "Religión",
+    "nombre": {
+      "es": "Cristianismo",
+      "en": "Christianism"
+    }
+  },
+  {
+    "disciplina": "Religión",
+    "nombre": {
+      "es": "Doctrinas y sistemas religiosos",
+      "en": "Religious doctrines and systems"
+    }
+  },
+  {
+    "disciplina": "Religión",
+    "nombre": {
+      "es": "Historia y filosofía de la religión",
+      "en": "History and philosophy of religion"
+    }
+  },
+  {
+    "disciplina": "Religión",
+    "nombre": {
+      "es": "Iglesia e instituciones religiosas",
+      "en": "Church and religios institutions"
+    }
+  },
+  {
+    "disciplina": "Religión",
+    "nombre": {
+      "es": "Religión y sociedad",
+      "en": "Religion and society"
+    }
+  },
+  {
+    "disciplina": "Religión",
+    "nombre": {
+      "es": "Teología",
+      "en": "Theology"
+    }
+  },
+  {
+    "disciplina": "Sociología",
+    "nombre": {
+      "es": "Cambio social",
+      "en": "Social change"
+    }
+  },
+  {
+    "disciplina": "Sociología",
+    "nombre": {
+      "es": "Desarrollo social",
+      "en": "Social development"
+    }
+  },
+  {
+    "disciplina": "Sociología",
+    "nombre": {
+      "es": "Estratificación social",
+      "en": "Social stratification"
+    }
+  },
+  {
+    "disciplina": "Sociología",
+    "nombre": {
+      "es": "Historia y teorías de la sociología",
+      "en": "History and theory of sociology"
+    }
+  },
+  {
+    "disciplina": "Sociología",
+    "nombre": {
+      "es": "Ideología",
+      "en": "Ideology"
+    }
+  },
+  {
+    "disciplina": "Sociología",
+    "nombre": {
+      "es": "Movimientos sociopolíticos",
+      "en": "Socio-political movements"
+    }
+  },
+  {
+    "disciplina": "Sociología",
+    "nombre": {
+      "es": "Organización social",
+      "en": "Social organization"
+    }
+  },
+  {
+    "disciplina": "Sociología",
+    "nombre": {
+      "es": "Problemas sociales",
+      "en": "Social problems"
+    }
+  },
+  {
+    "disciplina": "Sociología",
+    "nombre": {
+      "es": "Sistemas socioeconómicos",
+      "en": "Socioeconomic systems"
+    }
+  },
+  {
+    "disciplina": "Sociología",
+    "nombre": {
+      "es": "Sociología de la familia",
+      "en": "Sociology of the family"
+    }
+  },
+  {
+    "disciplina": "Sociología",
+    "nombre": {
+      "es": "Sociología de la mujer",
+      "en": "Sociology of women"
+    }
+  },
+  {
+    "disciplina": "Sociología",
+    "nombre": {
+      "es": "Sociología de la sexualidad",
+      "en": "Sociology of sexuality"
+    }
+  },
+  {
+    "disciplina": "Sociología",
+    "nombre": {
+      "es": "Sociología del trabajo",
+      "en": "Sociology of labor"
+    }
+  },
+  {
+    "disciplina": "Sociología",
+    "nombre": {
+      "es": "Sociología rural",
+      "en": "Rural sociology"
+    }
+  },
+  {
+    "disciplina": "Sociología",
+    "nombre": {
+      "es": "Sociología urbana",
+      "en": "Urban sociology"
+    }
+  },
+  {
+    "disciplina": "Sociología",
+    "nombre": {
+      "es": "Trabajo social",
+      "en": "Social work"
+    }
+  }
+]
